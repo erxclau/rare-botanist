@@ -12,8 +12,8 @@ f.close()
 
 today = datetime.now()
 
-post_title = f"{today.strftime('%B %Y')} Confimred Trade Thread"
-post_text = """Post your confirmed trades below!
+thread_title = f"{today.strftime('%B %Y')} Confimred Trade Thread"
+thread_text = """Post your confirmed trades below!
 
 When confirming a post, only write 'Confirmed'
 """
@@ -28,6 +28,11 @@ reddit = praw.Reddit(
 
 subreddit = reddit.subreddit('RHBST')
 
-subreddit.submit(
-    post_title,
-    selftext=post_text)
+thread = subreddit.submit(
+    thread_title,
+    selftext=thread_text)
+
+# TODO: Hook this up to a CRON job and set the current_thread
+# in the database to be the thread.id
+
+print(thread.id)
