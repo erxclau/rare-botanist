@@ -1,4 +1,3 @@
-import json
 import os
 from datetime import datetime
 
@@ -48,8 +47,8 @@ if not current['CURRENT_THREAD'] is None:
 thread = create_review_thread(subreddit)
 
 current['CURRENT_THREAD'] = thread.id
+current['CONFIRMED_TRADES'] = list()
 
-with open(thread_path, 'w', encoding='utf-8') as file:
-    json.dump(current, file, ensure_ascii=False, indent=2)
+utility.write_json(thread_path, current)
 
 # TODO: Hook this up to a CRON job
