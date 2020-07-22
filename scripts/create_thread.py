@@ -6,7 +6,7 @@ from utl import utility
 
 def create_review_thread(subreddit):
     today = datetime.now()
-    thread_title = f"{today.strftime('%B %Y')} Confimred Trade Thread"
+    thread_title = f"{today.strftime('%B %Y')} Confimred Review Thread"
     thread_text = """Post your confirmed trades below!
 
     When confirming a post, only write 'Confirmed'
@@ -48,6 +48,7 @@ thread = create_review_thread(subreddit)
 
 current['CURRENT_THREAD'] = thread.id
 current['CONFIRMED_TRADES'] = list()
+current['REMOVED_COMMENTS'] = list()
 
 utility.write_json(thread_path, current)
 
