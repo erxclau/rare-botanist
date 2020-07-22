@@ -26,8 +26,11 @@ def create_review_thread(subreddit):
 
 def close_thread(reddit, thread_id):
     submission = reddit.submission(id=thread_id)
-    submission.mod.sticky(state=False)
-    submission.mod.lock()
+    try:
+        submission.mod.sticky(state=False)
+        submission.mod.lock()
+    except:
+        print('ATTEMPTED TO DELETE NONEXISTENT THREAD')
 
 
 filepath = os.path.dirname(os.path.abspath(__file__))
