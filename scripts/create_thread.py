@@ -4,7 +4,7 @@ from datetime import datetime
 from utl import utility
 
 
-def create_review_thread(subreddit):
+def create_review_thread(subreddit, flair):
     today = datetime.now()
     thread_title = f"{today.strftime('%B %Y')} Confimred Review Thread"
     thread_text = """Post your confirmed trades below!
@@ -18,7 +18,7 @@ def create_review_thread(subreddit):
 
     thread.mod.distinguish(how="yes")
     thread.mod.sticky()
-    thread.mod.flair('Review Thread')
+    thread.mod.flair(flair_template_id=flair)
 
     return thread
 
@@ -44,11 +44,13 @@ reddit, subreddit = utility.get_reddit('RHBST', config)
 if not current['CURRENT_THREAD'] is None:
     close_thread(reddit, current['CURRENT_THREAD'])
 
-thread = create_review_thread(subreddit)
+thread = create_review_thread(subreddit, config['REVIEW_FLAIR'])
 
-current['CURRENT_THREAD'] = thread.id
-current['CONFIRMED_TRADES'] = list()
-current['REMOVED_COMMENTS'] = list()
+current = {
+    'CURRENT_THREAD': thread.id,
+    'CONFIRMED_TRADES': list(),
+    'REMOVED_COMMENTS': list()
+}
 
 utility.write_json(thread_path, current)
 
