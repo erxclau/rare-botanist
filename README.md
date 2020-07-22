@@ -11,3 +11,17 @@ On first use, `current-thread.json` should look like the following:
 ```
 
 `CURRENT_THREAD` should be `null` on the first use because there are no previous threads to unsticky or lock.
+
+`config.json` should include the following:
+
+```json
+{
+    "CLIENT_ID": "",
+    "CLIENT_SECRET": "",
+    "USER_AGENT": "",
+    "USERNAME": "",
+    "PASSWORD": "",
+    "REVIEW_FLAIR": "",
+    "USER_FLAIRS": []
+}
+```
