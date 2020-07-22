@@ -35,9 +35,9 @@ def close_thread(reddit, thread_id):
 
 filepath = os.path.dirname(os.path.abspath(__file__))
 
-config = utility.get_json(f"{filepath}/config.json")
+config = utility.get_json(f"{filepath}/../json/config.json")
 
-thread_path = f"{filepath}/current-thread.json"
+thread_path = f"{filepath}/../json/current-thread.json"
 current = utility.get_json(thread_path)
 
 reddit, subreddit = utility.get_reddit('RHBST', config)

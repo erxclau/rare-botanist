@@ -10,4 +10,4 @@ On first use, `current-thread.json` should look like the following:
 }
 ```
 
-`CURRENT_THREAD` should be `null` because on the first use because there are no previous threads to unsticky or lock.
+`CURRENT_THREAD` should be `null` on the first use because there are no previous threads to unsticky or lock.
