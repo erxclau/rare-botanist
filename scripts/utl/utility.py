@@ -10,6 +10,11 @@ def get_json(path):
     return json_dict
 
 
+def write_json(path, content):
+    with open(path, 'w', encoding='utf-8') as file:
+        json.dump(content, file, ensure_ascii=False, indent=2)
+
+
 def get_reddit(subreddit, config):
     reddit = praw.Reddit(
         client_id=config['CLIENT_ID'],
