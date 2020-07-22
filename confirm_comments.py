@@ -4,36 +4,24 @@ from datetime import datetime
 
 import praw
 
+from utl import utility
+
+
 filepath = os.path.dirname(os.path.abspath(__file__))
 
-f = open(f"{filepath}/config.json")
-config = json.load(f)
-f.close()
+config = utility.get_json(f"{filepath}/config.json")
+current = utility.get_json(f"{filepath}/current-thread.json")
 
 today = datetime.now()
 
-thread_title = f"{today.strftime('%B_%Y')}_confimred_trade_thread".lower()
+reddit, subreddit = utility.get_reddit('RHBST', config)
 
-print(thread_title)
+thread = reddit.submission(id=current['CURRENT_THREAD'])
 
-reddit = praw.Reddit(
-    client_id=config['CLIENT_ID'],
-    client_secret=config['CLIENT_SECRET'],
-    user_agent=config['USER_AGENT'],
-    username=config['USERNAME'],
-    password=config['PASSWORD']
-)
+# thread.comments.replace_more(limit=None)
 
-subreddit = reddit.subreddit('RHBST')
-
-thread_id = 'hufc3o'
-
-# TODO: Read the current_thread in the database
-# Set thread_id to the current_thread
-
-thread = reddit.submission(id=thread_id)
-
-thread.comments.replace_more(limit=None)
-
-for top_level_comment in thread.comments:
-    print(top_level_comment.body)
+# comment_queue = thread.comments[:]  # Seed with top-level
+# while comment_queue:
+#     comment = comment_queue.pop(0)
+#     print(comment.body)
+#     comment_queue[0:0] = comment.replies

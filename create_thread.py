@@ -2,26 +2,7 @@ import json
 import os
 from datetime import datetime
 
-import praw
-
-
-def get_json(path):
-    f = open(path)
-    json_dict = json.load(f)
-    f.close()
-    return json_dict
-
-
-def get_reddit(subreddit):
-    reddit = praw.Reddit(
-        client_id=config['CLIENT_ID'],
-        client_secret=config['CLIENT_SECRET'],
-        user_agent=config['USER_AGENT'],
-        username=config['USERNAME'],
-        password=config['PASSWORD']
-    )
-
-    return reddit, reddit.subreddit(subreddit)
+from utl import utility
 
 
 def create_review_thread(subreddit):
@@ -51,12 +32,12 @@ def close_thread(reddit, thread_id):
 
 filepath = os.path.dirname(os.path.abspath(__file__))
 
+config = utility.get_json(f"{filepath}/config.json")
+
 thread_path = f"{filepath}/current-thread.json"
+current = utility.get_json(thread_path)
 
-config = get_json(f"{filepath}/config.json")
-current = get_json(thread_path)
-
-reddit, subreddit = get_reddit('RHBST')
+reddit, subreddit = utility.get_reddit('RHBST', config)
 
 if not current['CURRENT_THREAD'] is None:
     close_thread(reddit, current['CURRENT_THREAD'])
