@@ -4,8 +4,6 @@ from datetime import datetime
 
 import praw
 
-filepath = os.path.dirname(os.path.abspath(__file__))
-
 
 def get_json(path):
     f = open(path)
@@ -14,7 +12,7 @@ def get_json(path):
     return json_dict
 
 
-def get_subreddit(subreddit):
+def get_reddit(subreddit):
     reddit = praw.Reddit(
         client_id=config['CLIENT_ID'],
         client_secret=config['CLIENT_SECRET'],
@@ -23,10 +21,11 @@ def get_subreddit(subreddit):
         password=config['PASSWORD']
     )
 
-    return reddit.subreddit(subreddit)
+    return reddit, reddit.subreddit(subreddit)
 
 
 def create_review_thread(subreddit):
+    today = datetime.now()
     thread_title = f"{today.strftime('%B %Y')} Confimred Trade Thread"
     thread_text = """Post your confirmed trades below!
 
@@ -44,16 +43,29 @@ def create_review_thread(subreddit):
     return thread
 
 
+def close_thread(reddit, thread_id):
+    submission = reddit.submission(id=thread_id)
+    submission.mod.sticky(state=False)
+    submission.mod.lock()
+
+
+filepath = os.path.dirname(os.path.abspath(__file__))
+
+thread_path = f"{filepath}/current-thread.json"
+
 config = get_json(f"{filepath}/config.json")
-current_thread = get_json(f"{filepath}/current-thread.json")
+current = get_json(thread_path)
 
-today = datetime.now()
+reddit, subreddit = get_reddit('RHBST')
 
-subreddit = get_subreddit('RHBST')
+if not current['CURRENT_THREAD'] is None:
+    close_thread(reddit, current['CURRENT_THREAD'])
 
 thread = create_review_thread(subreddit)
 
-# TODO: Hook this up to a CRON job and set the current_thread
-# in the database to be the thread.id
+current['CURRENT_THREAD'] = thread.id
 
-print(thread.id)
+with open(thread_path, 'w', encoding='utf-8') as file:
+    json.dump(current, file, ensure_ascii=False, indent=2)
+
+# TODO: Hook this up to a CRON job
