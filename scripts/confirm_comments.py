@@ -29,17 +29,32 @@ thread = reddit.submission(id=current['CURRENT_THREAD'])
 
 thread.comments.replace_more(limit=None)
 
-comment_filter = current['CONFIRMED_TRADES'].extend(current['REMOVED_COMMENTS'])
+comment_filter = current['CONFIRMED_TRADES']
+comment_filter.extend(current['REMOVED_COMMENTS'])
+
+self_trade = subreddit.mod.removal_reasons[0]
+bot_trade = subreddit.mod.removal_reasons[1]
+
+def bad_trade(comment, namecheck, reason_id, mod_note):
+    if namecheck.lower() in comment.body.lower():
+        comment.mod.remove(
+            reason_id = reason_id,
+            mod_note = mod_note
+        )
+        return True
+    else:
+        return False
 
 comments = list()
 for top_level in thread.comments:
     if not top_level.id in comment_filter:
-        if f'u/{top_level.author.name}' in top_level.body.lower():
-            reason = subreddit.mod.removal_reasons[0]
-            top_level.mod.remove(
-                reason_id = reason.id,
-                mod_note= 'User traded with themselves'
-            )
+        if bad_trade(
+            top_level, f'u/{top_level.author.name}',
+            self_trade.id, 'User traded with themselves'
+        ) or bad_trade(
+            top_level, f'u/{config["USERNAME"]}',
+            bot_trade.id, 'User traded with bot'
+        ):
             current['REMOVED_COMMENTS'].append(top_level.id)
         else:
             comments.append(top_level)
@@ -55,7 +70,7 @@ for comment in comments:
         while not parent.is_root:
             parent = parent.parent()
         author = comment.author.name
-        if f'u/{author}' in parent.body.lower():
+        if f'u/{author}'.lower() in parent.body.lower():
             if not comment in locked_comments:
                 print('this is a correct reply')
                 try:
