@@ -1,10 +1,12 @@
 {
   "rareBOTanist": {
     "sales": 0,
-    "trades": 2
+    "trades": 10,
+    "update_flair": false
   },
   "rarehouseplants": {
-    "sales": 2,
-    "trades": 2
+    "sales": 1,
+    "trades": 10,
+    "update_flair": false
   }
 }

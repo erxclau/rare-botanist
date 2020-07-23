@@ -16,7 +16,7 @@ current_thread = utility.get_json(current_thread_path)
 data_path = f"{json_dir}/data.json"
 data = utility.get_json(data_path)
 
-reddit, subreddit = utility.get_reddit('RHBST', config)
+reddit, subreddit = utility.get_reddit(config)
 
 SALE = 'Bought from'
 TRADE = 'Traded with'
@@ -135,7 +135,7 @@ def update_data_val(key, interaction):
 
 def update_flair(name):
     interactions = data[name]['trades'] + data[name]['sales']
-    if data[key]['update_flair']:
+    if data[name]['update_flair']:
         tier = 0
         if interactions > 10:
             tier = 1
@@ -146,7 +146,7 @@ def update_flair(name):
         subreddit.flair.set(
             name, flair_template_id=flair_tiers[tier]
         )
-        data[key]['update_flair'] = False
+        data[name]['update_flair'] = False
 
 
 def update_interactions(text, parent_name, comment_name):

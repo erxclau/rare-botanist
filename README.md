@@ -22,7 +22,8 @@ On first use, `current-thread.json` should look like the following:
     "USERNAME": "",
     "PASSWORD": "",
     "REVIEW_FLAIR": "",
-    "USER_FLAIRS": []
+    "USER_FLAIRS": [],
+    "SUBREDDIT": "RHBST"
 }
 ```
 

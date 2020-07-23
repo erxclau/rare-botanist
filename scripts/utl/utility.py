@@ -15,7 +15,7 @@ def write_json(path, content):
         json.dump(content, file, ensure_ascii=False, indent=2)
 
 
-def get_reddit(subreddit, config):
+def get_reddit(config):
     reddit = praw.Reddit(
         client_id=config['CLIENT_ID'],
         client_secret=config['CLIENT_SECRET'],
@@ -24,4 +24,4 @@ def get_reddit(subreddit, config):
         password=config['PASSWORD']
     )
 
-    return reddit, reddit.subreddit(subreddit)
+    return reddit, reddit.subreddit(config['SUBREDDIT'])

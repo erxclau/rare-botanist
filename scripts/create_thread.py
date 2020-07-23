@@ -9,7 +9,7 @@ def create_review_thread(subreddit, flair):
     thread_title = f"{today.strftime('%B %Y')} Confimred Review Thread"
     thread_text = """Post your confirmed trades below!
 
-Begin your comments either with 'Bought from' or 'Traded with'. If you don't your comment will be deleted!
+Begin your comments either with 'Bought from' or 'Traded with'. If you don't, your comment will be deleted!
 Also include a `u/USERNAME` in your comment.
 
 When confirming a comment, only write 'Confirmed'.
@@ -43,7 +43,7 @@ config = utility.get_json(f"{json_dir}/config.json")
 thread_path = f"{json_dir}/current-thread.json"
 current = utility.get_json(thread_path)
 
-reddit, subreddit = utility.get_reddit('RHBST', config)
+reddit, subreddit = utility.get_reddit(config)
 
 if not current['CURRENT_THREAD'] is None:
     close_thread(reddit, current['CURRENT_THREAD'])
