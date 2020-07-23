@@ -1,16 +1,16 @@
-name: Create New Review Thread
+name: Confirm Review Thread Comments
 
 # on:
 #   schedule:
-#     - cron: '0 0 1 * *'
+#     - cron: '5 0 * * *'
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
-  create:
-    name: Create new review thread
+  confirm:
+    name: Confirm review thread comments
     runs-on: ubuntu-latest
 
     steps:
@@ -25,12 +25,12 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: pip install -r requirements.txt
-    - name: Run create_thread.py
-      run: python scripts/create_thread.py
-    - name: Push updated review thread JSON
+    - name: Run confirm_comments.py
+      run: python scripts/confirm_comments.py
+    - name: Push updated data JSON
       run: |
-        git add ./json/current-thread.json
+        git add ./json/data.json
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git commit -m "Update review thread"
+        git commit -m "Update data"
         git push
