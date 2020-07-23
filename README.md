@@ -25,3 +25,11 @@ On first use, `current-thread.json` should look like the following:
     "USER_FLAIRS": []
 }
 ```
+
+On first use, `data.json` should look like the following:
+
+```json
+{
+
+}
+```

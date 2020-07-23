@@ -126,10 +126,10 @@ def add_data_val(key, interaction):
 
 
 def update_data(text, parent_name, comment_name):
-    if text.startswith(TRADE.lower):
+    if text.startswith(TRADE.lower()):
         add_data_val(parent_name, TRADE)
         add_data_val(comment_name, TRADE)
-    elif text.startswith(SALE.lower):
+    elif text.startswith(SALE.lower()):
         add_data_val(comment_name, SALE)
 
 
@@ -162,3 +162,4 @@ for comment in comments:
                 )
 
 utility.write_json(current_thread_path, current_thread)
+utility.write_json(data_path, data)
