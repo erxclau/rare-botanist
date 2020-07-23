@@ -51,12 +51,12 @@ def bad_interaction(subreddit, comment):
 
 
 def bad_start(text):
-    return not text.startswith(PURCHASE.lower()) or not text.startswith(TRADE.lower())
+    return not (text.startswith(PURCHASE.lower()) or text.startswith(TRADE.lower()))
 
 
-def bad_format(subreddit, commnet):
+def bad_format(subreddit, comment):
     text = comment.body.lower()
-    if bad_start or 'u/' not in text:
+    if bad_start(text) or 'u/' not in text:
         format_reason = subreddit.mod.removal_reasons[2]
         comment.mod.remove(
             reason_id=format_reason.id,
@@ -83,7 +83,7 @@ def generate_comment_list(subreddit, thread):
     thread.comments.replace_more(limit=None)
     for top_level in thread.comments:
         if not top_level.id in comment_filter:
-            if bad_interaction(subreddit, top_level) or bad_format(subreddit, comment):
+            if bad_interaction(subreddit, top_level) or bad_format(subreddit, top_level):
                 current_thread['REMOVED_COMMENTS'].append(top_level.id)
             else:
                 comments.extend(
