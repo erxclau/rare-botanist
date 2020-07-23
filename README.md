@@ -12,6 +12,12 @@ On first use, `current-thread.json` should look like the following:
 }
 ```
 
+On first use, `data.json` should look like the following:
+
+```json
+{ }
+```
+
 `config.json` should look like the following:
 
 ```json
@@ -31,12 +37,4 @@ Encrypt `config.json` using the following command:
 
 ```bash
 gpg --symmetric --cipher-algo AES256 json/config.json
-```
-
-On first use, `data.json` should look like the following:
-
-```json
-{
-
-}
 ```

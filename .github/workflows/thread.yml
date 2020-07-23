@@ -4,6 +4,10 @@ name: Create New Review Thread
 #   schedule:
 #     - cron: '0 0 1 * *'
 
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+
 jobs:
   create:
     name: Create new review thread
@@ -23,3 +27,16 @@ jobs:
       run: pip install -r requirements.txt
     - name: Run create_thread.py
       run: python scripts/create_thread.py
+  update:
+    needs: create
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Push updated review thread JSON
+      run: |
+        git add ./json/current-thread.json
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git commit -m "Update review thread"
+        git push
