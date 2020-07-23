@@ -6,13 +6,13 @@ On first use, `current-thread.json` should look like the following:
 
 ```json
 {
-    "CURRENT_THREAD": null
+    "CURRENT_THREAD": null,
+    "CONFIRMED_TRADES": [],
+    "REMOVED_COMMENTS": []
 }
 ```
 
-`CURRENT_THREAD` should be `null` on the first use because there are no previous threads to unsticky or lock.
-
-`config.json` should include the following:
+`config.json` should look like the following:
 
 ```json
 {

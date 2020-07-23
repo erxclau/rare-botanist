@@ -5,23 +5,18 @@ from utl import utility
 
 
 filepath = os.path.dirname(os.path.abspath(__file__))
+json_dir = f"{filepath}/../json"
 
-current_path = f"{filepath}/../json/current-thread.json"
+config = utility.get_json(f"{json_dir}/config.json")
 
-config = utility.get_json(f"{filepath}/../json/config.json")
-current = utility.get_json(current_path)
+current_thread_path = f"{json_dir}/current-thread.json"
+current_thread = utility.get_json(current_thread_path)
 
-reddit, subreddit = utility.get_reddit('RHBST', config)
-
-thread = reddit.submission(id=current['CURRENT_THREAD'])
-
-thread.comments.replace_more(limit=None)
-
-comment_filter = current['CONFIRMED_TRADES']
-comment_filter.extend(current['REMOVED_COMMENTS'])
+data_path = f"{json_dir}/data.json"
+data = utility.get_json(data_path)
 
 
-def bad_trade(comment, namecheck, reason_id, mod_note):
+def bad_interaction(comment, namecheck, reason_id, mod_note):
     if namecheck.lower() in comment.body.lower():
         comment.mod.remove(
             reason_id=reason_id,
@@ -32,32 +27,44 @@ def bad_trade(comment, namecheck, reason_id, mod_note):
         return False
 
 
-def traded_with_self(comment):
-    self_trade = subreddit.mod.removal_reasons[0]
-    return bad_trade(
+def self_interact(subreddit, comment):
+    self_reason = subreddit.mod.removal_reasons[0]
+    return bad_interaction(
         comment, f'u/{comment.author.name}',
-        self_trade.id, 'User traded with themselves'
+        self_reason.id, 'User traded with themselves'
     )
 
 
-def traded_with_bot(comment):
-    bot_trade = subreddit.mod.removal_reasons[1]
-    return bad_trade(
+def bot_interact(subreddit, comment):
+    bot_reason = subreddit.mod.removal_reasons[1]
+    return bad_interaction(
         comment, f'u/{config["USERNAME"]}',
-        bot_trade.id, 'User traded with bot'
+        bot_reason.id, 'User traded with bot'
     )
 
 
-def generate_comment_list(thread):
+def append_comment_thread(parent):
     comments = list()
+    comments.append(parent)
+    for second_level_reply in parent.replies:
+        comments.append(second_level_reply)
+    return comments
+
+
+def generate_comment_list(subreddit, thread):
+    comments = list()
+    comment_filter = current_thread['CONFIRMED_TRADES']
+    comment_filter.extend(current_thread['REMOVED_COMMENTS'])
+
+    thread.comments.replace_more(limit=None)
     for top_level in thread.comments:
         if not top_level.id in comment_filter:
-            if traded_with_self(comment) or traded_with_bot(comment):
-                current['REMOVED_COMMENTS'].append(top_level.id)
+            if self_interact(subreddit, top_level) or bot_interact(subreddit, top_level):
+                current_thread['REMOVED_COMMENTS'].append(top_level.id)
             else:
-                comments.append(top_level)
-                for second_level in top_level.replies:
-                    comments.append(second_level)
+                comments.extend(
+                    append_comment_thread(top_level)
+                )
     return comments
 
 
@@ -79,24 +86,30 @@ def lock_comment_thread(parent):
     return locked
 
 
-comments = generate_comment_list(thread)
+def is_confirmation_comment(comment):
+    return not comment.is_root and 'confirmed' in comment.body.lower()
+
+
+def validate_trade(comment, parent):
+    reply = comment.reply('Added!')
+    reply.mod.lock()
+    current_thread['CONFIRMED_TRADES'].append(parent.id)
+
+
+reddit, subreddit = utility.get_reddit('RHBST', config)
+thread = reddit.submission(id=current_thread['CURRENT_THREAD'])
+comments = generate_comment_list(subreddit, thread)
+
 
 locked_comments = list()
-
-
 for comment in comments:
-    if not comment.is_root and 'confirmed' in comment.body.lower():
+    if is_confirmation_comment(comment):
         parent = get_parent(comment)
         if f'u/{comment.author.name}'.lower() in parent.body.lower():
             if not comment in locked_comments:
-                try:
-                    reply = comment.reply('Added!')
-                    reply.mod.lock()
-                    current['CONFIRMED_TRADES'].append(parent.id)
-                except:
-                    print('ATTEMPTED TO REPLY TO LOCKED COMMENT')
+                validate_trade(comment, parent)
                 locked_comments.extend(
                     lock_comment_thread(parent)
                 )
 
-utility.write_json(current_path, current)
+utility.write_json(current_thread_path, current_thread)
