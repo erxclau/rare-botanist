@@ -8,12 +8,15 @@ filepath = os.path.dirname(os.path.abspath(__file__))
 json_dir = f"{filepath}/../json"
 
 config = utility.get_json(f"{json_dir}/config.json")
+flair_tiers = config['USER_FLAIRS']
 
 current_thread_path = f"{json_dir}/current-thread.json"
 current_thread = utility.get_json(current_thread_path)
 
 data_path = f"{json_dir}/data.json"
 data = utility.get_json(data_path)
+
+reddit, subreddit = utility.get_reddit('RHBST', config)
 
 SALE = 'Bought from'
 TRADE = 'Traded with'
@@ -30,7 +33,7 @@ def is_bad_interaction(comment, namecheck, reason_id, mod_note):
         return False
 
 
-def self_interact(subreddit, comment):
+def self_interact(comment):
     self_reason = subreddit.mod.removal_reasons[0]
     return is_bad_interaction(
         comment, f'u/{comment.author.name}',
@@ -38,7 +41,7 @@ def self_interact(subreddit, comment):
     )
 
 
-def bot_interact(subreddit, comment):
+def bot_interact(comment):
     bot_reason = subreddit.mod.removal_reasons[1]
     return is_bad_interaction(
         comment, f'u/{config["USERNAME"]}',
@@ -46,15 +49,15 @@ def bot_interact(subreddit, comment):
     )
 
 
-def bad_interaction(subreddit, comment):
-    return self_interact(subreddit, comment) or bot_interact(subreddit, comment)
+def bad_interaction(comment):
+    return self_interact(comment) or bot_interact(comment)
 
 
 def bad_start(text):
     return not (text.startswith(SALE.lower()) or text.startswith(TRADE.lower()))
 
 
-def bad_format(subreddit, comment):
+def bad_format(comment):
     text = comment.body.lower()
     if bad_start(text) or 'u/' not in text:
         format_reason = subreddit.mod.removal_reasons[2]
@@ -75,7 +78,7 @@ def append_comment_thread(parent):
     return comments
 
 
-def generate_comment_list(subreddit, thread):
+def generate_comment_list(thread):
     comments = list()
     comment_filter = current_thread['CONFIRMED_TRADES']
     comment_filter.extend(current_thread['REMOVED_COMMENTS'])
@@ -83,7 +86,7 @@ def generate_comment_list(subreddit, thread):
     thread.comments.replace_more(limit=None)
     for top_level in thread.comments:
         if not top_level.id in comment_filter:
-            if bad_interaction(subreddit, top_level) or bad_format(subreddit, top_level):
+            if bad_interaction(top_level) or bad_format(top_level):
                 current_thread['REMOVED_COMMENTS'].append(top_level.id)
             else:
                 comments.extend(
@@ -114,23 +117,48 @@ def is_confirmation_comment(comment):
     return not comment.is_root and 'confirmed' in comment.body.lower()
 
 
-def add_data_val(key, interaction):
+def update_data_val(key, interaction):
     secondary_key = 'sales' if interaction == SALE else 'trades'
     if not key in data:
         data[key] = {
             'sales': 1 if interaction == SALE else 0,
-            'trades': 1 if interaction == TRADE else 0
+            'trades': 1 if interaction == TRADE else 0,
+            'update_flair': True
         }
     else:
+        current = data[key]['sales'] + data[key]['trades']
+        if current == 10 or current == 20 or current == 50:
+            data[key]['update_flair'] = True
+        # TODO: What happens to flairs when people get trades removed?
         data[key][secondary_key] += 1
 
 
-def update_data(text, parent_name, comment_name):
+def update_flair(name):
+    interactions = data[name]['trades'] + data[name]['sales']
+    if data[key]['update_flair']:
+        tier = 0
+        if interactions > 10:
+            tier = 1
+        if interactions > 20:
+            tier = 2
+        if interactions > 50:
+            tier = 3
+        subreddit.flair.set(
+            name, flair_template_id=flair_tiers[tier]
+        )
+        data[key]['update_flair'] = False
+
+
+def update_interactions(text, parent_name, comment_name):
     if text.startswith(TRADE.lower()):
-        add_data_val(parent_name, TRADE)
-        add_data_val(comment_name, TRADE)
+        update_data_val(parent_name, TRADE)
+        update_data_val(comment_name, TRADE)
+        update_flair(parent_name)
+
     elif text.startswith(SALE.lower()):
-        add_data_val(comment_name, SALE)
+        update_data_val(comment_name, SALE)
+
+    update_flair(comment_name)
 
 
 def validate_trade(comment, parent):
@@ -139,15 +167,15 @@ def validate_trade(comment, parent):
     current_thread['CONFIRMED_TRADES'].append(parent.id)
 
     text = parent.body.lower()
+
     parent_name = parent.author.name
     comment_name = comment.author.name
 
-    update_data(text, parent_name, comment_name)
+    update_interactions(text, parent_name, comment_name)
 
 
-reddit, subreddit = utility.get_reddit('RHBST', config)
 thread = reddit.submission(id=current_thread['CURRENT_THREAD'])
-comments = generate_comment_list(subreddit, thread)
+comments = generate_comment_list(thread)
 
 
 locked_comments = list()
