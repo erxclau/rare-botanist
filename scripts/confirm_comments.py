@@ -15,8 +15,11 @@ current_thread = utility.get_json(current_thread_path)
 data_path = f"{json_dir}/data.json"
 data = utility.get_json(data_path)
 
+PURCHASE = 'Bought from'
+TRADE = 'Traded with'
 
-def bad_interaction(comment, namecheck, reason_id, mod_note):
+
+def is_bad_interaction(comment, namecheck, reason_id, mod_note):
     if namecheck.lower() in comment.body.lower():
         comment.mod.remove(
             reason_id=reason_id,
@@ -29,7 +32,7 @@ def bad_interaction(comment, namecheck, reason_id, mod_note):
 
 def self_interact(subreddit, comment):
     self_reason = subreddit.mod.removal_reasons[0]
-    return bad_interaction(
+    return is_bad_interaction(
         comment, f'u/{comment.author.name}',
         self_reason.id, 'User traded with themselves'
     )
@@ -37,10 +40,31 @@ def self_interact(subreddit, comment):
 
 def bot_interact(subreddit, comment):
     bot_reason = subreddit.mod.removal_reasons[1]
-    return bad_interaction(
+    return is_bad_interaction(
         comment, f'u/{config["USERNAME"]}',
         bot_reason.id, 'User traded with bot'
     )
+
+
+def bad_interaction(subreddit, comment):
+    return self_interact(subreddit, comment) or bot_interact(subreddit, comment)
+
+
+def bad_start(text):
+    return not text.startswith(PURCHASE.lower()) or not text.startswith(TRADE.lower())
+
+
+def bad_format(subreddit, commnet):
+    text = comment.body.lower()
+    if bad_start or 'u/' not in text:
+        format_reason = subreddit.mod.removal_reasons[2]
+        comment.mod.remove(
+            reason_id=format_reason.id,
+            mod_note='User did not follow format'
+        )
+        return True
+    else:
+        return False
 
 
 def append_comment_thread(parent):
@@ -59,7 +83,7 @@ def generate_comment_list(subreddit, thread):
     thread.comments.replace_more(limit=None)
     for top_level in thread.comments:
         if not top_level.id in comment_filter:
-            if self_interact(subreddit, top_level) or bot_interact(subreddit, top_level):
+            if bad_interaction(subreddit, top_level) or bad_format(subreddit, comment):
                 current_thread['REMOVED_COMMENTS'].append(top_level.id)
             else:
                 comments.extend(

@@ -9,8 +9,11 @@ def create_review_thread(subreddit, flair):
     thread_title = f"{today.strftime('%B %Y')} Confimred Review Thread"
     thread_text = """Post your confirmed trades below!
 
-    When confirming a post, only write 'Confirmed'
-    """
+Begin your comments either with 'Bought from' or 'Traded with'. If you don't your comment will be deleted!
+Also include a `u/USERNAME` in your comment.
+
+When confirming a comment, only write 'Confirmed'.
+"""
 
     thread = subreddit.submit(
         thread_title,
