@@ -23,7 +23,7 @@ On first use, `current-thread.json` should look like the following:
     "PASSWORD": "",
     "REVIEW_FLAIR": "",
     "USER_FLAIRS": [],
-    "SUBREDDIT": "RHBST"
+    "SUBREDDIT": ""
 }
 ```
 

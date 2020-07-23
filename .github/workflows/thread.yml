@@ -1,0 +1,25 @@
+name: Create New Review Thread
+
+# on:
+#   schedule:
+#     - cron: '0 0 1 * *'
+
+jobs:
+  create:
+    name: Create new review thread
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Decrypt config.json
+      run: ./.github/scripts/decrypt.sh
+      env:
+        PASSPHRASE: ${{ secrets.PASSPHRASE }}
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+    - name: Run create_thread.py
+      run: python scripts/create_thread.py
