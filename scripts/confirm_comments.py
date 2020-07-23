@@ -15,7 +15,7 @@ current_thread = utility.get_json(current_thread_path)
 data_path = f"{json_dir}/data.json"
 data = utility.get_json(data_path)
 
-PURCHASE = 'Bought from'
+SALE = 'Bought from'
 TRADE = 'Traded with'
 
 
@@ -51,7 +51,7 @@ def bad_interaction(subreddit, comment):
 
 
 def bad_start(text):
-    return not (text.startswith(PURCHASE.lower()) or text.startswith(TRADE.lower()))
+    return not (text.startswith(SALE.lower()) or text.startswith(TRADE.lower()))
 
 
 def bad_format(subreddit, comment):
@@ -114,10 +114,35 @@ def is_confirmation_comment(comment):
     return not comment.is_root and 'confirmed' in comment.body.lower()
 
 
+def add_data_val(key, interaction):
+    secondary_key = 'sales' if interaction == SALE else 'trades'
+    if not key in data:
+        data[key] = {
+            'sales': 1 if interaction == SALE else 0,
+            'trades': 1 if interaction == TRADE else 0
+        }
+    else:
+        data[key][secondary_key] += 1
+
+
+def update_data(text, parent_name, comment_name):
+    if text.startswith(TRADE.lower):
+        add_data_val(parent_name, TRADE)
+        add_data_val(comment_name, TRADE)
+    elif text.startswith(SALE.lower):
+        add_data_val(comment_name, SALE)
+
+
 def validate_trade(comment, parent):
     reply = comment.reply('Added!')
     reply.mod.lock()
     current_thread['CONFIRMED_TRADES'].append(parent.id)
+
+    text = parent.body.lower()
+    parent_name = parent.author.name
+    comment_name = comment.author.name
+
+    update_data(text, parent_name, comment_name)
 
 
 reddit, subreddit = utility.get_reddit('RHBST', config)
