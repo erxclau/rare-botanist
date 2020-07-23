@@ -29,6 +29,7 @@ jobs:
       run: python scripts/create_thread.py
     - name: Push updated review thread JSON
       run: |
+        ls
         git status
         git add ./json/current-thread.json
         git config user.name "github-actions[bot]"
