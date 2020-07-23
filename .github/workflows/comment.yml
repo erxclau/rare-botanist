@@ -5,7 +5,7 @@ name: Confirm Review Thread Comments
 #     - cron: '0 * * * *'
 
 jobs:
-  create:
+  confirm:
     name: Confirm review thread comments
     runs-on: ubuntu-latest
 
