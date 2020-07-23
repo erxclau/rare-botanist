@@ -28,6 +28,7 @@ jobs:
     - name: Run create_thread.py
       run: python scripts/create_thread.py
   update:
+    name: Update review thread json
     needs: create
     runs-on: ubuntu-latest
 

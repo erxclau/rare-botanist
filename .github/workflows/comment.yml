@@ -2,7 +2,7 @@ name: Confirm Review Thread Comments
 
 # on:
 #   schedule:
-#     - cron: '0 * * * *'
+#     - cron: '5 0 * * *'
 
 jobs:
   confirm:
@@ -23,3 +23,16 @@ jobs:
       run: pip install -r requirements.txt
     - name: Run confirm_comments.py
       run: python scripts/confirm_comments.py
+  update:
+    needs: confirm
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Push updated data JSON
+      run: |
+        git add ./json/data.json
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git commit -m "Update data"
+        git push
