@@ -6,7 +6,7 @@ name: Create New Review Thread
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   create:
