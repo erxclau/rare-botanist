@@ -6,7 +6,7 @@ name: Create New Review Thread
 
 on:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '* * * * *'
 
 jobs:
   create:
@@ -29,6 +29,7 @@ jobs:
       run: python scripts/create_thread.py
     - name: Push updated review thread JSON
       run: |
+        git status
         git add ./json/current-thread.json
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
