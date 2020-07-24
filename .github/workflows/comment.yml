@@ -6,7 +6,7 @@ name: Confirm Review Thread Comments
 
 on:
   schedule:
-    - cron: '*/6 * * * *'
+    - cron: '*/8 * * * *'
 
 jobs:
   confirm:
