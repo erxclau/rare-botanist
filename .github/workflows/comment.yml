@@ -6,7 +6,7 @@ name: Confirm Review Thread Comments
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/8 * * * *'
 
 jobs:
   confirm:
@@ -32,7 +32,8 @@ jobs:
     - name: Push updated data JSON
       run: |
         git add ./json/data.json
+        git add ./json/current-thread.json
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git commit -m "Update data"
+        git commit --allow-empty -m "Update data"
         git push
