@@ -175,9 +175,10 @@ def validate_trade(comment, parent):
     update_interactions(text, parent_name, comment_name)
 
 
-thread = reddit.submission(id=current_thread['CURRENT_THREAD'])
-comments = generate_comment_list(thread)
-
+comments = list()
+if not current_thread['CURRENT_THREAD'] is None:
+    thread = reddit.submission(id=current_thread['CURRENT_THREAD'])
+    comments = generate_comment_list(thread)
 
 locked_comments = list()
 for comment in comments:
