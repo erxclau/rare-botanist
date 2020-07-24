@@ -6,7 +6,7 @@ from utl import utility
 
 def create_review_thread(subreddit, flair):
     today = datetime.now()
-    thread_title = f"{today.strftime('%B %Y')} Confimred Review Thread"
+    thread_title = f"{today.strftime('%B %Y')} Confirmed Review Thread"
     thread_text = """Post your confirmed trades below!
 
 Begin your comments either with 'Bought from' or 'Traded with'. If you don't, your comment will be deleted!

@@ -33,7 +33,8 @@ def is_bad_interaction(comment, namecheck, reason_id, mod_note):
 
 
 def self_interact(comment):
-    self_reason = subreddit.mod.removal_reasons[0]
+    self_reason = subreddit.mod.removal_reasons[1]
+    print(self_reason.message)
     return is_bad_interaction(
         comment, f'u/{comment.author.name}',
         self_reason.id, 'User traded with themselves'
@@ -41,7 +42,8 @@ def self_interact(comment):
 
 
 def bot_interact(comment):
-    bot_reason = subreddit.mod.removal_reasons[1]
+    bot_reason = subreddit.mod.removal_reasons[0]
+    print(bot_reason.message)
     return is_bad_interaction(
         comment, f'u/{config["USERNAME"]}',
         bot_reason.id, 'User traded with bot'
