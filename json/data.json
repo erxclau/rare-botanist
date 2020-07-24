@@ -1,1 +1,17 @@
-{}
+{
+  "20sparis": {
+    "sales": 1,
+    "trades": 0,
+    "update_flair": false
+  },
+  "rareBOTanist": {
+    "sales": 0,
+    "trades": 1,
+    "update_flair": false
+  },
+  "erxclau": {
+    "sales": 0,
+    "trades": 1,
+    "update_flair": false
+  }
+}
