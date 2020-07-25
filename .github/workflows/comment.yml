@@ -4,10 +4,6 @@ on:
   schedule:
     - cron: '55 23 * * *'
 
-# on:
-#   schedule:
-#     - cron: '*/8 * * * *'
-
 jobs:
   confirm:
     name: Confirm review thread comments
