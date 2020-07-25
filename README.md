@@ -28,6 +28,12 @@ Relevant files: `stat_reply`, `reply.yml`, `comment-data.json`
 
 ## Configuration
 
+`config.json` has been encrypted using the following command:
+
+```bash
+gpg --symmetric --cipher-algo AES256 config.json
+```
+
 `config.json` should look like the following:
 
 ```json
