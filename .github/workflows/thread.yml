@@ -8,6 +8,10 @@ name: Create New Review Thread
 #   schedule:
 #     - cron: '*/17 * * * *'
 
+on:
+  schedule:
+    - cron: '0 0 */2 * *'
+
 jobs:
   create:
     name: Create new review thread
@@ -34,5 +38,5 @@ jobs:
         git add ./json/current-thread.json
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git commit -m "Update review thread"
+        git commit -m "🔨 Create new review thread"
         git push

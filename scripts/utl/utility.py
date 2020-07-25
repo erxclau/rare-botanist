@@ -1,17 +1,21 @@
 import json
+import os
 
 import praw
 
+filepath = os.path.dirname(os.path.abspath(__file__))
+json_dir = f"{filepath}/../../json"
+
 
 def get_json(path):
-    f = open(path)
+    f = open(f"{json_dir}/{path}")
     json_dict = json.load(f)
     f.close()
     return json_dict
 
 
 def write_json(path, content):
-    with open(path, 'w', encoding='utf-8') as file:
+    with open(f"{json_dir}/{path}", 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=2)
 
 

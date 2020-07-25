@@ -1,18 +1,12 @@
-import os
-
 from utl import utility
 
-
-filepath = os.path.dirname(os.path.abspath(__file__))
-json_dir = f"{filepath}/../json"
-
-config = utility.get_json(f"{json_dir}/config.json")
+config = utility.get_json("config.json")
 flair_tiers = config['USER_FLAIRS']
 
-current_thread_path = f"{json_dir}/current-thread.json"
-current_thread = utility.get_json(current_thread_path)
+thread_path = "current-thread.json"
+current_thread = utility.get_json(thread_path)
 
-data_path = f"{json_dir}/data.json"
+data_path = "comment-data.json"
 data = utility.get_json(data_path)
 
 reddit, subreddit = utility.get_reddit(config)
@@ -191,5 +185,5 @@ for comment in comments:
                     lock_comment_thread(parent)
                 )
 
-utility.write_json(current_thread_path, current_thread)
+utility.write_json(thread_path, current_thread)
 utility.write_json(data_path, data)

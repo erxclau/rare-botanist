@@ -1,10 +1,16 @@
-import os
 from datetime import datetime
 
 from utl import utility
 
+config = utility.get_json("config.json")
 
-def create_review_thread(subreddit, flair):
+thread_path = "current-thread.json"
+current = utility.get_json(thread_path)
+
+reddit, subreddit = utility.get_reddit(config)
+
+
+def create_review_thread():
     today = datetime.now()
     thread_title = f"{today.strftime('%B %Y')} Confirmed Review Thread"
     thread_text = """Post your confirmed trades below!
@@ -12,8 +18,7 @@ def create_review_thread(subreddit, flair):
 Begin your comments either with 'Bought from' or 'Traded with'. If you don't, your comment will be deleted!
 Also include a `u/USERNAME` in your comment.
 
-When confirming a comment, only write 'Confirmed'.
-"""
+When confirming a comment, only write 'Confirmed'."""
 
     thread = subreddit.submit(
         thread_title,
@@ -21,12 +26,12 @@ When confirming a comment, only write 'Confirmed'.
 
     thread.mod.distinguish(how="yes")
     thread.mod.sticky()
-    thread.mod.flair(flair_template_id=flair)
+    thread.mod.flair(flair_template_id=config['REVIEW_FLAIR'])
 
     return thread
 
 
-def close_thread(reddit, thread_id):
+def close_thread(thread_id):
     submission = reddit.submission(id=thread_id)
     try:
         submission.mod.sticky(state=False)
@@ -35,20 +40,10 @@ def close_thread(reddit, thread_id):
         print('ATTEMPTED TO DELETE NONEXISTENT THREAD')
 
 
-filepath = os.path.dirname(os.path.abspath(__file__))
-json_dir = f"{filepath}/../json"
-
-config = utility.get_json(f"{json_dir}/config.json")
-
-thread_path = f"{json_dir}/current-thread.json"
-current = utility.get_json(thread_path)
-
-reddit, subreddit = utility.get_reddit(config)
-
 if not current['CURRENT_THREAD'] is None:
-    close_thread(reddit, current['CURRENT_THREAD'])
+    close_thread(current['CURRENT_THREAD'])
 
-thread = create_review_thread(subreddit, config['REVIEW_FLAIR'])
+thread = create_review_thread()
 
 current = {
     'CURRENT_THREAD': thread.id,
@@ -57,5 +52,3 @@ current = {
 }
 
 utility.write_json(thread_path, current)
-
-# TODO: Hook this up to a CRON job
