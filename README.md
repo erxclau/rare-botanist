@@ -1,50 +1,13 @@
 # rare-houseplants-bst-bot
 
-This repository contains code for the bot on the RareHouseplantsBST subreddit.
+## Description
 
-On first use, `current-thread.json` should look like the following:
+This repository contains code for the bot on the [/r/RareHouseplantsBST](https://www.reddit.com/r/RareHouseplantsBST/) subreddit.
 
-```json
-{
-    "CURRENT_THREAD": null,
-    "CONFIRMED_TRADES": [],
-    "REMOVED_COMMENTS": []
-}
-```
+The robot uses the Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io/en/latest/)) to interact with Reddit. The robot also uses GitHub Actions workflows with cron schedules to continually run scripts.
 
-On first use, `comment-data.json` should look like the following:
+## Robot Roles
 
-```json
-{ }
-```
-
-On first use, `reply-data.json` should look like the following:
-
-```json
-{
-    "POSTS": [],
-}
-```
-
-`config.json` should look like the following:
-
-```json
-{
-    "CLIENT_ID": "",
-    "CLIENT_SECRET": "",
-    "USER_AGENT": "",
-    "USERNAME": "",
-    "PASSWORD": "",
-    "REVIEW_FLAIR": "",
-    "USER_FLAIRS": [],
-    "POST_FLAIRS": [],
-    "SUBREDDIT": "",
-    "CUTOFF": ""
-}
-```
-
-Encrypt `config.json` using the following command:
-
-```bash
-gpg --symmetric --cipher-algo AES256 json/config.json
-```
+- The robot creates a new review thread every month using `create_thread.py` and `thread.yml`.
+- The robot logs and validates confirmed trades in the review at the end of every day using `confirm_comments.py` and `comment.yml`.
+- The robot continually responds to flaired BST posts using `stat_reply.py` and `reply.yml`.
