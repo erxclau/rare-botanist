@@ -8,6 +8,6 @@ The robot uses the Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io
 
 ## Robot Roles
 
-- The robot creates a new review thread every month using `create_thread.py` and `thread.yml`.
-- The robot logs and validates confirmed trades in the review at the end of every day using `confirm_comments.py` and `comment.yml`.
-- The robot continually responds to flaired BST posts using `stat_reply.py` and `reply.yml`.
+- The robot creates a new pinned review thread every month using `create_thread.py` and `thread.yml`.
+- The robot logs and validates confirmed trades in the review thread at the end of every day using `confirm_comments.py` and `comment.yml`.
+- The robot continually responds to flaired BST posts with author stats using `stat_reply.py` and `reply.yml`.
