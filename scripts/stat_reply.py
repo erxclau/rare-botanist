@@ -56,9 +56,16 @@ def reply_with_stats(post):
     creation_date = datetime.fromtimestamp(user.created_utc)
 
     reply = f"""Username: u/{user.name}
+
+Overall karma: {user.link_karma + user.comment_karma}
+
 Join date: {creation_date.isoformat().replace('T', ' ')}
-Reputation: {interactions} interaction(s)"""
-    print(reply)
+
+Reputation: {data['sales']} sales(s) and {data['trades']} trade(s)"""
+    try:
+        post.reply(reply)
+    except:
+        print('COULD NOT REPLY TO POST')
 
 
 for post in subreddit.stream.submissions(pause_after=0):
