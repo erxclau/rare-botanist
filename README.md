@@ -22,8 +22,7 @@ On first use, `reply-data.json` should look like the following:
 
 ```json
 {
-    "REPLIES": [],
-    "CUTOFF": ""
+    "POSTS": [],
 }
 ```
 
@@ -38,7 +37,9 @@ On first use, `reply-data.json` should look like the following:
     "PASSWORD": "",
     "REVIEW_FLAIR": "",
     "USER_FLAIRS": [],
+    "POST_FLAIRS": [],
     "SUBREDDIT": "",
+    "CUTOFF": ""
 }
 ```
 
