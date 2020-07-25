@@ -35,9 +35,5 @@ jobs:
         git add ./json/current-thread.json
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-<<<<<<< HEAD
-        git commit --allow-empty -m "Update data"
-=======
         git commit --allow-empty -m "✅ Confirm review thread comments"
->>>>>>> master
         git push
