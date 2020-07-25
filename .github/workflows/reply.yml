@@ -1,8 +1,12 @@
 name: Reply To Flaired Posts
 
+# on:
+#   schedule:
+#     - cron: '30 */6 * * *'
+
 on:
   schedule:
-    - cron: '30 */6 * * *'
+    - cron: '*/30 * * * *'
 
 jobs:
   reply:
@@ -27,6 +31,7 @@ jobs:
       run: python scripts/stat_reply.py
     - name: Push updated data JSON
       run: |
+        git config pull.ff only
         git pull
         git add ./json/reply-data.json
         git config user.name "github-actions[bot]"
