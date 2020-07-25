@@ -1,8 +1,8 @@
 name: Confirm Review Thread Comments
 
-# on:
-#   schedule:
-#     - cron: '55 23 * * *'
+on:
+  schedule:
+    - cron: '55 23 * * *'
 
 # on:
 #   schedule:

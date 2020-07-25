@@ -8,6 +8,10 @@ name: Create New Review Thread
 #   schedule:
 #     - cron: '*/17 * * * *'
 
+on:
+  schedule:
+    - cron: '0 0 */2 * *'
+
 jobs:
   create:
     name: Create new review thread

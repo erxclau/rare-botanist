@@ -4,13 +4,27 @@
 
 This repository contains code for the bot on the [/r/RareHouseplantsBST](https://www.reddit.com/r/RareHouseplantsBST/) subreddit.
 
-The robot uses the Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io/en/latest/)) to interact with Reddit. The robot also uses GitHub Actions workflows with cron schedules to continually run scripts.
+The robot uses the Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io/en/latest/)) to interact with Reddit. The robot also uses GitHub Actions workflows with cron schedules to run scripts.
 
 ## Robot Roles
 
-- The robot creates a new pinned review thread every month using `create_thread.py` and `thread.yml`.
-- The robot logs and validates confirmed trades in the review thread at the end of every day using `confirm_comments.py` and `comment.yml`.
-- The robot continually responds to flaired BST posts with author stats using `stat_reply.py` and `reply.yml`.
+### Create Review Thread
+
+The bot will create a new review thread at the start of every month. This review thread post will have a 'Review Thread' flair and will also be pinned and distinguished. The previous month's thread will be unpinned and locked.
+
+Relevant files: `create_thread.py`, `thread.yml`, `current_thread.json`
+
+### Validate Confirmed Trades
+
+The bot will reply to correctly formatted interactions in the review thread at the end of every day and appropriately update a log based on the interaction. These interactions will be locked after validation. If a user reaches a certain number of interactions, their flair will be updated. Comments that do not follow the rules will be removed.
+
+Relevant files: `confirm_comments.py`, `comment.yml`, `current_thread.json`, `comment-data.json`
+
+### Reply to BST Posts
+
+The bot will continually respond to posts flaired with 'Buying', 'Selling', or 'Trading' with statistical comments based on the author.
+
+Relevant files: `stat_reply`, `reply.yml`, `comment-data.json`
 
 ## Configuration
 
