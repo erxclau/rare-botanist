@@ -12,10 +12,19 @@ On first use, `current-thread.json` should look like the following:
 }
 ```
 
-On first use, `data.json` should look like the following:
+On first use, `comment-data.json` should look like the following:
 
 ```json
 { }
+```
+
+On first use, `reply-data.json` should look like the following:
+
+```json
+{
+    "REPLIES": [],
+    "CUTOFF": ""
+}
 ```
 
 `config.json` should look like the following:
@@ -29,7 +38,7 @@ On first use, `data.json` should look like the following:
     "PASSWORD": "",
     "REVIEW_FLAIR": "",
     "USER_FLAIRS": [],
-    "SUBREDDIT": ""
+    "SUBREDDIT": "",
 }
 ```
 

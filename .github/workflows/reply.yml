@@ -1,16 +1,12 @@
-name: Confirm Review Thread Comments
+name: Reply To Flaired Posts
 
 # on:
 #   schedule:
-#     - cron: '55 23 * * *'
-
-# on:
-#   schedule:
-#     - cron: '*/8 * * * *'
+#     - cron: '30 */6 * * *'
 
 jobs:
-  confirm:
-    name: Confirm review thread comments
+  reply:
+    name: Reply to flaired posts
     runs-on: ubuntu-latest
 
     steps:
@@ -27,13 +23,13 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: pip install -r requirements.txt
-    - name: Run confirm_comments.py
-      run: python scripts/confirm_comments.py
+    - name: Run stat_reply.py
+      run: python scripts/stat_reply.py
     - name: Push updated data JSON
       run: |
-        git add ./json/comment-data.json
-        git add ./json/current-thread.json
+        git pull
+        git add ./json/reply-data.json
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git commit --allow-empty -m "Update comment data"
+        git commit --allow-empty -m "Update reply data"
         git push

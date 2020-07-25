@@ -57,5 +57,3 @@ current = {
 }
 
 utility.write_json(thread_path, current)
-
-# TODO: Hook this up to a CRON job

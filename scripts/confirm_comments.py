@@ -12,7 +12,7 @@ flair_tiers = config['USER_FLAIRS']
 current_thread_path = f"{json_dir}/current-thread.json"
 current_thread = utility.get_json(current_thread_path)
 
-data_path = f"{json_dir}/data.json"
+data_path = f"{json_dir}/comment-data.json"
 data = utility.get_json(data_path)
 
 reddit, subreddit = utility.get_reddit(config)
