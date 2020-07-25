@@ -64,8 +64,7 @@ Reputation: {data['sales']} sales(s) and {data['trades']} trade(s)"""
 
 
 for post in subreddit.stream.submissions(pause_after=0):
-    # if time() - start >= 5 * HOUR + 55 * MINUTE:
-    if time() - start >= 5 * SECOND:
+    if time() - start >= 5 * HOUR + 55 * MINUTE:
         break
 
     if is_valid_post(post):
