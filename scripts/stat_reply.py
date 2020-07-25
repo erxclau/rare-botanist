@@ -1,21 +1,16 @@
-import os
 from datetime import datetime
 from time import time
-from pprint import pprint
 
 from utl import utility
 
 start = time()
 
-filepath = os.path.dirname(os.path.abspath(__file__))
-json_dir = f"{filepath}/../json"
+config = utility.get_json("config.json")
 
-config = utility.get_json(f"{json_dir}/config.json")
+reply_path = "reply-data.json"
+reply_data = utility.get_json(reply_path)
 
-reply_data_path = f"{json_dir}/reply-data.json"
-reply_data = utility.get_json(reply_data_path)
-
-comment_data = utility.get_json(f"{json_dir}/comment-data.json")
+comment_data = utility.get_json("comment-data.json")
 
 reddit, subreddit = utility.get_reddit(config)
 
@@ -69,7 +64,8 @@ Reputation: {data['sales']} sales(s) and {data['trades']} trade(s)"""
 
 
 for post in subreddit.stream.submissions(pause_after=0):
-    if time() - start >= 5 * HOUR + 55 * MINUTE:
+    # if time() - start >= 5 * HOUR + 55 * MINUTE:
+    if time() - start >= 5 * SECOND:
         break
 
     if is_valid_post(post):
@@ -80,4 +76,4 @@ for post in subreddit.stream.submissions(pause_after=0):
 
         archive_post(post.id)
 
-utility.write_json(reply_data_path, reply_data)
+utility.write_json(reply_path, reply_data)
