@@ -46,8 +46,12 @@ def archive_post(post_id):
 
 def reply_with_stats(post):
     user = post.author
-    data = comment_data[user.name]
-    interactions = data['sales'] + data['trades']
+
+    sales = trades = 0
+    if user.name in comment_data:
+        sales = comment_data[user.name]['sales']
+        trades = comment_data[user.name]['trades']
+
     creation_date = datetime.fromtimestamp(user.created_utc)
 
     reply = f"""Username: u/{user.name}
@@ -56,7 +60,7 @@ Overall karma: {user.link_karma + user.comment_karma}
 
 Join date: {creation_date.isoformat().replace('T', ' ')}
 
-Reputation: {data['sales']} sales(s) and {data['trades']} trade(s)"""
+Reputation: {sales} sales(s) and {trades} trade(s)"""
     try:
         post.reply(reply)
     except:
