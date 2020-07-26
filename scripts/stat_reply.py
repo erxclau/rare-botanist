@@ -60,7 +60,7 @@ Overall karma: {user.link_karma + user.comment_karma}
 
 Join date: {creation_date.isoformat().replace('T', ' ')}
 
-Reputation: {sales} sales(s) and {trades} trade(s)"""
+Reputation: {sales} sale(s) and {trades} trade(s)"""
     try:
         post.reply(reply)
     except:
@@ -68,8 +68,8 @@ Reputation: {sales} sales(s) and {trades} trade(s)"""
 
 
 for post in subreddit.stream.submissions(pause_after=0):
-    # if time() - start >= 5 * HOUR + 58 * MINUTE:
-    if time() - start >= 28 * MINUTE:
+    if time() - start >= 5 * HOUR + 58 * MINUTE:
+    # if time() - start >= 28 * MINUTE:
         break
 
     if is_valid_post(post):

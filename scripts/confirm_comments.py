@@ -15,7 +15,7 @@ SALE = 'Bought from'
 TRADE = 'Traded with'
 
 
-def is_bad_interaction(comment, namecheck, reason_id, mod_note):
+def bad_user_interaction(comment, namecheck, reason_id, mod_note):
     if namecheck.lower() in comment.body.lower():
         comment.mod.remove(
             reason_id=reason_id,
@@ -28,8 +28,8 @@ def is_bad_interaction(comment, namecheck, reason_id, mod_note):
 
 def self_interact(comment):
     self_reason = subreddit.mod.removal_reasons[1]
-    print(self_reason.message)
-    return is_bad_interaction(
+    # print(self_reason.message)
+    return bad_user_interaction(
         comment, f'u/{comment.author.name}',
         self_reason.id, 'User traded with themselves'
     )
@@ -37,15 +37,31 @@ def self_interact(comment):
 
 def bot_interact(comment):
     bot_reason = subreddit.mod.removal_reasons[0]
-    print(bot_reason.message)
-    return is_bad_interaction(
+    # print(bot_reason.message)
+    return bad_user_interaction(
         comment, f'u/{config["USERNAME"]}',
         bot_reason.id, 'User traded with bot'
     )
 
 
+def wrong_num_interact(comment):
+    num_reason = subreddit.mod.removal_reasons[3]
+    # print(num_reason.message)
+    text = comment.body.lower()
+    if text.count('u/') != 1:
+        comment.mod.remove(
+            reason_id=num_reason.id,
+            mod_note='User did not trade with exactly one user'
+        )
+        return True
+    else:
+        return False
+
+
 def bad_interaction(comment):
-    return self_interact(comment) or bot_interact(comment)
+    return self_interact(comment) \
+        or bot_interact(comment) \
+        or wrong_num_interact(comment)
 
 
 def bad_start(text):

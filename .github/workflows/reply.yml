@@ -1,12 +1,8 @@
 name: Reply To Flaired Posts
 
-# on:
-#   schedule:
-#     - cron: '30 */6 * * *'
-
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '30 */6 * * *'
 
 jobs:
   reply:
