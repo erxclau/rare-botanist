@@ -14,6 +14,12 @@ reddit, subreddit = utility.get_reddit(config)
 SALE = 'Bought from'
 TRADE = 'Traded with'
 
+reason_ids = config['REMOVAL_REASONS']
+removal_reasons = subreddit.mod.removal_reasons
+
+reasons = {
+    key : removal_reasons[reason_ids[key]] for key in reason_ids.keys()
+    }
 
 def bad_user_interaction(comment, namecheck, reason_id, mod_note):
     if namecheck.lower() in comment.body.lower():
@@ -27,8 +33,7 @@ def bad_user_interaction(comment, namecheck, reason_id, mod_note):
 
 
 def self_interact(comment):
-    self_reason = subreddit.mod.removal_reasons[1]
-    # print(self_reason.message)
+    self_reason = reasons['SELF_TRADE']
     return bad_user_interaction(
         comment, f'u/{comment.author.name}',
         self_reason.id, 'User traded with themselves'
@@ -36,8 +41,7 @@ def self_interact(comment):
 
 
 def bot_interact(comment):
-    bot_reason = subreddit.mod.removal_reasons[0]
-    # print(bot_reason.message)
+    bot_reason = reasons['BOT_TRADE']
     return bad_user_interaction(
         comment, f'u/{config["USERNAME"]}',
         bot_reason.id, 'User traded with bot'
@@ -45,8 +49,7 @@ def bot_interact(comment):
 
 
 def wrong_num_interact(comment):
-    num_reason = subreddit.mod.removal_reasons[3]
-    # print(num_reason.message)
+    num_reason = reasons['ONE_USER']
     text = comment.body.lower()
     if text.count('u/') != 1:
         comment.mod.remove(
@@ -71,7 +74,7 @@ def bad_start(text):
 def bad_format(comment):
     text = comment.body.lower()
     if bad_start(text) or 'u/' not in text:
-        format_reason = subreddit.mod.removal_reasons[2]
+        format_reason = reasons['FORMAT']
         comment.mod.remove(
             reason_id=format_reason.id,
             mod_note='User did not follow format'

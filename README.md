@@ -46,6 +46,7 @@ gpg --symmetric --cipher-algo AES256 config.json
     "REVIEW_FLAIR": "",
     "USER_FLAIRS": [],
     "POST_FLAIRS": [],
+    "REMOVAL_REASONS": {},
     "SUBREDDIT": "",
     "CUTOFF": ""
 }
@@ -58,6 +59,8 @@ gpg --symmetric --cipher-algo AES256 config.json
 `USER_FLAIRS` contains a list of Flair IDs associated with the flairs that users receive when they reach a certain number of validated interactions.
 
 `POST_FLAIRS` contains a list of Flair IDs associated with the flairs that users put on Buying, Selling, or Trading posts.
+
+`REMOVAL_REASONS` contains a dictionary of removal reason names and their IDs.
 
 `SUBREDDIT` is the name of the subreddit.
 
