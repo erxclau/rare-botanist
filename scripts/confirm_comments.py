@@ -21,11 +21,16 @@ reasons = {
     key : removal_reasons[reason_ids[key]] for key in reason_ids.keys()
     }
 
-def bad_user_interaction(comment, namecheck, reason_id, mod_note):
+def bad_user_interaction(comment, namecheck, reason, mod_note):
     if namecheck.lower() in comment.body.lower():
         comment.mod.remove(
-            reason_id=reason_id,
+            reason_id=reason.id,
             mod_note=mod_note
+        )
+        comment.mod.send_removal_message(
+            reason.message,
+            title=reason.title,
+            type='private'
         )
         return True
     else:
@@ -33,29 +38,33 @@ def bad_user_interaction(comment, namecheck, reason_id, mod_note):
 
 
 def self_interact(comment):
-    self_reason = reasons['SELF_TRADE']
     return bad_user_interaction(
         comment, f'u/{comment.author.name}',
-        self_reason.id, 'User traded with themselves'
+        reasons['SELF_TRADE'], 'User traded with themselves'
     )
 
 
 def bot_interact(comment):
-    bot_reason = reasons['BOT_TRADE']
     return bad_user_interaction(
         comment, f'u/{config["USERNAME"]}',
-        bot_reason.id, 'User traded with bot'
+        reasons['BOT_TRADE'], 'User traded with bot'
     )
 
 
 def wrong_num_interact(comment):
-    num_reason = reasons['ONE_USER']
     text = comment.body.lower()
     if text.count('u/') != 1:
+        num_reason = reasons['ONE_USER']
         comment.mod.remove(
             reason_id=num_reason.id,
             mod_note='User did not trade with exactly one user'
         )
+        reply = comment.mod.send_removal_message(
+            num_reason.message,
+            title=num_reason.title,
+            type='public'
+        )
+        reply.mod.lock()
         return True
     else:
         return False
@@ -79,6 +88,12 @@ def bad_format(comment):
             reason_id=format_reason.id,
             mod_note='User did not follow format'
         )
+        reply = comment.mod.send_removal_message(
+            format_reason.message,
+            title=format_reason.title,
+            type='public'
+        )
+        reply.mod.lock()
         return True
     else:
         return False
@@ -94,8 +109,7 @@ def append_comment_thread(parent):
 
 def generate_comment_list(thread):
     comments = list()
-    comment_filter = current_thread['CONFIRMED_TRADES']
-    comment_filter.extend(current_thread['REMOVED_COMMENTS'])
+    comment_filter = current_thread['CONFIRMED_TRADES'] + current_thread['REMOVED_COMMENTS']
 
     thread.comments.replace_more(limit=None)
     for top_level in thread.comments:
@@ -178,6 +192,7 @@ def update_interactions(text, parent_name, comment_name):
 def validate_trade(comment, parent):
     reply = comment.reply('Your review has been added.')
     reply.mod.lock()
+    print('here')
     current_thread['CONFIRMED_TRADES'].append(parent.id)
 
     text = parent.body.lower()
