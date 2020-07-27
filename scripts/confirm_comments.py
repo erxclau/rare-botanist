@@ -176,7 +176,7 @@ def update_interactions(text, parent_name, comment_name):
 
 
 def validate_trade(comment, parent):
-    reply = comment.reply('Added!')
+    reply = comment.reply('Your review has been added.')
     reply.mod.lock()
     current_thread['CONFIRMED_TRADES'].append(parent.id)
 

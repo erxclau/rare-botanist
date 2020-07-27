@@ -12,13 +12,22 @@ reddit, subreddit = utility.get_reddit(config)
 
 def create_review_thread():
     today = datetime.now()
-    thread_title = f"{today.strftime('%B %Y')} Confirmed Review Thread"
-    thread_text = """Post your confirmed trades below!
+    thread_title = f"Review Thread – {today.strftime('%B %Y')}"
+    thread_text = """To begin a trade or purchase review, format your comment as follows:
 
-Begin your comments either with 'Bought from' or 'Traded with'. If you don't, your comment will be deleted!
-Also include a `u/USERNAME` in your comment.
+- Bought from `u/username`
+- Traded with `u/username`
 
-When confirming a comment, only write 'Confirmed'."""
+Please limit your review comment to one `u/username` only. If your comment does not start with this specific format, it will be deleted.
+
+If you would like to include images in your review, add it AFTER the required format:
+
+- Bought from `u/username` https://imgur.com/gallery/0rlZIq3
+
+To confirm a trade or purchase, only reply with "Confirmed"
+
+^Please ^keep ^in ^mind ^that ^this ^is ^essentially ^a ^good/positive ^experience ^review ^thread. ^In ^the ^event ^there ^is ^a ^negative ^interaction, ^DM ^the ^moderators ^with ^your ^concerns.
+"""
 
     thread = subreddit.submit(
         thread_title,
