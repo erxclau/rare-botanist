@@ -18,8 +18,9 @@ reason_ids = config['REMOVAL_REASONS']
 removal_reasons = subreddit.mod.removal_reasons
 
 reasons = {
-    key : removal_reasons[reason_ids[key]] for key in reason_ids.keys()
-    }
+    key: removal_reasons[reason_ids[key]] for key in reason_ids.keys()
+}
+
 
 def bad_user_interaction(comment, namecheck, reason, mod_note):
     if namecheck.lower() in comment.body.lower():
@@ -109,7 +110,8 @@ def append_comment_thread(parent):
 
 def generate_comment_list(thread):
     comments = list()
-    comment_filter = current_thread['CONFIRMED_TRADES'] + current_thread['REMOVED_COMMENTS']
+    comment_filter = current_thread['CONFIRMED_TRADES'] + \
+        current_thread['REMOVED_COMMENTS']
 
     thread.comments.replace_more(limit=None)
     for top_level in thread.comments:
@@ -145,20 +147,24 @@ def is_confirmation_comment(comment):
     return not comment.is_root and 'confirmed' in comment.body.lower()
 
 
-def update_data_val(key, interaction):
+def update_data_val(key, link, interaction):
     secondary_key = 'sales' if interaction == SALE else 'trades'
     if not key in data:
         data[key] = {
             'sales': 1 if interaction == SALE else 0,
             'trades': 1 if interaction == TRADE else 0,
+            'history': list(),
             'update_flair': True
         }
     else:
         current = data[key]['sales'] + data[key]['trades']
         if current == 10 or current == 20 or current == 50:
             data[key]['update_flair'] = True
-        # TODO: What happens to flairs when people get trades removed?
         data[key][secondary_key] += 1
+    data[key]['history'].append({
+        'type': 'Sale' if interaction == SALE else 'Trade',
+        'link': f'https://www.reddit.com{link}'
+    })
 
 
 def update_flair(name):
@@ -177,16 +183,17 @@ def update_flair(name):
         data[name]['update_flair'] = False
 
 
-def update_interactions(text, parent_name, comment_name):
+def update_interactions(text, parent, comment):
+    link = parent.permalink
     if text.startswith(TRADE.lower()):
-        update_data_val(parent_name, TRADE)
-        update_data_val(comment_name, TRADE)
-        update_flair(parent_name)
+        update_data_val(parent.author.name, link, TRADE)
+        update_data_val(comment.author.name, link, TRADE)
+        update_flair(parent.author.name)
 
     elif text.startswith(SALE.lower()):
-        update_data_val(comment_name, SALE)
+        update_data_val(comment.author.name, link, SALE)
 
-    update_flair(comment_name)
+    update_flair(comment.author.name)
 
 
 def validate_trade(comment, parent):
@@ -196,10 +203,7 @@ def validate_trade(comment, parent):
 
     text = parent.body.lower()
 
-    parent_name = parent.author.name
-    comment_name = comment.author.name
-
-    update_interactions(text, parent_name, comment_name)
+    update_interactions(text, parent, comment)
 
 
 comments = list()

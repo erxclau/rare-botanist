@@ -1,1 +1,28 @@
-{}
+{
+  "rareBOTanist": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RHBST/comments/hzhs5k/review_thread_july_2020/fziyp4j/"
+      }
+    ],
+    "update_flair": false
+  },
+  "erxclau": {
+    "sales": 1,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RHBST/comments/hzhs5k/review_thread_july_2020/fziyp4j/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RHBST/comments/hzhs5k/review_thread_july_2020/fziypns/"
+      }
+    ],
+    "update_flair": false
+  }
+}
