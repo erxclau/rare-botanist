@@ -197,11 +197,14 @@ def update_interactions(text, parent, comment):
 
 
 def validate_trade(comment, parent):
-    reply = comment.reply('Your review has been added.')
+    text = parent.body.lower()
+
+    message = 'Your review has been added' if text.startswith(SALE.lower()) \
+        else f'A review has been added from u/{parent.author.name} and u/{comment.author.name}'
+
+    reply = comment.reply(message)
     reply.mod.lock()
     current_thread['CONFIRMED_TRADES'].append(parent.id)
-
-    text = parent.body.lower()
 
     update_interactions(text, parent, comment)
 

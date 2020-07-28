@@ -18,7 +18,7 @@ def create_review_thread():
 - Bought from `u/username`
 - Traded with `u/username`
 
-Please limit your review comment to one `u/username` only. If your comment does not start with this specific format, it will be deleted.
+Limit your review comment to one `u/username` only. If your comment does not start with this specific format, it will be deleted.
 
 If you would like to include images in your review, add it AFTER the required format:
 
@@ -26,7 +26,10 @@ If you would like to include images in your review, add it AFTER the required fo
 
 To confirm a trade or purchase, only reply with "Confirmed"
 
-^Please ^keep ^in ^mind ^that ^this ^is ^essentially ^a ^good/positive ^experience ^review ^thread. ^In ^the ^event ^there ^is ^a ^negative ^interaction, ^DM ^the ^moderators ^with ^your ^concerns.
+Things to note
+
+- Only one trade review is needed to document that a trade has occurred between two users. Both users will get a +1 trade in the user directory.
+- Please keep in mind that this is essentially a good/positive experience review thread. In the event there is a negative interaction, DM the moderators with your concerns.
 """
 
     thread = subreddit.submit(
