@@ -67,17 +67,19 @@ Reputation: {sales} sale(s) and {trades} trade(s)"""
         print('COULD NOT REPLY TO POST')
 
 
-for post in subreddit.stream.submissions(pause_after=0):
-    if time() - start >= 5 * HOUR + 58 * MINUTE:
-    # if time() - start >= 28 * MINUTE:
-        break
+try:
+    for post in subreddit.stream.submissions():
+        if time() - start >= 5 * HOUR + 55 * MINUTE:
+            break
 
-    if is_valid_post(post):
-        flair_id = get_flair_id(post)
+        if is_valid_post(post):
+            flair_id = get_flair_id(post)
 
-        if flair_id is not None and flair_id in config['POST_FLAIRS']:
-            reply_with_stats(post)
+            if flair_id is not None and flair_id in config['POST_FLAIRS']:
+                reply_with_stats(post)
 
-        archive_post(post.id)
+            archive_post(post.id)
+except:
+    print('STREAM ERROR')
 
 utility.write_json(reply_path, reply_data)
