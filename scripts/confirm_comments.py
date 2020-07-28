@@ -114,7 +114,7 @@ def generate_comment_list(thread):
     thread.comments.replace_more(limit=None)
     for top_level in thread.comments:
         if not top_level.id in comment_filter:
-            if bad_interaction(top_level) or bad_format(top_level):
+            if bad_format(top_level) or bad_interaction(top_level):
                 current_thread['REMOVED_COMMENTS'].append(top_level.id)
             else:
                 comments.extend(
@@ -192,7 +192,6 @@ def update_interactions(text, parent_name, comment_name):
 def validate_trade(comment, parent):
     reply = comment.reply('Your review has been added.')
     reply.mod.lock()
-    print('here')
     current_thread['CONFIRMED_TRADES'].append(parent.id)
 
     text = parent.body.lower()
