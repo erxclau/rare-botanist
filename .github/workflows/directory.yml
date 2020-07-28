@@ -1,0 +1,27 @@
+name: Update User Directory
+
+on:
+  schedule:
+    - cron: '5 0 * * *'
+
+jobs:
+  update:
+    name: Update user directory
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: github-actions
+    - name: Decrypt config.json
+      run: ./.github/scripts/decrypt.sh
+      env:
+        PASSPHRASE: ${{ secrets.PASSPHRASE }}
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+    - name: Run update_directory.py
+      run: python scripts/update_directory.py
