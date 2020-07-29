@@ -68,7 +68,7 @@ Reputation: {sales} sale(s) and {trades} trade(s)"""
 
 
 try:
-    for post in subreddit.stream.submissions():
+    for post in subreddit.stream.submissions(pause_after=5):
         if time() - start >= 5 * HOUR + 55 * MINUTE:
             break
 
