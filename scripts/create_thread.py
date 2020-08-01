@@ -24,7 +24,7 @@ If you would like to include images in your review, add it AFTER the required fo
 
 - Bought from `u/username` https://imgur.com/gallery/0rlZIq3
 
-To confirm a trade or purchase, only reply with "Confirmed"
+**To confirm a trade or purchase, only reply with "Confirmed"**
 
 Things to note
 
