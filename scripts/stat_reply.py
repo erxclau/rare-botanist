@@ -73,9 +73,14 @@ try:
             break
 
         if is_valid_post(post):
-            flair_id = get_flair_id(post)
+            fid = get_flair_id(post)
 
-            if flair_id is not None and flair_id in config['POST_FLAIRS']:
+            already_replied = False
+            for comment in post.comments:
+                if comment.author.name.lower() == config['USERNAME'].lower():
+                    already_replied = True
+
+            if fid is not None and fid in config['POST_FLAIRS'] and not already_replied:
                 reply_with_stats(post)
 
             archive_post(post.id)
