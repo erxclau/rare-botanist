@@ -1,5 +1,6 @@
 # Reddit API Configuration File
 config.json
+test-config.json
 
 # Python
 venv

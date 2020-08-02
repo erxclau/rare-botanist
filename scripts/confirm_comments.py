@@ -1,4 +1,5 @@
 from utl import utility
+from pprint import pprint
 
 config = utility.get_json("config.json")
 flair_tiers = config['USER_FLAIRS']
@@ -116,7 +117,7 @@ def generate_comment_list(thread):
     thread.comments.replace_more(limit=None)
     for top_level in thread.comments:
         if not top_level.id in comment_filter:
-            if bad_format(top_level) or bad_interaction(top_level):
+            if bad_format(top_level) or bad_interaction(top_level) or top_level.removed:
                 current_thread['REMOVED_COMMENTS'].append(top_level.id)
             else:
                 comments.extend(
@@ -200,7 +201,7 @@ def validate_trade(comment, parent):
     text = parent.body.lower()
 
     message = 'Your review has been added' if text.startswith(SALE.lower()) \
-        else f'A review has been added from u/{parent.author.name} and u/{comment.author.name}'
+        else f'A review has been added for u/{parent.author.name} and u/{comment.author.name}'
 
     reply = comment.reply(message)
     reply.mod.lock()
