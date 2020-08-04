@@ -53,7 +53,7 @@
   },
   "djdarhar": {
     "sales": 0,
-    "trades": 3,
+    "trades": 5,
     "history": [
       {
         "type": "Trade",
@@ -66,6 +66,14 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/i1iyag/review_thread_august_2020/g05pz8m/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/i1iyag/review_thread_august_2020/g01no2m/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/i1iyag/review_thread_august_2020/g01ne3k/"
       }
     ],
     "update_flair": false
@@ -87,11 +95,15 @@
   },
   "LillyFruit": {
     "sales": 0,
-    "trades": 1,
+    "trades": 2,
     "history": [
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/i1iyag/review_thread_august_2020/fzy5tph/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/i1iyag/review_thread_august_2020/fzy5y5f/"
       }
     ],
     "update_flair": false
@@ -158,6 +170,39 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/i1iyag/review_thread_august_2020/g05pz8m/"
+      }
+    ],
+    "update_flair": false
+  },
+  "TREEZ1E": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/i1iyag/review_thread_august_2020/g01no2m/"
+      }
+    ],
+    "update_flair": false
+  },
+  "avocado_chameleon": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/i1iyag/review_thread_august_2020/fzy5y5f/"
+      }
+    ],
+    "update_flair": false
+  },
+  "stamik2004": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/i1iyag/review_thread_august_2020/g01ne3k/"
       }
     ],
     "update_flair": false
