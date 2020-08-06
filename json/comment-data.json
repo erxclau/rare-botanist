@@ -202,7 +202,7 @@
   },
   "stamik2004": {
     "sales": 0,
-    "trades": 2,
+    "trades": 3,
     "history": [
       {
         "type": "Trade",
@@ -211,6 +211,21 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/i1iyag/review_thread_august_2020/g0gxzsk/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/i1iyag/review_thread_august_2020/g0m0wpg/"
+      }
+    ],
+    "update_flair": false
+  },
+  "ponceto": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/i1iyag/review_thread_august_2020/g0m0wpg/"
       }
     ],
     "update_flair": false
