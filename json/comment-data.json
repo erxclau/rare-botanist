@@ -233,5 +233,16 @@
       }
     ],
     "update_flair": false
+  },
+  "eternal-sunshine": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/i1iyag/review_thread_august_2020/g12fiph/"
+      }
+    ],
+    "update_flair": false
   }
 }
