@@ -1,5 +1,5 @@
 from utl import utility
-from pprint import pprint
+import re
 
 config = utility.get_json("config.json")
 flair_tiers = config['USER_FLAIRS']
@@ -12,8 +12,8 @@ data = utility.get_json(data_path)
 
 reddit, subreddit = utility.get_reddit(config)
 
-SALE = 'Bought from'
-TRADE = 'Traded with'
+SALE = 'Bought'
+TRADE = 'Traded'
 
 reason_ids = config['REMOVAL_REASONS']
 removal_reasons = subreddit.mod.removal_reasons
@@ -78,13 +78,15 @@ def bad_interaction(comment):
         or wrong_num_interact(comment)
 
 
-def bad_start(text):
-    return not (text.startswith(SALE.lower()) or text.startswith(TRADE.lower()))
+def bad_format_check(text):
+    sale_match = True if re.match(r'^bought \w+.+ from u\/\S+', text) is not None else False
+    trade_match = True if re.match(r'^traded \w+.+ with u\/\S+', text) is not None else False
+    return not (sale_match or trade_match)
 
 
 def bad_format(comment):
     text = comment.body.lower()
-    if bad_start(text) or 'u/' not in text:
+    if bad_format_check(text):
         format_reason = reasons['FORMAT']
         comment.mod.remove(
             reason_id=format_reason.id,
