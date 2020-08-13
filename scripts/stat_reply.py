@@ -5,7 +5,7 @@ from utl import utility
 
 start = time()
 
-config = utility.get_json("config.json")
+config = utility.get_json("test-config.json")
 
 reply_path = "reply-data.json"
 reply_data = utility.get_json(reply_path)

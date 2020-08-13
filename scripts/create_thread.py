@@ -2,7 +2,7 @@ from datetime import datetime
 
 from utl import utility
 
-config = utility.get_json("config.json")
+config = utility.get_json("test-config.json")
 
 thread_path = "current-thread.json"
 current = utility.get_json(thread_path)
@@ -13,16 +13,18 @@ reddit, subreddit = utility.get_reddit(config)
 def create_review_thread():
     today = datetime.now()
     thread_title = f"Review Thread – {today.strftime('%B %Y')}"
-    thread_text = """To begin a trade or purchase review, format your comment as follows:
+    thread_text = """**NEW UPDATE TO THE FORMAT: mention the plant traded (sent or received) or purchased in your review**
 
-- Bought from `u/username`
-- Traded with `u/username`
+To review a trade or purchase, format your comment as follows:
+
+- Bought anthurium crystallinum, hoya chelsea from `u/username`
+- Traded philodendron pink princess with `u/username`
 
 Limit your review comment to one `u/username` only. If your comment does not start with this specific format, it will be deleted.
 
 If you would like to include images in your review, add it AFTER the required format:
 
-- Bought from `u/username` https://imgur.com/gallery/0rlZIq3
+- Bought philodendron atabapoense from `u/username` https://imgur.com/gallery/0rlZIq3
 
 **To confirm a trade or purchase, only reply with "Confirmed"**
 
