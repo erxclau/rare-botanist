@@ -1,7 +1,7 @@
 from utl import utility
 from pprint import pprint
 
-config = utility.get_json("test-config.json")
+config = utility.get_json("config.json")
 flair_tiers = config['USER_FLAIRS']
 
 thread_path = "current-thread.json"

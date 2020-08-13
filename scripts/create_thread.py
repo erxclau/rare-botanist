@@ -2,7 +2,7 @@ from datetime import datetime
 
 from utl import utility
 
-config = utility.get_json("test-config.json")
+config = utility.get_json("config.json")
 
 thread_path = "current-thread.json"
 current = utility.get_json(thread_path)

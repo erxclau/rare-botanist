@@ -1,6 +1,6 @@
 from utl import utility
 
-config = utility.get_json("test-config.json")
+config = utility.get_json("config.json")
 data = utility.get_json('comment-data.json')
 
 reddit, subreddit = utility.get_reddit(config)

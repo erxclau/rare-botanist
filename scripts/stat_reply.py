@@ -5,7 +5,7 @@ from utl import utility
 
 start = time()
 
-config = utility.get_json("test-config.json")
+config = utility.get_json("config.json")
 
 reply_path = "reply-data.json"
 reply_data = utility.get_json(reply_path)
@@ -69,7 +69,7 @@ Reputation: {sales} sale(s) and {trades} trade(s)"""
 
 try:
     for post in subreddit.stream.submissions(pause_after=5):
-        if time() - start >= 5 * HOUR + 50 * MINUTE:
+        if time() - start >= 5 * HOUR + 45 * MINUTE:
             break
 
         if is_valid_post(post):
