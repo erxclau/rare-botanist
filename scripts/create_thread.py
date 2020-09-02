@@ -13,7 +13,7 @@ reddit, subreddit = utility.get_reddit(config)
 def create_review_thread():
     today = datetime.now()
     thread_title = f"Review Thread – {today.strftime('%B %Y')}"
-    thread_text = """**NEW UPDATE TO THE FORMAT: mention the plant traded (sent or received) or purchased in your review**
+    thread_text = """**Please read the required formatting carefully before posting your review comment.**
 
 To review a trade or purchase, format your comment as follows:
 

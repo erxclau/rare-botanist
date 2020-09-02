@@ -119,7 +119,7 @@ def generate_comment_list(thread):
     thread.comments.replace_more(limit=None)
     for top_level in thread.comments:
         if not top_level.id in comment_filter:
-            if bad_format(top_level) or bad_interaction(top_level) or top_level.removed:
+            if top_level.removed or bad_format(top_level) or bad_interaction(top_level):
                 current_thread['REMOVED_COMMENTS'].append(top_level.id)
             else:
                 comments.extend(
