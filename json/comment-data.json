@@ -621,5 +621,27 @@
       }
     ],
     "update_flair": false
+  },
+  "Josferatu": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g489rzd/"
+      }
+    ],
+    "update_flair": false
+  },
+  "muddbrudda": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g489rzd/"
+      }
+    ],
+    "update_flair": false
   }
 }
