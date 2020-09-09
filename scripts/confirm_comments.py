@@ -79,8 +79,8 @@ def bad_interaction(comment):
 
 
 def bad_format_check(text):
-    sale_match = True if re.match(r'^bought \w+.+ from u\/\S+', text) is not None else False
-    trade_match = True if re.match(r'^traded \w+.+ with u\/\S+', text) is not None else False
+    sale_match = True if re.match(r'^bought \w+.+ from \/?u\/\S+', text) is not None else False
+    trade_match = True if re.match(r'^traded \w+.+ with \/?u\/\S+', text) is not None else False
     return not (sale_match or trade_match)
 
 
