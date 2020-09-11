@@ -6,6 +6,7 @@ from utl import utility
 start = time()
 
 config = utility.get_json("config.json")
+bot_name = config['USERNAME'].lower()
 
 reply_path = "reply-data.json"
 reply_data = utility.get_json(reply_path)
@@ -18,6 +19,16 @@ SECOND = 1
 MINUTE = 60 * SECOND
 HOUR = 60 * MINUTE
 CUTOFF = datetime.strptime(config['CUTOFF'], '%Y-%m-%d')
+
+
+def already_replied(comments):
+    replied = False
+    for comment in comments:
+        author = comment.author
+        if author is not None and author.name.lower() == bot_name:
+            replied = True
+            break
+    return replied
 
 
 def is_valid_post(post):
@@ -75,16 +86,12 @@ try:
         if is_valid_post(post):
             fid = get_flair_id(post)
 
-            already_replied = False
-            for comment in post.comments:
-                if comment.author.name.lower() == config['USERNAME'].lower():
-                    already_replied = True
-
-            if fid is not None and fid in config['POST_FLAIRS'] and not already_replied:
-                reply_with_stats(post)
+            if fid is not None and fid in config['POST_FLAIRS']:
+                if not already_replied(post.comments):
+                    reply_with_stats(post)
 
             archive_post(post.id)
 except:
-    print('STREAM ERROR')
+    print("STREAM ERROR")
 
 utility.write_json(reply_path, reply_data)
