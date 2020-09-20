@@ -539,7 +539,7 @@
   },
   "silvia_mason": {
     "sales": 0,
-    "trades": 2,
+    "trades": 3,
     "history": [
       {
         "type": "Trade",
@@ -548,6 +548,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g51oer2/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g5o9h8e/"
       }
     ],
     "update_flair": false
@@ -924,6 +928,17 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g5tri3f/"
+      }
+    ],
+    "update_flair": false
+  },
+  "_xYargo": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g5o9h8e/"
       }
     ],
     "update_flair": false
