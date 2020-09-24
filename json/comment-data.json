@@ -716,7 +716,7 @@
   },
   "Josferatu": {
     "sales": 0,
-    "trades": 2,
+    "trades": 3,
     "history": [
       {
         "type": "Trade",
@@ -725,6 +725,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g4v3n7z/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g6dkkv8/"
       }
     ],
     "update_flair": false
@@ -852,7 +856,7 @@
     "update_flair": false
   },
   "IBelongInAKitchen": {
-    "sales": 1,
+    "sales": 2,
     "trades": 4,
     "history": [
       {
@@ -874,6 +878,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g5ufwo6/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g6fts5v/"
       }
     ],
     "update_flair": false
@@ -1005,12 +1013,27 @@
     "update_flair": false
   },
   "Jaded0521": {
-    "sales": 1,
+    "sales": 2,
     "trades": 0,
     "history": [
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g6d1x28/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g6glh4g/"
+      }
+    ],
+    "update_flair": false
+  },
+  "koddakji": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g6dkkv8/"
       }
     ],
     "update_flair": false
