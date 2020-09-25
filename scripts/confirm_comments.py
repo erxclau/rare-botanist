@@ -79,15 +79,17 @@ def bad_interaction(comment):
 
 
 def bad_format_check(text):
-    sale_match = True if re.match(r'^bought \w+.+ from \/?u\/\S+', text) is not None else False
-    trade_match = True if re.match(r'^traded \w+.+ with \/?u\/\S+', text) is not None else False
+    sale_regex = r'^bought \w+.+ from (\/?u\/\S+|\[\/?u\/\S+\]\(\S+\))'
+    trade_regex = r'^traded \w+.+ with (\/?u\/\S+|\[\/?u\/\S+\]\(\S+\))'
+
+    sale_match = re.match(sale_regex, text) is not None
+    trade_match = re.match(trade_regex, text) is not None
     return not (sale_match or trade_match)
 
 
 def bad_format(comment):
     text = comment.body.lower()
     if bad_format_check(text):
-        print(comment.id, text)
         format_reason = reasons['FORMAT']
         comment.mod.remove(
             reason_id=format_reason.id,
@@ -121,6 +123,7 @@ def generate_comment_list(thread):
     for top_level in thread.comments:
         if not top_level.id in comment_filter:
             if top_level.removed or bad_format(top_level) or bad_interaction(top_level):
+                print(top_level.id, top_level.body.lower())
                 current_thread['REMOVED_COMMENTS'].append(top_level.id)
             else:
                 comments.extend(
