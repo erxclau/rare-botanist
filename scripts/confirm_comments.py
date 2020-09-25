@@ -55,7 +55,8 @@ def bot_interact(comment):
 
 def wrong_num_interact(comment):
     text = comment.body.lower()
-    if text.count('u/') != 1:
+    user_match = re.findall(r'u\/\S+',text)
+    if len(user_match) != 1:
         num_reason = reasons['ONE_USER']
         comment.mod.remove(
             reason_id=num_reason.id,
