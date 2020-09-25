@@ -87,6 +87,7 @@ def bad_format_check(text):
 def bad_format(comment):
     text = comment.body.lower()
     if bad_format_check(text):
+        print(comment.id, text)
         format_reason = reasons['FORMAT']
         comment.mod.remove(
             reason_id=format_reason.id,
