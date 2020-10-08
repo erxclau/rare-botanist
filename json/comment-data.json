@@ -43,7 +43,7 @@
   },
   "Mau386": {
     "sales": 0,
-    "trades": 3,
+    "trades": 4,
     "history": [
       {
         "type": "Trade",
@@ -56,6 +56,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g5tri3f/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g85uetg/"
       }
     ],
     "update_flair": false
@@ -322,7 +326,7 @@
   },
   "stamik2004": {
     "sales": 1,
-    "trades": 9,
+    "trades": 10,
     "history": [
       {
         "type": "Trade",
@@ -363,6 +367,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g7xc7ep/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g85rtij/"
       }
     ],
     "update_flair": false
@@ -806,7 +814,7 @@
   },
   "jujubee9809": {
     "sales": 4,
-    "trades": 0,
+    "trades": 1,
     "history": [
       {
         "type": "Sale",
@@ -823,6 +831,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g76xeat/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g85rtij/"
       }
     ],
     "update_flair": false
@@ -1443,6 +1455,17 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g7b9fbv/"
+      }
+    ],
+    "update_flair": false
+  },
+  "jackiec66": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g85uetg/"
       }
     ],
     "update_flair": false
