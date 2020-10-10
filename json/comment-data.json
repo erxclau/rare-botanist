@@ -1481,5 +1481,31 @@
       }
     ],
     "update_flair": false
+  },
+  "deburke20": {
+    "sales": 1,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g89e4nn/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g8a3lq1/"
+      }
+    ],
+    "update_flair": false
+  },
+  "bibliobell": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g8a3lq1/"
+      }
+    ],
+    "update_flair": false
   }
 }
