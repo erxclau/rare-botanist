@@ -181,7 +181,7 @@
     "update_flair": false
   },
   "nefelibatabones": {
-    "sales": 0,
+    "sales": 1,
     "trades": 5,
     "history": [
       {
@@ -203,6 +203,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g7gjayl/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g8x2r9l/"
       }
     ],
     "update_flair": false
