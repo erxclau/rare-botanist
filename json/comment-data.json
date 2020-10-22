@@ -1557,5 +1557,27 @@
       }
     ],
     "update_flair": false
+  },
+  "sophisticatedraccoon": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g9hxvtn/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Mik178": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g9hxvtn/"
+      }
+    ],
+    "update_flair": false
   }
 }
