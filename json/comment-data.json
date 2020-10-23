@@ -43,7 +43,7 @@
   },
   "Mau386": {
     "sales": 1,
-    "trades": 4,
+    "trades": 5,
     "history": [
       {
         "type": "Trade",
@@ -64,6 +64,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g90y5e8/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g9polfm/"
       }
     ],
     "update_flair": false
@@ -835,11 +839,15 @@
   },
   "muddbrudda": {
     "sales": 0,
-    "trades": 1,
+    "trades": 2,
     "history": [
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g489rzd/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g9pwat0/"
       }
     ],
     "update_flair": false
@@ -1016,7 +1024,7 @@
   },
   "HypotheticalHoax": {
     "sales": 0,
-    "trades": 5,
+    "trades": 6,
     "history": [
       {
         "type": "Trade",
@@ -1037,6 +1045,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g8y3j6l/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g9polfm/"
       }
     ],
     "update_flair": false
@@ -1576,6 +1588,17 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g9hxvtn/"
+      }
+    ],
+    "update_flair": false
+  },
+  "torisatori": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g9pwat0/"
       }
     ],
     "update_flair": false
