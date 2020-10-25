@@ -55,7 +55,7 @@ def bot_interact(comment):
 
 def wrong_num_interact(comment):
     text = comment.body.lower()
-    user_match = re.findall(r'u\/\S+',text)
+    user_match = re.findall(r'u\/\S+', text)
     if len(user_match) != 1:
         num_reason = reasons['ONE_USER']
         comment.mod.remove(
@@ -86,6 +86,11 @@ def bad_format_check(text):
     sale_match = re.match(sale_regex, text) is not None
     trade_match = re.match(trade_regex, text) is not None
     return not (sale_match or trade_match)
+
+
+def is_deleted(comment):
+    text = comment.body.lower()
+    return '[deleted]' == text 
 
 
 def bad_format(comment):
@@ -123,7 +128,7 @@ def generate_comment_list(thread):
     thread.comments.replace_more(limit=None)
     for top_level in thread.comments:
         if not top_level.id in comment_filter:
-            if top_level.removed or bad_format(top_level) or bad_interaction(top_level):
+            if top_level.removed or is_deleted(top_level) or bad_format(top_level) or bad_interaction(top_level):
                 print(top_level.id, top_level.body.lower())
                 current_thread['REMOVED_COMMENTS'].append(top_level.id)
             else:
