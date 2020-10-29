@@ -174,7 +174,7 @@
     "update_flair": false
   },
   "LillyFruit": {
-    "sales": 0,
+    "sales": 1,
     "trades": 3,
     "history": [
       {
@@ -188,6 +188,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/i1iyag/review_thread_august_2020/g29ps83/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/gaaa6aj/"
       }
     ],
     "update_flair": false
@@ -346,7 +350,7 @@
   },
   "stamik2004": {
     "sales": 1,
-    "trades": 11,
+    "trades": 12,
     "history": [
       {
         "type": "Trade",
@@ -395,6 +399,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g8y3j6l/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g9jycr6/"
       }
     ],
     "update_flair": false
@@ -461,12 +469,16 @@
     "update_flair": false
   },
   "plantzarelyfe": {
-    "sales": 0,
+    "sales": 1,
     "trades": 1,
     "history": [
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/i1iyag/review_thread_august_2020/g15xmg0/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/gafnvsm/"
       }
     ],
     "update_flair": false
@@ -975,7 +987,7 @@
     "update_flair": false
   },
   "T3h_j0k3r": {
-    "sales": 0,
+    "sales": 1,
     "trades": 2,
     "history": [
       {
@@ -985,6 +997,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g4tl115/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g9l15w9/"
       }
     ],
     "update_flair": false
@@ -1157,7 +1173,7 @@
   },
   "MrTimothyPeebles": {
     "sales": 1,
-    "trades": 2,
+    "trades": 3,
     "history": [
       {
         "type": "Trade",
@@ -1170,6 +1186,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g9wutcy/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g9ta1m7/"
       }
     ],
     "update_flair": false
@@ -1548,12 +1568,16 @@
     "update_flair": false
   },
   "jackiec66": {
-    "sales": 0,
+    "sales": 1,
     "trades": 1,
     "history": [
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g85uetg/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g960b6l/"
       }
     ],
     "update_flair": false
@@ -1705,6 +1729,39 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/gaie89n/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Fermifighter": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g8tpap0/"
+      }
+    ],
+    "update_flair": false
+  },
+  "YogiMomma": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g9jycr6/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Complekz": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g9ta1m7/"
       }
     ],
     "update_flair": false
