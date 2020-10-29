@@ -526,7 +526,7 @@
   },
   "brosephines": {
     "sales": 4,
-    "trades": 1,
+    "trades": 2,
     "history": [
       {
         "type": "Sale",
@@ -547,6 +547,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g9d99zq/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/gaie89n/"
       }
     ],
     "update_flair": false
@@ -1690,6 +1694,17 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/ga8jxw0/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Terracotta_WarriorMN": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/gaie89n/"
       }
     ],
     "update_flair": false
