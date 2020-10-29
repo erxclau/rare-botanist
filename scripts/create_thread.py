@@ -31,7 +31,7 @@ If you would like to include images in your review, add it AFTER the required fo
 Things to note
 
 - **Only one trade review is needed to document that a trade has occurred between two users. Both users will get a +1 trade in the user directory.**
-- Please keep in mind that this is essentially a good/positive experience review thread. In the event there is a negative interaction, DM the moderators with your concerns.
+- Please keep in mind that this is essentially a good/positive experience review thread. In the event there is a negative interaction, please view “[Trades Gone Wrong](https://www.reddit.com/r/RareHouseplantsBST/wiki/exchangegonewrong)” for possible conflict resolutions and DM the moderators with your concerns.
 """
 
     thread = subreddit.submit(
