@@ -95,10 +95,11 @@ def validate_trade(comment, parent):
     update_interactions(text, parent, comment)
 
 
-child = reddit.comment(id="g8c9xsq")
+child = reddit.comment(id="gaimnl3")
 parent = get_parent(child)
 
 validate_trade(child, parent)
+child.mod.lock()
 lock_comment_thread(parent)
 
 utility.write_json(thread_path, current_thread)
