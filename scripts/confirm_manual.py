@@ -95,7 +95,7 @@ def validate_trade(comment, parent):
     update_interactions(text, parent, comment)
 
 
-child = reddit.comment(id="gaju5b1")
+child = reddit.comment(id="gakpq0n")
 parent = get_parent(child)
 
 validate_trade(child, parent)
