@@ -897,7 +897,7 @@
     "update_flair": false
   },
   "jujubee9809": {
-    "sales": 4,
+    "sales": 5,
     "trades": 1,
     "history": [
       {
@@ -919,6 +919,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g85rtij/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gariu9a/"
       }
     ],
     "update_flair": false
@@ -1444,12 +1448,16 @@
     "update_flair": false
   },
   "k8throneburg": {
-    "sales": 0,
+    "sales": 1,
     "trades": 1,
     "history": [
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g7behpx/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/garihqo/"
       }
     ],
     "update_flair": false
