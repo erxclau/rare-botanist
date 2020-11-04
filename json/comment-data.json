@@ -132,7 +132,7 @@
   },
   "dmc51086": {
     "sales": 0,
-    "trades": 10,
+    "trades": 11,
     "history": [
       {
         "type": "Trade",
@@ -173,6 +173,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g58vgc1/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gb23nmx/"
       }
     ],
     "update_flair": false
@@ -549,7 +553,7 @@
     "update_flair": false
   },
   "brosephines": {
-    "sales": 5,
+    "sales": 6,
     "trades": 4,
     "history": [
       {
@@ -587,6 +591,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gayp5h0/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gaz7vnp/"
       }
     ],
     "update_flair": false
@@ -812,7 +820,7 @@
   },
   "brandymacias": {
     "sales": 0,
-    "trades": 2,
+    "trades": 3,
     "history": [
       {
         "type": "Trade",
@@ -821,6 +829,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g5t5qno/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gb23nmx/"
       }
     ],
     "update_flair": false
