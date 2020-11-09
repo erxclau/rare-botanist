@@ -650,7 +650,7 @@
     "update_flair": false
   },
   "myrtlespurge": {
-    "sales": 1,
+    "sales": 3,
     "trades": 2,
     "history": [
       {
@@ -664,6 +664,14 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g7behpx/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gbqxlma/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gbrdr9o/"
       }
     ],
     "update_flair": false
