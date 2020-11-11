@@ -489,7 +489,7 @@
     "update_flair": false
   },
   "plantzarelyfe": {
-    "sales": 3,
+    "sales": 4,
     "trades": 1,
     "history": [
       {
@@ -507,6 +507,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gbthnnk/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gbvla67/"
       }
     ],
     "update_flair": false
