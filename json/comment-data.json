@@ -1967,5 +1967,16 @@
       }
     ],
     "update_flair": false
+  },
+  "besilica": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gby1w6c/"
+      }
+    ],
+    "update_flair": false
   }
 }
