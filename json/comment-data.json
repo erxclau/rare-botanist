@@ -190,7 +190,7 @@
     "update_flair": false
   },
   "LillyFruit": {
-    "sales": 1,
+    "sales": 2,
     "trades": 3,
     "history": [
       {
@@ -208,6 +208,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/gaaa6aj/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gc0cdcf/"
       }
     ],
     "update_flair": false
@@ -489,7 +493,7 @@
     "update_flair": false
   },
   "plantzarelyfe": {
-    "sales": 4,
+    "sales": 5,
     "trades": 1,
     "history": [
       {
@@ -511,6 +515,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gbvla67/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gc1blbf/"
       }
     ],
     "update_flair": false
@@ -1969,12 +1977,16 @@
     "update_flair": false
   },
   "besilica": {
-    "sales": 1,
+    "sales": 2,
     "trades": 0,
     "history": [
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gby1w6c/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gc0c2ph/"
       }
     ],
     "update_flair": false
