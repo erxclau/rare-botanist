@@ -585,7 +585,7 @@
     "update_flair": false
   },
   "brosephines": {
-    "sales": 11,
+    "sales": 12,
     "trades": 5,
     "history": [
       {
@@ -651,6 +651,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gc4dxun/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gc9l6no/"
       }
     ],
     "update_flair": false
