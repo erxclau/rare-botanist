@@ -2022,5 +2022,27 @@
       }
     ],
     "update_flair": false
+  },
+  "NeatoPetito": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gco7xxq/"
+      }
+    ],
+    "update_flair": false
+  },
+  "IamCaiusCosades": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gco7xxq/"
+      }
+    ],
+    "update_flair": false
   }
 }
