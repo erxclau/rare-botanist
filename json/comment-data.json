@@ -51,7 +51,7 @@
   },
   "Mau386": {
     "sales": 1,
-    "trades": 7,
+    "trades": 8,
     "history": [
       {
         "type": "Trade",
@@ -84,6 +84,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/gamip7x/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gcsacdx/"
       }
     ],
     "update_flair": false
@@ -586,7 +590,7 @@
   },
   "brosephines": {
     "sales": 12,
-    "trades": 5,
+    "trades": 6,
     "history": [
       {
         "type": "Sale",
@@ -655,6 +659,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gc9l6no/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gcsacdx/"
       }
     ],
     "update_flair": false
