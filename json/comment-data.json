@@ -291,7 +291,7 @@
   },
   "Pupsnplants4life": {
     "sales": 2,
-    "trades": 5,
+    "trades": 6,
     "history": [
       {
         "type": "Sale",
@@ -320,6 +320,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gc4dxun/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gbzx0vm/"
       }
     ],
     "update_flair": false
@@ -1112,7 +1116,7 @@
   },
   "T3h_j0k3r": {
     "sales": 1,
-    "trades": 2,
+    "trades": 3,
     "history": [
       {
         "type": "Trade",
@@ -1125,6 +1129,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/g9l15w9/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gbzx0vm/"
       }
     ],
     "update_flair": false
@@ -1497,7 +1505,7 @@
     "update_flair": false
   },
   "mitc_hellyea": {
-    "sales": 2,
+    "sales": 3,
     "trades": 1,
     "history": [
       {
@@ -1511,6 +1519,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/ga8jxw0/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gc0c94s/"
       }
     ],
     "update_flair": false
@@ -2099,6 +2111,21 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gd2nrl8/"
+      }
+    ],
+    "update_flair": false
+  },
+  "akitoandnimi": {
+    "sales": 2,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gca7407/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gcscpm1/"
       }
     ],
     "update_flair": false
