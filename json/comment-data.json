@@ -2207,5 +2207,16 @@
       }
     ],
     "update_flair": false
+  },
+  "hairystrawberry26": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gaxi0uy/"
+      }
+    ],
+    "update_flair": false
   }
 }
