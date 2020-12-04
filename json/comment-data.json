@@ -2106,7 +2106,7 @@
     "update_flair": false
   },
   "snowballcup": {
-    "sales": 2,
+    "sales": 3,
     "trades": 0,
     "history": [
       {
@@ -2116,6 +2116,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gdrple3/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/k49kdj/review_thread_december_2020/gehr2st/"
       }
     ],
     "update_flair": false
