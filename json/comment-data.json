@@ -276,7 +276,7 @@
   },
   "stellawheeze": {
     "sales": 1,
-    "trades": 3,
+    "trades": 4,
     "history": [
       {
         "type": "Trade",
@@ -293,6 +293,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/k49kdj/review_thread_december_2020/gefnb21/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/k49kdj/review_thread_december_2020/gejrnm2/"
       }
     ],
     "update_flair": false
@@ -2040,11 +2044,15 @@
   },
   "EveryVegetable5": {
     "sales": 0,
-    "trades": 1,
+    "trades": 2,
     "history": [
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gatp1be/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/k49kdj/review_thread_december_2020/gejrnm2/"
       }
     ],
     "update_flair": false
