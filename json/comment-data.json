@@ -16,7 +16,7 @@
   },
   "0430am": {
     "sales": 0,
-    "trades": 7,
+    "trades": 8,
     "history": [
       {
         "type": "Trade",
@@ -45,6 +45,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gbg63p6/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/k49kdj/review_thread_december_2020/gemjtxp/"
       }
     ],
     "update_flair": false
@@ -2298,6 +2302,17 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/k49kdj/review_thread_december_2020/gepqpsx/"
+      }
+    ],
+    "update_flair": false
+  },
+  "JesusGrewBegonias": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/k49kdj/review_thread_december_2020/gemjtxp/"
       }
     ],
     "update_flair": false
