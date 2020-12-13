@@ -2346,5 +2346,16 @@
       }
     ],
     "update_flair": false
+  },
+  "I_hate_garfield": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/k49kdj/review_thread_december_2020/gflfytt/"
+      }
+    ],
+    "update_flair": false
   }
 }
