@@ -1121,7 +1121,7 @@
   },
   "T3h_j0k3r": {
     "sales": 1,
-    "trades": 4,
+    "trades": 5,
     "history": [
       {
         "type": "Trade",
@@ -1142,6 +1142,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/k49kdj/review_thread_december_2020/geyedbk/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/k49kdj/review_thread_december_2020/gf043mh/"
       }
     ],
     "update_flair": false
@@ -2339,6 +2343,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/k49kdj/review_thread_december_2020/gflfytt/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Duke9000": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/k49kdj/review_thread_december_2020/gf043mh/"
       }
     ],
     "update_flair": false
