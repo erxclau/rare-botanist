@@ -678,7 +678,7 @@
   },
   "graniteboy69": {
     "sales": 2,
-    "trades": 2,
+    "trades": 3,
     "history": [
       {
         "type": "Sale",
@@ -695,6 +695,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gcye4rw/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ko1zl3/review_thread_january_2021/gklc65n/"
       }
     ],
     "update_flair": false
@@ -2392,6 +2396,17 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ko1zl3/review_thread_january_2021/gjr6aiv/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Steatopygian": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ko1zl3/review_thread_january_2021/gklc65n/"
       }
     ],
     "update_flair": false
