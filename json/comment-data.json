@@ -541,7 +541,7 @@
     "update_flair": false
   },
   "j33li": {
-    "sales": 2,
+    "sales": 3,
     "trades": 3,
     "history": [
       {
@@ -563,6 +563,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/ga86323/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ko1zl3/review_thread_january_2021/gkog9wn/"
       }
     ],
     "update_flair": false
