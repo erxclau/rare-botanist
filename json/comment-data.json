@@ -602,7 +602,7 @@
     "update_flair": false
   },
   "brosephines": {
-    "sales": 12,
+    "sales": 13,
     "trades": 6,
     "history": [
       {
@@ -676,6 +676,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gcsacdx/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ko1zl3/review_thread_january_2021/gl1lzvx/"
       }
     ],
     "update_flair": false
@@ -1891,7 +1895,7 @@
   },
   "torisatori": {
     "sales": 0,
-    "trades": 2,
+    "trades": 3,
     "history": [
       {
         "type": "Trade",
@@ -1900,6 +1904,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gcbzwtz/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ko1zl3/review_thread_january_2021/gkxvs9t/"
       }
     ],
     "update_flair": false
@@ -2411,6 +2419,17 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ko1zl3/review_thread_january_2021/gklc65n/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Seahorses_4ever": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ko1zl3/review_thread_january_2021/gkxvs9t/"
       }
     ],
     "update_flair": false
