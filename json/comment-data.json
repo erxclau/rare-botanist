@@ -808,7 +808,7 @@
   },
   "silvia_mason": {
     "sales": 0,
-    "trades": 6,
+    "trades": 7,
     "history": [
       {
         "type": "Trade",
@@ -833,6 +833,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ko1zl3/review_thread_january_2021/gj5ctnp/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/l9qmo5/review_thread_february_2021/glkqsd3/"
       }
     ],
     "update_flair": false
@@ -2400,11 +2404,15 @@
   },
   "lauralworden": {
     "sales": 0,
-    "trades": 1,
+    "trades": 2,
     "history": [
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ko1zl3/review_thread_january_2021/gj5ctnp/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/l9qmo5/review_thread_february_2021/glkqsd3/"
       }
     ],
     "update_flair": false
