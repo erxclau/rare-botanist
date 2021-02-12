@@ -16,7 +16,7 @@
   },
   "0430am": {
     "sales": 0,
-    "trades": 8,
+    "trades": 9,
     "history": [
       {
         "type": "Trade",
@@ -49,6 +49,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/k49kdj/review_thread_december_2020/gemjtxp/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/l9qmo5/review_thread_february_2021/gn012d5/"
       }
     ],
     "update_flair": false
@@ -2504,6 +2508,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/j2yge6/review_thread_october_2020/ganoj6k/"
+      }
+    ],
+    "update_flair": false
+  },
+  "mother_of_plecos": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/l9qmo5/review_thread_february_2021/gn012d5/"
       }
     ],
     "update_flair": false
