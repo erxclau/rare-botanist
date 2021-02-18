@@ -16,7 +16,7 @@
   },
   "0430am": {
     "sales": 0,
-    "trades": 9,
+    "trades": 10,
     "history": [
       {
         "type": "Trade",
@@ -53,6 +53,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/l9qmo5/review_thread_february_2021/gn012d5/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/l9qmo5/review_thread_february_2021/gny112r/"
       }
     ],
     "update_flair": false
@@ -615,7 +619,7 @@
   },
   "brosephines": {
     "sales": 16,
-    "trades": 6,
+    "trades": 7,
     "history": [
       {
         "type": "Sale",
@@ -704,6 +708,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/l9qmo5/review_thread_february_2021/gmmtpj0/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/l9qmo5/review_thread_february_2021/gny112r/"
       }
     ],
     "update_flair": false
