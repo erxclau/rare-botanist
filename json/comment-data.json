@@ -2602,5 +2602,27 @@
       }
     ],
     "update_flair": false
+  },
+  "hoyabackgirl": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gptskw6/"
+      }
+    ],
+    "update_flair": false
+  },
+  "motherofhouseplants": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gptskw6/"
+      }
+    ],
+    "update_flair": false
   }
 }
