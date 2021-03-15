@@ -210,7 +210,7 @@ def update_interactions(text, parent, comment):
 
 
 def validate_trade(comment, parent):
-    text = parent.body.lower()
+    text = parent.body.lower().strip()
 
     message = 'Your review has been added' if text.startswith(SALE.lower()) \
         else f'A review has been added for u/{parent.author.name} and u/{comment.author.name}'
