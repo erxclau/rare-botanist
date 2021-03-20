@@ -1,6 +1,6 @@
 {
   "proudplantfather": {
-    "sales": 4,
+    "sales": 5,
     "trades": 0,
     "history": [
       {
@@ -18,6 +18,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/l9qmo5/review_thread_february_2021/gongb6h/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/grdesjo/"
       }
     ],
     "update_flair": false
