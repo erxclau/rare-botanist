@@ -28,7 +28,7 @@
   },
   "0430am": {
     "sales": 0,
-    "trades": 12,
+    "trades": 14,
     "history": [
       {
         "type": "Trade",
@@ -77,6 +77,14 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gs39s6l/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gs90jgr/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gs90vtc/"
       }
     ],
     "update_flair": false
@@ -1991,7 +1999,7 @@
   },
   "torisatori": {
     "sales": 0,
-    "trades": 5,
+    "trades": 6,
     "history": [
       {
         "type": "Trade",
@@ -2012,6 +2020,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/l9qmo5/review_thread_february_2021/gp0jhf9/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gsav3qt/"
       }
     ],
     "update_flair": false
@@ -2738,6 +2750,39 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gs0a9g1/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Rossy1980": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gsav3qt/"
+      }
+    ],
+    "update_flair": false
+  },
+  "MrNekoCase": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gs90jgr/"
+      }
+    ],
+    "update_flair": false
+  },
+  "monster_monstera": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gs90vtc/"
       }
     ],
     "update_flair": false
