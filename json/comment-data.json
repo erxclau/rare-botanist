@@ -2832,5 +2832,27 @@
       }
     ],
     "update_flair": false
+  },
+  "my_unique_username01": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gs6annn/"
+      }
+    ],
+    "update_flair": false
+  },
+  "ellllipsis": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gs6annn/"
+      }
+    ],
+    "update_flair": false
   }
 }
