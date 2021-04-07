@@ -2854,5 +2854,27 @@
       }
     ],
     "update_flair": false
+  },
+  "HipHopSpaceBop": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/mhlt07/review_thread_april_2021/gtiui77/"
+      }
+    ],
+    "update_flair": false
+  },
+  "ydnic44": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/mhlt07/review_thread_april_2021/gtiui77/"
+      }
+    ],
+    "update_flair": false
   }
 }
