@@ -3013,5 +3013,27 @@
       }
     ],
     "update_flair": false
+  },
+  "Indoorplantjunkie": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/mhlt07/review_thread_april_2021/gujux35/"
+      }
+    ],
+    "update_flair": false
+  },
+  "raelovesplants": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/mhlt07/review_thread_april_2021/gujux35/"
+      }
+    ],
+    "update_flair": false
   }
 }
