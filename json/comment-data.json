@@ -2230,7 +2230,7 @@
     "update_flair": false
   },
   "_preposterously": {
-    "sales": 1,
+    "sales": 2,
     "trades": 2,
     "history": [
       {
@@ -2244,6 +2244,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/mhlt07/review_thread_april_2021/gw3i7ve/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/n26vgg/review_thread_may_2021/gwu5wjm/"
       }
     ],
     "update_flair": false
