@@ -28,7 +28,7 @@
   },
   "0430am": {
     "sales": 0,
-    "trades": 14,
+    "trades": 15,
     "history": [
       {
         "type": "Trade",
@@ -85,6 +85,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gs90vtc/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/n26vgg/review_thread_may_2021/gx1irh5/"
       }
     ],
     "update_flair": false
@@ -3173,6 +3177,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/n26vgg/review_thread_may_2021/gwi5u12/"
+      }
+    ],
+    "update_flair": false
+  },
+  "reesa447": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/n26vgg/review_thread_may_2021/gx1irh5/"
       }
     ],
     "update_flair": false
