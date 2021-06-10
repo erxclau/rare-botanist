@@ -682,7 +682,7 @@
     "update_flair": false
   },
   "brosephines": {
-    "sales": 17,
+    "sales": 18,
     "trades": 11,
     "history": [
       {
@@ -796,6 +796,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h0pg39v/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h1ay6bf/"
       }
     ],
     "update_flair": false
@@ -1877,7 +1881,7 @@
     "update_flair": false
   },
   "marik_ooo": {
-    "sales": 5,
+    "sales": 6,
     "trades": 2,
     "history": [
       {
@@ -1907,6 +1911,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h0yiwhl/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h1cc66r/"
       }
     ],
     "update_flair": false
@@ -3169,7 +3177,7 @@
   },
   "Trippydudes": {
     "sales": 0,
-    "trades": 3,
+    "trades": 4,
     "history": [
       {
         "type": "Trade",
@@ -3182,6 +3190,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/mhlt07/review_thread_april_2021/gw8tl43/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h1aevs5/"
       }
     ],
     "update_flair": false
@@ -3456,6 +3468,32 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h0no19i/"
+      }
+    ],
+    "update_flair": false
+  },
+  "sweetestpart": {
+    "sales": 0,
+    "trades": 2,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h1aevs5/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h1aeqw9/"
+      }
+    ],
+    "update_flair": false
+  },
+  "paymewithworship": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h1aeqw9/"
       }
     ],
     "update_flair": false
