@@ -28,7 +28,7 @@
   },
   "0430am": {
     "sales": 0,
-    "trades": 17,
+    "trades": 18,
     "history": [
       {
         "type": "Trade",
@@ -97,6 +97,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/n26vgg/review_thread_may_2021/gy30cuf/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h1iwstb/"
       }
     ],
     "update_flair": false
@@ -1002,7 +1006,7 @@
   },
   "Jlscatena": {
     "sales": 0,
-    "trades": 2,
+    "trades": 3,
     "history": [
       {
         "type": "Trade",
@@ -1011,6 +1015,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g44rcoq/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h12ktvd/"
       }
     ],
     "update_flair": false
@@ -3430,11 +3438,19 @@
   },
   "LunarMo0": {
     "sales": 0,
-    "trades": 1,
+    "trades": 3,
     "history": [
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h0d6aex/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h1iwstb/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h12ktvd/"
       }
     ],
     "update_flair": false
