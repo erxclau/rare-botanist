@@ -2225,7 +2225,7 @@
   },
   "Terracotta_WarriorMN": {
     "sales": 0,
-    "trades": 7,
+    "trades": 8,
     "history": [
       {
         "type": "Trade",
@@ -2254,6 +2254,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h0no19i/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h0ywj6h/"
       }
     ],
     "update_flair": false
@@ -2831,7 +2835,7 @@
   },
   "bitchola": {
     "sales": 0,
-    "trades": 2,
+    "trades": 3,
     "history": [
       {
         "type": "Trade",
@@ -2840,6 +2844,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gr7atws/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h0ywj6h/"
       }
     ],
     "update_flair": false
