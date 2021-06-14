@@ -3585,5 +3585,27 @@
       }
     ],
     "update_flair": false
+  },
+  "apke85": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h1m8btg/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Jdlaine": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h1m8btg/"
+      }
+    ],
+    "update_flair": false
   }
 }
