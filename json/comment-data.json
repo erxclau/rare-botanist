@@ -3935,5 +3935,16 @@
       }
     ],
     "update_flair": false
+  },
+  "SgtGrumbles007": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h31uf4x/"
+      }
+    ],
+    "update_flair": false
   }
 }
