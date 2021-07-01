@@ -1362,7 +1362,7 @@
     "update_flair": false
   },
   "gimpm3": {
-    "sales": 0,
+    "sales": 1,
     "trades": 5,
     "history": [
       {
@@ -1384,6 +1384,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/n26vgg/review_thread_may_2021/gzv1a58/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h3n9civ/"
       }
     ],
     "update_flair": false
