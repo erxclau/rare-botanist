@@ -274,7 +274,7 @@
     "update_flair": false
   },
   "nefelibatabones": {
-    "sales": 1,
+    "sales": 2,
     "trades": 7,
     "history": [
       {
@@ -308,6 +308,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/jltd40/review_thread_november_2020/gclmseh/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h42lmdy/"
       }
     ],
     "update_flair": false
@@ -4027,6 +4031,28 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h3v39ml/"
+      }
+    ],
+    "update_flair": false
+  },
+  "countryrootsplants": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h42d9q1/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Boo_Radleys_Hambone": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h42leyu/"
       }
     ],
     "update_flair": false
