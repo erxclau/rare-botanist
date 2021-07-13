@@ -3156,7 +3156,7 @@
     "update_flair": false
   },
   "MurderSheRead": {
-    "sales": 0,
+    "sales": 1,
     "trades": 8,
     "history": [
       {
@@ -3190,6 +3190,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h2w0bkr/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h4zp0zl/"
       }
     ],
     "update_flair": false
