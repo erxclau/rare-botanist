@@ -3914,12 +3914,16 @@
     "update_flair": false
   },
   "stripelesszebra11": {
-    "sales": 1,
+    "sales": 2,
     "trades": 0,
     "history": [
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h2kejsx/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h569f5p/"
       }
     ],
     "update_flair": false
@@ -4183,6 +4187,17 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h4xk0if/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Livid-Ad-9402": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h56v5sz/"
       }
     ],
     "update_flair": false
