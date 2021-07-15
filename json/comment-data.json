@@ -28,7 +28,7 @@
   },
   "0430am": {
     "sales": 0,
-    "trades": 20,
+    "trades": 21,
     "history": [
       {
         "type": "Trade",
@@ -109,6 +109,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h1kkcpy/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h5a8a7u/"
       }
     ],
     "update_flair": false
@@ -3878,7 +3882,7 @@
   },
   "TheRealWaterRock": {
     "sales": 1,
-    "trades": 1,
+    "trades": 2,
     "history": [
       {
         "type": "Sale",
@@ -3887,6 +3891,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h2wpjqe/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h5a8a7u/"
       }
     ],
     "update_flair": false
@@ -4092,7 +4100,7 @@
     "update_flair": false
   },
   "countryrootsplants": {
-    "sales": 3,
+    "sales": 4,
     "trades": 0,
     "history": [
       {
@@ -4106,6 +4114,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h4nctsd/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h5c2578/"
       }
     ],
     "update_flair": false
@@ -4198,6 +4210,28 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h56v5sz/"
+      }
+    ],
+    "update_flair": false
+  },
+  "lunipertree": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h58bt9e/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Tommygunz20": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h58bt9e/"
       }
     ],
     "update_flair": false
