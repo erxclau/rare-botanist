@@ -4367,5 +4367,27 @@
       }
     ],
     "update_flair": false
+  },
+  "tachibakku": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h6a0nsv/"
+      }
+    ],
+    "update_flair": false
+  },
+  "souptrades": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h6a7y0b/"
+      }
+    ],
+    "update_flair": false
   }
 }
