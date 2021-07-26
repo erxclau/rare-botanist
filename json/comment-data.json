@@ -4409,5 +4409,27 @@
       }
     ],
     "update_flair": false
+  },
+  "AlaskaFI": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h6jnp5j/"
+      }
+    ],
+    "update_flair": false
+  },
+  "No-Two4794": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h6jnp5j/"
+      }
+    ],
+    "update_flair": false
   }
 }
