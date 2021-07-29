@@ -718,7 +718,7 @@
     "update_flair": false
   },
   "brosephines": {
-    "sales": 20,
+    "sales": 21,
     "trades": 11,
     "history": [
       {
@@ -844,6 +844,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h5phe5y/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h6zqcma/"
       }
     ],
     "update_flair": false
@@ -3061,7 +3065,7 @@
     "update_flair": false
   },
   "sb_58": {
-    "sales": 4,
+    "sales": 5,
     "trades": 2,
     "history": [
       {
@@ -3087,6 +3091,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h3rbcyh/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h6w9uxx/"
       }
     ],
     "update_flair": false
@@ -3346,7 +3354,7 @@
   },
   "ExtraVirginSnakeOil": {
     "sales": 0,
-    "trades": 2,
+    "trades": 3,
     "history": [
       {
         "type": "Trade",
@@ -3355,6 +3363,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/mhlt07/review_thread_april_2021/gtxxlid/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h6znzql/"
       }
     ],
     "update_flair": false
@@ -4443,6 +4455,17 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h674cqg/"
+      }
+    ],
+    "update_flair": false
+  },
+  "mugwumps": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h6znzql/"
       }
     ],
     "update_flair": false
