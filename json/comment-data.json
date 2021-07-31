@@ -718,7 +718,7 @@
     "update_flair": false
   },
   "brosephines": {
-    "sales": 21,
+    "sales": 22,
     "trades": 11,
     "history": [
       {
@@ -848,6 +848,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h6zqcma/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h7507n7/"
       }
     ],
     "update_flair": false
