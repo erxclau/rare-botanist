@@ -321,7 +321,7 @@
     "update_flair": false
   },
   "Sheesh19": {
-    "sales": 2,
+    "sales": 3,
     "trades": 2,
     "history": [
       {
@@ -339,6 +339,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h5jojv8/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h7a61ft/"
       }
     ],
     "update_flair": false
@@ -2448,7 +2452,7 @@
   },
   "peelshe": {
     "sales": 0,
-    "trades": 4,
+    "trades": 5,
     "history": [
       {
         "type": "Trade",
@@ -2465,6 +2469,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h2a332n/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h7g7xfk/"
       }
     ],
     "update_flair": false
@@ -4486,6 +4494,39 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h6znzql/"
+      }
+    ],
+    "update_flair": false
+  },
+  "peeapeepeeapee": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h7g7xfk/"
+      }
+    ],
+    "update_flair": false
+  },
+  "atrofeed": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h7fejcv/"
+      }
+    ],
+    "update_flair": false
+  },
+  "g_mick": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h7fejcv/"
       }
     ],
     "update_flair": false
