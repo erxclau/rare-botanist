@@ -1963,7 +1963,7 @@
     "update_flair": false
   },
   "Plantabook": {
-    "sales": 6,
+    "sales": 7,
     "trades": 3,
     "history": [
       {
@@ -2001,6 +2001,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h7qrt0m/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h7v1a7p/"
       }
     ],
     "update_flair": false
