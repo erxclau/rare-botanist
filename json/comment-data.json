@@ -4100,7 +4100,7 @@
     "update_flair": false
   },
   "Sanchita_fulanita": {
-    "sales": 0,
+    "sales": 1,
     "trades": 2,
     "history": [
       {
@@ -4110,6 +4110,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h7i16k2/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h82eqwb/"
       }
     ],
     "update_flair": false
@@ -4486,12 +4490,16 @@
     "update_flair": false
   },
   "HerculestheHam": {
-    "sales": 0,
+    "sales": 1,
     "trades": 1,
     "history": [
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h62zjr2/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h7vs9po/"
       }
     ],
     "update_flair": false
@@ -4643,6 +4651,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h7yc1qs/"
+      }
+    ],
+    "update_flair": false
+  },
+  "thru_the_erlen_flask": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h832gd8/"
       }
     ],
     "update_flair": false

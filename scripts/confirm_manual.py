@@ -11,7 +11,7 @@ data = utility.get_json(data_path)
 
 reddit, subreddit = utility.get_reddit(config)
 
-SALE = 'Bought'
+SALE = 'Purchased'
 TRADE = 'Traded'
 
 
@@ -95,7 +95,7 @@ def validate_trade(comment, parent):
     update_interactions(text, parent, comment)
 
 
-child = reddit.comment(id="h62a1lj")
+child = reddit.comment(id="h83o6r5")
 parent = get_parent(child)
 
 validate_trade(child, parent)
