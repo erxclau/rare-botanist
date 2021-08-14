@@ -11,3 +11,6 @@ __pycache__
 
 # One-off scripts
 scripts/change_username.py
+
+# macOS 
+.DS_Store
