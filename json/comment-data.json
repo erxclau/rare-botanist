@@ -2270,7 +2270,7 @@
     "update_flair": false
   },
   "shelasher": {
-    "sales": 6,
+    "sales": 8,
     "trades": 0,
     "history": [
       {
@@ -2296,6 +2296,14 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h9fi6no/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h9okgfc/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h9qpfsh/"
       }
     ],
     "update_flair": false
