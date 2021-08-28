@@ -4540,7 +4540,7 @@
     "update_flair": false
   },
   "Livid-Ad-9402": {
-    "sales": 2,
+    "sales": 3,
     "trades": 0,
     "history": [
       {
@@ -4550,6 +4550,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h799r47/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/haqbpcw/"
       }
     ],
     "update_flair": false
