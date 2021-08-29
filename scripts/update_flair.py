@@ -1,4 +1,4 @@
-from utl import utility 
+from utl import utility
 
 config = utility.get_json("config.json")
 flair_tiers = config['USER_FLAIRS']

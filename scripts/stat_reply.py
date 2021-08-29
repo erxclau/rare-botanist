@@ -35,7 +35,7 @@ def is_valid_post(post):
     if post is not None:
         creation = datetime.fromtimestamp(post.created_utc)
 
-        if creation > CUTOFF and not post.id in reply_data['POSTS']:
+        if creation > CUTOFF and post.id not in reply_data['POSTS']:
             return True
     return False
 
@@ -74,7 +74,7 @@ Join date: {creation_date.isoformat().replace('T', ' ')}
 Reputation: {sales} sale(s) and {trades} trade(s)"""
     try:
         post.reply(reply)
-    except:
+    except Exception:
         print('COULD NOT REPLY TO POST')
 
 
@@ -91,7 +91,7 @@ try:
                     reply_with_stats(post)
 
             archive_post(post.id)
-except:
+except Exception:
     print("STREAM ERROR")
 
 utility.write_json(reply_path, reply_data)

@@ -1,13 +1,14 @@
 from utl import utility
+from os import path
 
 config = utility.get_json("config.json")
 data = utility.get_json('comment-data.json')
 
 reddit, subreddit = utility.get_reddit(config)
 
-content = '''This is a comprehensive list of everyone who has traded and/or sold on r/RareHouseplantsBST.
-Use Ctrl + F to find `u/username`.
-'''
+file = path.dirname(path.abspath(__file__))
+
+content = open(f"{file}/../userdir.txt").read()
 
 table_header = '''|Type|Comments|
 |:---:|:---|

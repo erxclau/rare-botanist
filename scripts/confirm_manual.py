@@ -1,4 +1,4 @@
-from utl import utility 
+from utl import utility
 
 config = utility.get_json("config.json")
 flair_tiers = config['USER_FLAIRS']
@@ -35,7 +35,7 @@ def lock_comment_thread(parent):
 
 def update_data_val(key, link, interaction):
     secondary_key = 'sales' if interaction == SALE else 'trades'
-    if not key in data:
+    if key not in data:
         data[key] = {
             'sales': 1 if interaction == SALE else 0,
             'trades': 1 if interaction == TRADE else 0,
@@ -85,8 +85,11 @@ def update_interactions(text, parent, comment):
 def validate_trade(comment, parent):
     text = parent.body.lower().strip()
 
+    pname = parent.author.name
+    cname = comment.author.name
+
     message = 'Your review has been added' if text.startswith(SALE.lower()) \
-        else f'A review has been added for u/{parent.author.name} and u/{comment.author.name}'
+        else f'A review has been added for u/{pname} and u/{cname}'
 
     reply = comment.reply(message)
     reply.mod.lock()

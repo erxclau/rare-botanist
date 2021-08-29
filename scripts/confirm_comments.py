@@ -73,7 +73,7 @@ def wrong_num_interact(comment):
         return False
 
 
-def bad_interaction(comment):
+def bad_interact(comment):
     return self_interact(comment) \
         or bot_interact(comment) \
         or wrong_num_interact(comment)
@@ -90,7 +90,7 @@ def bad_format_check(text):
 
 def is_deleted(comment):
     text = comment.body.lower()
-    return '[deleted]' == text 
+    return '[deleted]' == text
 
 
 def bad_format(comment):
@@ -126,14 +126,14 @@ def generate_comment_list(thread):
         current_thread['REMOVED_COMMENTS']
 
     thread.comments.replace_more(limit=None)
-    for top_level in thread.comments:
-        if not top_level.id in comment_filter:
-            if top_level.removed or is_deleted(top_level) or bad_format(top_level) or bad_interaction(top_level):
-                print(top_level.id, top_level.body.lower())
-                current_thread['REMOVED_COMMENTS'].append(top_level.id)
+    for c in thread.comments:
+        if c.id not in comment_filter:
+            if c.removed or is_deleted(c) or bad_format(c) or bad_interact(c):
+                print(c.id, c.body.lower())
+                current_thread['REMOVED_COMMENTS'].append(c.id)
             else:
                 comments.extend(
-                    append_comment_thread(top_level)
+                    append_comment_thread(c)
                 )
     return comments
 
@@ -162,7 +162,7 @@ def is_confirmation_comment(comment):
 
 def update_data_val(key, link, interaction):
     secondary_key = 'sales' if interaction == SALE else 'trades'
-    if not key in data:
+    if key not in data:
         data[key] = {
             'sales': 1 if interaction == SALE else 0,
             'trades': 1 if interaction == TRADE else 0,
@@ -212,8 +212,11 @@ def update_interactions(text, parent, comment):
 def validate_trade(comment, parent):
     text = parent.body.lower().strip()
 
+    pname = parent.author.name
+    cname = comment.author.name
+
     message = 'Your review has been added' if text.startswith(SALE.lower()) \
-        else f'A review has been added for u/{parent.author.name} and u/{comment.author.name}'
+        else f'A review has been added for u/{pname} and u/{cname}'
 
     reply = comment.reply(message)
     reply.mod.lock()
@@ -232,7 +235,7 @@ for comment in comments:
     if is_confirmation_comment(comment):
         parent = get_parent(comment)
         if f'u/{comment.author.name}'.lower() in parent.body.lower():
-            if not comment in locked_comments:
+            if comment not in locked_comments:
                 validate_trade(comment, parent)
                 locked_comments.extend(
                     lock_comment_thread(parent)
