@@ -734,7 +734,7 @@
     "update_flair": false
   },
   "brosephines": {
-    "sales": 27,
+    "sales": 28,
     "trades": 11,
     "history": [
       {
@@ -888,6 +888,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/hadbzao/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/habgwlv/"
       }
     ],
     "update_flair": false
@@ -3846,7 +3850,7 @@
   },
   "LunarMo0": {
     "sales": 0,
-    "trades": 3,
+    "trades": 4,
     "history": [
       {
         "type": "Trade",
@@ -3859,6 +3863,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h12ktvd/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/ha7rvqa/"
       }
     ],
     "update_flair": false
@@ -4084,7 +4092,7 @@
     "update_flair": false
   },
   "kyyl1": {
-    "sales": 2,
+    "sales": 3,
     "trades": 4,
     "history": [
       {
@@ -4110,6 +4118,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/hakgwc5/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/haj67qa/"
       }
     ],
     "update_flair": false
@@ -4981,6 +4993,28 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/habmru5/"
+      }
+    ],
+    "update_flair": false
+  },
+  "KSen01": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/ha7rvqa/"
+      }
+    ],
+    "update_flair": false
+  },
+  "hanaya0120": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/haqbz4e/"
       }
     ],
     "update_flair": false
