@@ -1,7 +1,7 @@
 from utl import utility
 
 config = utility.get_json("config.json")
-flair_tiers = config['USER_FLAIRS']
+flair_tiers = config["USER_FLAIRS"]
 
 thread_path = "current-thread.json"
 current_thread = utility.get_json(thread_path)
@@ -11,8 +11,8 @@ data = utility.get_json(data_path)
 
 reddit, subreddit = utility.get_reddit(config)
 
-SALE = 'Bought'
-TRADE = 'Traded'
+SALE = "Bought"
+TRADE = "Traded"
 
 
 def get_parent(comment):
@@ -34,28 +34,28 @@ def lock_comment_thread(parent):
 
 
 def update_data_val(key, link, interaction):
-    secondary_key = 'sales' if interaction == SALE else 'trades'
+    secondary_key = "sales" if interaction == SALE else "trades"
     if key not in data:
         data[key] = {
-            'sales': 1 if interaction == SALE else 0,
-            'trades': 1 if interaction == TRADE else 0,
-            'history': list(),
-            'update_flair': True
+            "sales": 1 if interaction == SALE else 0,
+            "trades": 1 if interaction == TRADE else 0,
+            "history": list(),
+            "update_flair": True
         }
     else:
-        current = data[key]['sales'] + data[key]['trades']
+        current = data[key]["sales"] + data[key]["trades"]
         if current == 10 or current == 20 or current == 50:
-            data[key]['update_flair'] = True
+            data[key]["update_flair"] = True
         data[key][secondary_key] += 1
-    data[key]['history'].append({
-        'type': 'Sale' if interaction == SALE else 'Trade',
-        'link': f'https://www.reddit.com{link}'
+    data[key]["history"].append({
+        "type": "Sale" if interaction == SALE else "Trade",
+        "link": f"https://www.reddit.com{link}"
     })
 
 
 def update_flair(name):
-    interactions = data[name]['trades'] + data[name]['sales']
-    if data[name]['update_flair']:
+    interactions = data[name]["trades"] + data[name]["sales"]
+    if data[name]["update_flair"]:
         tier = 0
         if interactions > 10:
             tier = 1
@@ -66,7 +66,7 @@ def update_flair(name):
         subreddit.flair.set(
             name, flair_template_id=flair_tiers[tier]
         )
-        data[name]['update_flair'] = False
+        data[name]["update_flair"] = False
 
 
 def update_interactions(text, parent, comment):
@@ -88,12 +88,12 @@ def validate_trade(comment, parent):
     pname = parent.author.name
     cname = comment.author.name
 
-    message = 'Your review has been added' if text.startswith(SALE.lower()) \
-        else f'A review has been added for u/{pname} and u/{cname}'
+    message = "Your review has been added" if text.startswith(SALE.lower()) \
+        else f"A review has been added for u/{pname} and u/{cname}"
 
     reply = comment.reply(message)
     reply.mod.lock()
-    current_thread['CONFIRMED_TRADES'].append(parent.id)
+    current_thread["CONFIRMED_TRADES"].append(parent.id)
 
     update_interactions(text, parent, comment)
 

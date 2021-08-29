@@ -6,7 +6,7 @@ from utl import utility
 start = time()
 
 config = utility.get_json("config.json")
-bot_name = config['USERNAME'].lower()
+bot_name = config["USERNAME"].lower()
 
 reply_path = "reply-data.json"
 reply_data = utility.get_json(reply_path)
@@ -18,7 +18,7 @@ reddit, subreddit = utility.get_reddit(config)
 SECOND = 1
 MINUTE = 60 * SECOND
 HOUR = 60 * MINUTE
-CUTOFF = datetime.strptime(config['CUTOFF'], '%Y-%m-%d')
+CUTOFF = datetime.strptime(config["CUTOFF"], "%Y-%m-%d")
 
 
 def already_replied(comments):
@@ -35,7 +35,7 @@ def is_valid_post(post):
     if post is not None:
         creation = datetime.fromtimestamp(post.created_utc)
 
-        if creation > CUTOFF and post.id not in reply_data['POSTS']:
+        if creation > CUTOFF and post.id not in reply_data["POSTS"]:
             return True
     return False
 
@@ -50,9 +50,9 @@ def get_flair_id(post):
 
 
 def archive_post(post_id):
-    if len(reply_data['POSTS']) == 100:
-        reply_data['POSTS'].pop(0)
-    reply_data['POSTS'].append(post_id)
+    if len(reply_data["POSTS"]) == 100:
+        reply_data["POSTS"].pop(0)
+    reply_data["POSTS"].append(post_id)
 
 
 def reply_with_stats(post):
@@ -60,8 +60,8 @@ def reply_with_stats(post):
 
     sales = trades = 0
     if user.name in comment_data:
-        sales = comment_data[user.name]['sales']
-        trades = comment_data[user.name]['trades']
+        sales = comment_data[user.name]["sales"]
+        trades = comment_data[user.name]["trades"]
 
     creation_date = datetime.fromtimestamp(user.created_utc)
 
@@ -75,7 +75,7 @@ Reputation: {sales} sale(s) and {trades} trade(s)"""
     try:
         post.reply(reply)
     except Exception:
-        print('COULD NOT REPLY TO POST')
+        print("COULD NOT REPLY TO POST")
 
 
 try:

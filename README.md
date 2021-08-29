@@ -1,12 +1,12 @@
-# rare-houseplants-bst-bot
+# rare-botanist
 
 ## Description
 
 This repository contains code for the bot on the [/r/RareHouseplantsBST](https://www.reddit.com/r/RareHouseplantsBST/) subreddit.
 
-The robot uses the Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io/en/latest/)) to interact with Reddit. The robot also uses GitHub Actions workflows with cron schedules to run scripts.
+The bot uses the Python Reddit API Wrapper ([PRAW](https://praw.readthedocs.io/en/latest/)) to interact with Reddit. The bot also uses GitHub Actions workflows with cron schedules to run scripts.
 
-## Robot Roles
+## Bot Roles
 
 ### Create Review Thread
 

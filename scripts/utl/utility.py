@@ -1,31 +1,30 @@
-import json
-import os
+from json import load, dump
+from os.path import dirname, abspath
 
-import praw
+from praw import Reddit
 
-filepath = os.path.dirname(os.path.abspath(__file__))
-json_dir = f"{filepath}/../../json"
+JSON_DIR = f"{dirname(abspath(__file__))}/../../json"
 
 
-def get_json(path):
-    f = open(f"{json_dir}/{path}")
-    json_dict = json.load(f)
+def get_json(path: str):
+    f = open(f"{JSON_DIR}/{path}")
+    json_dict: dict = load(f)
     f.close()
     return json_dict
 
 
-def write_json(path, content):
-    with open(f"{json_dir}/{path}", 'w', encoding='utf-8') as file:
-        json.dump(content, file, ensure_ascii=False, indent=2)
+def write_json(path: str, content: dict):
+    with open(f"{JSON_DIR}/{path}", "w", encoding="utf-8") as file:
+        dump(content, file, ensure_ascii=False, indent=2)
 
 
-def get_reddit(config):
-    reddit = praw.Reddit(
-        client_id=config['CLIENT_ID'],
-        client_secret=config['CLIENT_SECRET'],
-        user_agent=config['USER_AGENT'],
-        username=config['USERNAME'],
-        password=config['PASSWORD']
+def get_reddit(config: dict):
+    reddit = Reddit(
+        client_id=config["CLIENT_ID"],
+        client_secret=config["CLIENT_SECRET"],
+        user_agent=config["USER_AGENT"],
+        username=config["USERNAME"],
+        password=config["PASSWORD"]
     )
 
-    return reddit, reddit.subreddit(config['SUBREDDIT'])
+    return reddit, reddit.subreddit(config["SUBREDDIT"])
