@@ -1,6 +1,6 @@
 from utl import utility
-
 from re import findall, match
+
 from praw.models.reddit.removal_reasons import RemovalReason, \
     SubredditRemovalReasons
 from praw.reddit import Comment, Submission
