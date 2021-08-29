@@ -8,3 +8,9 @@ __pycache__
 
 # Visual Studio Code
 .vscode
+
+# One-off scripts
+scripts/change_username.py
+
+# macOS 
+.DS_Store
