@@ -3557,7 +3557,7 @@
     ]
   },
   "fudgepants121": {
-    "sales": 5,
+    "sales": 6,
     "trades": 0,
     "history": [
       {
@@ -3579,6 +3579,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/hav6fec/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/hb48l9e/"
       }
     ],
     "update_flair": false
@@ -4044,12 +4048,16 @@
     "update_flair": false
   },
   "AdministrativeFig651": {
-    "sales": 1,
+    "sales": 2,
     "trades": 0,
     "history": [
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h0wtsur/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/hb2b0dl/"
       }
     ],
     "update_flair": false
@@ -4096,7 +4104,7 @@
     "update_flair": false
   },
   "kyyl1": {
-    "sales": 3,
+    "sales": 4,
     "trades": 4,
     "history": [
       {
@@ -4126,6 +4134,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/haj67qa/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/hb0ywwg/"
       }
     ],
     "update_flair": false
@@ -4991,7 +5003,7 @@
     "update_flair": false
   },
   "MangoSchnitzel": {
-    "sales": 2,
+    "sales": 3,
     "trades": 0,
     "history": [
       {
@@ -5001,6 +5013,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/haqopda/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/hb0dkp2/"
       }
     ],
     "update_flair": false
