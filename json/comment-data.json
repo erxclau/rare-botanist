@@ -2852,7 +2852,7 @@
     "update_flair": false
   },
   "picklesfoley": {
-    "sales": 4,
+    "sales": 6,
     "trades": 4,
     "history": [
       {
@@ -2886,6 +2886,14 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h8um3pf/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hb6yr9n/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hb757mz/"
       }
     ],
     "update_flair": false
@@ -4568,7 +4576,7 @@
     "update_flair": false
   },
   "Livid-Ad-9402": {
-    "sales": 3,
+    "sales": 4,
     "trades": 0,
     "history": [
       {
@@ -4582,6 +4590,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/haqbpcw/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hb8ykik/"
       }
     ],
     "update_flair": false
@@ -5050,6 +5062,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/haqohq0/"
+      }
+    ],
+    "update_flair": false
+  },
+  "UnbiasedSushi": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hb7a5fb/"
       }
     ],
     "update_flair": false
