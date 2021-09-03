@@ -2852,7 +2852,7 @@
     "update_flair": false
   },
   "picklesfoley": {
-    "sales": 6,
+    "sales": 7,
     "trades": 4,
     "history": [
       {
@@ -2894,6 +2894,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hb757mz/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hbedfih/"
       }
     ],
     "update_flair": false
@@ -3698,7 +3702,7 @@
     "update_flair": false
   },
   "crazy-plant-mom": {
-    "sales": 0,
+    "sales": 1,
     "trades": 6,
     "history": [
       {
@@ -3724,6 +3728,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h27orrj/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hbedtnx/"
       }
     ],
     "update_flair": false
