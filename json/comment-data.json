@@ -3963,7 +3963,7 @@
     "update_flair": false
   },
   "Blackbirdd23": {
-    "sales": 2,
+    "sales": 3,
     "trades": 0,
     "history": [
       {
@@ -3973,6 +3973,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h5ds00m/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hbm9zg7/"
       }
     ],
     "update_flair": false
