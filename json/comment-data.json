@@ -5130,5 +5130,16 @@
       }
     ],
     "update_flair": false
+  },
+  "evelynn_wu": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hc29u9h/"
+      }
+    ],
+    "update_flair": false
   }
 }
