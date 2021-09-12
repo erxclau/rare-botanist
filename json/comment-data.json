@@ -5198,7 +5198,7 @@
     "update_flair": false
   },
   "deliciosaBerry": {
-    "sales": 4,
+    "sales": 5,
     "trades": 0,
     "history": [
       {
@@ -5216,6 +5216,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hcg5yft/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hcilqrl/"
       }
     ],
     "update_flair": false
