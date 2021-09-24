@@ -742,7 +742,7 @@
     "update_flair": false
   },
   "brosephines": {
-    "sales": 32,
+    "sales": 33,
     "trades": 12,
     "history": [
       {
@@ -920,6 +920,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hd8otw8/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/he53zyo/"
       }
     ],
     "update_flair": false
@@ -4205,7 +4209,7 @@
   },
   "kyyl1": {
     "sales": 4,
-    "trades": 4,
+    "trades": 7,
     "history": [
       {
         "type": "Trade",
@@ -4238,6 +4242,18 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/hb0ywwg/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/he0zb3z/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/he17apl/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/he17jhq/"
       }
     ],
     "update_flair": false
@@ -4308,7 +4324,7 @@
   },
   "RawrSean": {
     "sales": 0,
-    "trades": 5,
+    "trades": 8,
     "history": [
       {
         "type": "Trade",
@@ -4329,6 +4345,18 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h7r8abq/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/he0zb3z/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/he17apl/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/he17jhq/"
       }
     ],
     "update_flair": false
