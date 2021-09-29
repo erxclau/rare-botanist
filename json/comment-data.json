@@ -4213,7 +4213,7 @@
   },
   "kyyl1": {
     "sales": 4,
-    "trades": 8,
+    "trades": 9,
     "history": [
       {
         "type": "Trade",
@@ -4262,6 +4262,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/heaxnmt/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/heq8fi5/"
       }
     ],
     "update_flair": false
@@ -4576,7 +4580,7 @@
     "update_flair": false
   },
   "countryrootsplants": {
-    "sales": 7,
+    "sales": 8,
     "trades": 0,
     "history": [
       {
@@ -4606,6 +4610,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h653qpf/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/herlyjo/"
       }
     ],
     "update_flair": false
@@ -4976,7 +4984,7 @@
   },
   "Arcana_Iris": {
     "sales": 0,
-    "trades": 4,
+    "trades": 5,
     "history": [
       {
         "type": "Trade",
@@ -4993,12 +5001,16 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h9k4m5t/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/heq8fi5/"
       }
     ],
     "update_flair": false
   },
   "mspipp": {
-    "sales": 3,
+    "sales": 4,
     "trades": 1,
     "history": [
       {
@@ -5016,6 +5028,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hdw5asy/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/herqfrw/"
       }
     ],
     "update_flair": false
