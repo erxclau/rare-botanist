@@ -715,7 +715,7 @@
     "update_flair": false
   },
   "doingalrighty": {
-    "sales": 1,
+    "sales": 2,
     "trades": 4,
     "history": [
       {
@@ -737,12 +737,16 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gs0arir/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hfcnnle/"
       }
     ],
     "update_flair": false
   },
   "brosephines": {
-    "sales": 37,
+    "sales": 38,
     "trades": 12,
     "history": [
       {
@@ -940,6 +944,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hf9nwjc/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hff1945/"
       }
     ],
     "update_flair": false
@@ -2435,7 +2443,7 @@
   },
   "torisatori": {
     "sales": 0,
-    "trades": 8,
+    "trades": 9,
     "history": [
       {
         "type": "Trade",
@@ -2468,6 +2476,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hfa1h1n/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hezpppa/"
       }
     ],
     "update_flair": false
@@ -4655,7 +4667,7 @@
     "update_flair": false
   },
   "Boo_Radleys_Hambone": {
-    "sales": 3,
+    "sales": 4,
     "trades": 1,
     "history": [
       {
@@ -4673,6 +4685,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h7t9orn/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hfdkdj1/"
       }
     ],
     "update_flair": false
@@ -5526,6 +5542,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hf437xl/"
+      }
+    ],
+    "update_flair": false
+  },
+  "nat4395": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hezpppa/"
       }
     ],
     "update_flair": false
