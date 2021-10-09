@@ -2083,7 +2083,7 @@
     "update_flair": false
   },
   "Plantabook": {
-    "sales": 7,
+    "sales": 8,
     "trades": 3,
     "history": [
       {
@@ -2125,6 +2125,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/h7v1a7p/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hg1h31g/"
       }
     ],
     "update_flair": false
@@ -4703,7 +4707,7 @@
     "update_flair": false
   },
   "Boo_Radleys_Hambone": {
-    "sales": 5,
+    "sales": 6,
     "trades": 1,
     "history": [
       {
@@ -4729,6 +4733,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hfv2ghp/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hg0329c/"
       }
     ],
     "update_flair": false
