@@ -5627,5 +5627,16 @@
       }
     ],
     "update_flair": false
+  },
+  "fawncake": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hg2jz2p/"
+      }
+    ],
+    "update_flair": false
   }
 }
