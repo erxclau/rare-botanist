@@ -3748,7 +3748,7 @@
     "update_flair": false
   },
   "Trippydudes": {
-    "sales": 2,
+    "sales": 3,
     "trades": 5,
     "history": [
       {
@@ -3778,6 +3778,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hb8hold/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hg1gt24/"
       }
     ],
     "update_flair": false
@@ -3824,7 +3828,7 @@
     "update_flair": false
   },
   "black-caat": {
-    "sales": 2,
+    "sales": 3,
     "trades": 0,
     "history": [
       {
@@ -3834,6 +3838,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/mhlt07/review_thread_april_2021/guoovcf/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hfvtrgh/"
       }
     ],
     "update_flair": false
