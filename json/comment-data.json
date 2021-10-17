@@ -1518,7 +1518,7 @@
     "update_flair": false
   },
   "gimpm3": {
-    "sales": 6,
+    "sales": 7,
     "trades": 9,
     "history": [
       {
@@ -1580,6 +1580,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hfvzvh9/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hgvlfct/"
       }
     ],
     "update_flair": false
@@ -4304,7 +4308,7 @@
     "update_flair": false
   },
   "kyyl1": {
-    "sales": 4,
+    "sales": 5,
     "trades": 9,
     "history": [
       {
@@ -4358,6 +4362,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/heq8fi5/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hgzo507/"
       }
     ],
     "update_flair": false
