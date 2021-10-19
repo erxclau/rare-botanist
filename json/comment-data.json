@@ -5707,5 +5707,20 @@
       }
     ],
     "update_flair": false
+  },
+  "darkFolium": {
+    "sales": 2,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hh2jnfz/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hh4ohz5/"
+      }
+    ],
+    "update_flair": false
   }
 }
