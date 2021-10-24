@@ -3768,7 +3768,7 @@
     "update_flair": false
   },
   "Trippydudes": {
-    "sales": 4,
+    "sales": 5,
     "trades": 5,
     "history": [
       {
@@ -3806,6 +3806,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hhf9jn3/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hhqupch/"
       }
     ],
     "update_flair": false
@@ -4578,7 +4582,7 @@
     "update_flair": false
   },
   "Mediocre_School_8500": {
-    "sales": 2,
+    "sales": 3,
     "trades": 0,
     "history": [
       {
@@ -4588,6 +4592,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h3sbilw/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hhm9sje/"
       }
     ],
     "update_flair": false
