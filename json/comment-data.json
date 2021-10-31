@@ -4771,7 +4771,7 @@
     "update_flair": false
   },
   "Boo_Radleys_Hambone": {
-    "sales": 6,
+    "sales": 7,
     "trades": 1,
     "history": [
       {
@@ -4801,6 +4801,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hg0329c/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hit9655/"
       }
     ],
     "update_flair": false
@@ -5401,11 +5405,15 @@
   },
   "Acceptable_Banana_13": {
     "sales": 0,
-    "trades": 1,
+    "trades": 2,
     "history": [
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ovir1q/review_thread_august_2021/ha644a4/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hip7mg2/"
       }
     ],
     "update_flair": false
@@ -5858,6 +5866,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hhsc56g/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Minty_ecohipster": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hip7mg2/"
       }
     ],
     "update_flair": false
