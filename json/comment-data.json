@@ -3136,7 +3136,7 @@
     "update_flair": false
   },
   "Duke9000": {
-    "sales": 9,
+    "sales": 10,
     "trades": 2,
     "history": [
       {
@@ -3182,6 +3182,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hhf8u7z/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/qk2w7n/review_thread_november_2021/hitzeky/"
       }
     ],
     "update_flair": false
@@ -4896,7 +4900,7 @@
     "update_flair": false
   },
   "Livid-Ad-9402": {
-    "sales": 5,
+    "sales": 6,
     "trades": 0,
     "history": [
       {
@@ -4918,6 +4922,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hbmchi2/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/qk2w7n/review_thread_november_2021/hitzliv/"
       }
     ],
     "update_flair": false
@@ -5663,7 +5671,7 @@
     "update_flair": false
   },
   "aimless_artist": {
-    "sales": 2,
+    "sales": 3,
     "trades": 1,
     "history": [
       {
@@ -5677,6 +5685,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hhfa4ok/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/qk2w7n/review_thread_november_2021/hivwsvd/"
       }
     ],
     "update_flair": false
