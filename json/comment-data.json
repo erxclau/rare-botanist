@@ -5695,7 +5695,7 @@
     "update_flair": false
   },
   "aimless_artist": {
-    "sales": 3,
+    "sales": 4,
     "trades": 1,
     "history": [
       {
@@ -5713,6 +5713,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/qk2w7n/review_thread_november_2021/hivwsvd/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/qk2w7n/review_thread_november_2021/hkqatto/"
       }
     ],
     "update_flair": false
