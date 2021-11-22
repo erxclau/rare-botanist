@@ -5061,7 +5061,7 @@
     "update_flair": false
   },
   "tachibakku": {
-    "sales": 3,
+    "sales": 4,
     "trades": 0,
     "history": [
       {
@@ -5075,6 +5075,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/qk2w7n/review_thread_november_2021/hiuqrnc/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/qk2w7n/review_thread_november_2021/hk99pri/"
       }
     ],
     "update_flair": false
