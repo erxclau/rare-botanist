@@ -5962,5 +5962,16 @@
       }
     ],
     "update_flair": false
+  },
+  "loservi": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/qk2w7n/review_thread_november_2021/hm1tlod/"
+      }
+    ],
+    "update_flair": false
   }
 }
