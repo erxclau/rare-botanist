@@ -5973,5 +5973,20 @@
       }
     ],
     "update_flair": false
+  },
+  "t0mbombadil": {
+    "sales": 2,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/qk2w7n/review_thread_november_2021/hmd319k/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/qk2w7n/review_thread_november_2021/hmgvrfz/"
+      }
+    ],
+    "update_flair": false
   }
 }
