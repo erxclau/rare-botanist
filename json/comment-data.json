@@ -28,7 +28,7 @@
   },
   "0430am": {
     "sales": 1,
-    "trades": 21,
+    "trades": 22,
     "history": [
       {
         "type": "Trade",
@@ -117,6 +117,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hhhuehu/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hnhksd7/"
       }
     ],
     "update_flair": false
@@ -4232,7 +4236,7 @@
     "update_flair": false
   },
   "GallivantingChicken": {
-    "sales": 1,
+    "sales": 2,
     "trades": 1,
     "history": [
       {
@@ -4242,6 +4246,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hn4f307/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hnhl0dd/"
       }
     ],
     "update_flair": false
@@ -6008,6 +6016,17 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hn7cc3t/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Iluvdemkitties": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hnhksd7/"
       }
     ],
     "update_flair": false
