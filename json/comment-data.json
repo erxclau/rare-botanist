@@ -28,7 +28,7 @@
   },
   "0430am": {
     "sales": 1,
-    "trades": 22,
+    "trades": 23,
     "history": [
       {
         "type": "Trade",
@@ -121,6 +121,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hnhksd7/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hn9c8pd/"
       }
     ],
     "update_flair": false
@@ -5530,7 +5534,7 @@
   },
   "hanaya0120": {
     "sales": 7,
-    "trades": 1,
+    "trades": 2,
     "history": [
       {
         "type": "Sale",
@@ -5563,6 +5567,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hntd1ws/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hn9c8pd/"
       }
     ],
     "update_flair": false
