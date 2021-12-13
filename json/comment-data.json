@@ -1286,12 +1286,16 @@
     "update_flair": false
   },
   "Spookyturds": {
-    "sales": 0,
+    "sales": 1,
     "trades": 1,
     "history": [
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ikaavl/review_thread_september_2020/g3v8wma/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hof2wne/"
       }
     ],
     "update_flair": false
