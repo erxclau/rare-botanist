@@ -6097,5 +6097,27 @@
       }
     ],
     "update_flair": false
+  },
+  "MonsteraGirl": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hp3rjyq/"
+      }
+    ],
+    "update_flair": false
+  },
+  "brycemoneal": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hp3rjyq/"
+      }
+    ],
+    "update_flair": false
   }
 }
