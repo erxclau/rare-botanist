@@ -4654,7 +4654,7 @@
     "update_flair": false
   },
   "Mediocre_School_8500": {
-    "sales": 3,
+    "sales": 4,
     "trades": 0,
     "history": [
       {
@@ -4668,6 +4668,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hhm9sje/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hqhc7m1/"
       }
     ],
     "update_flair": false
@@ -5325,7 +5329,7 @@
     "update_flair": false
   },
   "hmepi": {
-    "sales": 3,
+    "sales": 4,
     "trades": 0,
     "history": [
       {
@@ -5339,6 +5343,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hpkq0jo/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hq6urnh/"
       }
     ],
     "update_flair": false
