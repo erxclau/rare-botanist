@@ -6150,5 +6150,16 @@
       }
     ],
     "update_flair": false
+  },
+  "KKusher69": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/rt7u2m/review_thread_january_2022/hrov1pz/"
+      }
+    ],
+    "update_flair": false
   }
 }
