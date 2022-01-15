@@ -2777,7 +2777,7 @@
   },
   "EveryVegetable5": {
     "sales": 0,
-    "trades": 2,
+    "trades": 3,
     "history": [
       {
         "type": "Trade",
@@ -2786,6 +2786,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/k49kdj/review_thread_december_2020/gejrnm2/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/rt7u2m/review_thread_january_2022/hsto54e/"
       }
     ],
     "update_flair": false
@@ -5171,7 +5175,7 @@
   },
   "No-Two4794": {
     "sales": 1,
-    "trades": 1,
+    "trades": 2,
     "history": [
       {
         "type": "Trade",
@@ -5180,6 +5184,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hnjd45q/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/rt7u2m/review_thread_january_2022/hsto54e/"
       }
     ],
     "update_flair": false
@@ -6152,7 +6160,7 @@
     "update_flair": false
   },
   "KKusher69": {
-    "sales": 3,
+    "sales": 4,
     "trades": 0,
     "history": [
       {
@@ -6166,6 +6174,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/rt7u2m/review_thread_january_2022/hrtwjxh/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/rt7u2m/review_thread_january_2022/hssk9mc/"
       }
     ],
     "update_flair": false
