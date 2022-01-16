@@ -5174,7 +5174,7 @@
     "update_flair": false
   },
   "No-Two4794": {
-    "sales": 1,
+    "sales": 2,
     "trades": 2,
     "history": [
       {
@@ -5188,6 +5188,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/rt7u2m/review_thread_january_2022/hsto54e/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/rt7u2m/review_thread_january_2022/hsv54l0/"
       }
     ],
     "update_flair": false
