@@ -5577,7 +5577,7 @@
     "update_flair": false
   },
   "hanaya0120": {
-    "sales": 10,
+    "sales": 11,
     "trades": 2,
     "history": [
       {
@@ -5627,6 +5627,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hos9k7h/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/rt7u2m/review_thread_january_2022/htrt149/"
       }
     ],
     "update_flair": false
