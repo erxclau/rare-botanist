@@ -3160,7 +3160,7 @@
     "update_flair": false
   },
   "Duke9000": {
-    "sales": 14,
+    "sales": 15,
     "trades": 2,
     "history": [
       {
@@ -3226,6 +3226,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/rt7u2m/review_thread_january_2022/hrff66a/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/rt7u2m/review_thread_january_2022/huiq2fy/"
       }
     ],
     "update_flair": false
