@@ -6243,5 +6243,16 @@
       }
     ],
     "update_flair": false
+  },
+  "Slow-Mix-4091": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/shho9i/review_thread_february_2022/hy4abxu/"
+      }
+    ],
+    "update_flair": false
   }
 }
