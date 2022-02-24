@@ -6254,5 +6254,16 @@
       }
     ],
     "update_flair": false
+  },
+  "thottacusprime": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/shho9i/review_thread_february_2022/hy0p03t/"
+      }
+    ],
+    "update_flair": false
   }
 }
