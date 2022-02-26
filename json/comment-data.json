@@ -4336,7 +4336,7 @@
     "update_flair": false
   },
   "AdministrativeFig651": {
-    "sales": 10,
+    "sales": 11,
     "trades": 1,
     "history": [
       {
@@ -4382,6 +4382,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/rt7u2m/review_thread_january_2022/hubw5dc/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/shho9i/review_thread_february_2022/hygb2hr/"
       }
     ],
     "update_flair": false
