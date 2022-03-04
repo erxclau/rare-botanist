@@ -6161,11 +6161,15 @@
   },
   "ernnnnnnnnnnn": {
     "sales": 1,
-    "trades": 0,
+    "trades": 1,
     "history": [
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/r62dnm/review_thread_december_2021/hoq2joj/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/t3ve56/review_thread_march_2022/hz8zp7m/"
       }
     ],
     "update_flair": false
@@ -6274,6 +6278,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/shho9i/review_thread_february_2022/hy0p03t/"
+      }
+    ],
+    "update_flair": false
+  },
+  "albiziajewels": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/t3ve56/review_thread_march_2022/hz8zp7m/"
       }
     ],
     "update_flair": false
