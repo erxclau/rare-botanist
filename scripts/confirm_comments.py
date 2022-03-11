@@ -1,5 +1,5 @@
 from utl import utility
-from re import findall, match
+from re import findall, match, sub
 
 from praw.models.reddit.removal_reasons import RemovalReason, \
     SubredditRemovalReasons
@@ -74,6 +74,7 @@ def bad_interact(c: Comment):
 
 
 def bad_format_check(text: str):
+    text = sub(r"\s{2,}", " ", text).strip()
     sale_regex = r"^bought \w+.+ from (\/?u\/\S+|\[\/?u\/\S+\]\(\S+\))"
     trade_regex = r"^traded \w+.+ with (\/?u\/\S+|\[\/?u\/\S+\]\(\S+\))"
 
