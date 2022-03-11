@@ -6,9 +6,6 @@ test-config.json
 venv
 __pycache__
 
-# Visual Studio Code
-.vscode
-
 # One-off scripts
 scripts/change_username.py
 
