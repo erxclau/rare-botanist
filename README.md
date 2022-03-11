@@ -26,6 +26,16 @@ The bot will continually respond to posts flaired with 'Buying', 'Selling', or '
 
 Relevant files: `stat_reply`, `reply.yml`, `comment-data.json`
 
+## Deployment to `github-actions` branch
+
+1. Merge `main` into `github-actions`
+2. Create a pull request from `github-actions` to `main`
+3. Squash the PR and merge
+4. Go to `main` and pull
+5. Delete your local `github-actions` branch
+6. Create a new `github-actions` branch based on `main`
+7. Force push `github-actions` to GitHub
+
 ## Configuration
 
 `config.json` has been encrypted using the following command:
