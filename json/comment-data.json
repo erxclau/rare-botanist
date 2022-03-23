@@ -4765,7 +4765,7 @@
     "update_flair": false
   },
   "SgtGrumbles007": {
-    "sales": 2,
+    "sales": 4,
     "trades": 1,
     "history": [
       {
@@ -4779,6 +4779,14 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hcbx4c7/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/t3ve56/review_thread_march_2022/i1tpbk6/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/t3ve56/review_thread_march_2022/i1uqhmw/"
       }
     ],
     "update_flair": false
@@ -6327,6 +6335,17 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/t3ve56/review_thread_march_2022/i0xwvwk/"
+      }
+    ],
+    "update_flair": false
+  },
+  "beestockstuff": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/t3ve56/review_thread_march_2022/i1tlgyk/"
       }
     ],
     "update_flair": false
