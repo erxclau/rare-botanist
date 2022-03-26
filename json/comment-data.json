@@ -6348,12 +6348,16 @@
     "update_flair": false
   },
   "beestockstuff": {
-    "sales": 1,
+    "sales": 2,
     "trades": 0,
     "history": [
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/t3ve56/review_thread_march_2022/i1tlgyk/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/t3ve56/review_thread_march_2022/i23fi79/"
       }
     ],
     "update_flair": false
