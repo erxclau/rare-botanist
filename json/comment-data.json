@@ -3028,8 +3028,8 @@
     "update_flair": false
   },
   "picklesfoley": {
-    "sales": 9,
-    "trades": 6,
+    "sales": 11,
+    "trades": 7,
     "history": [
       {
         "type": "Trade",
@@ -3090,6 +3090,18 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/t3ve56/review_thread_march_2022/i2weqht/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i2xtjz8/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i2zkeiv/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i2xh0jd/"
       }
     ],
     "update_flair": false
@@ -6113,11 +6125,15 @@
   },
   "dianamelissav": {
     "sales": 1,
-    "trades": 0,
+    "trades": 1,
     "history": [
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hhsc56g/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i2xh0jd/"
       }
     ],
     "update_flair": false
@@ -6389,6 +6405,28 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/t3ve56/review_thread_march_2022/i2wcr4a/"
+      }
+    ],
+    "update_flair": false
+  },
+  "shimmerysplendid": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i2xgf2m/"
+      }
+    ],
+    "update_flair": false
+  },
+  "PurelyRavage": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i2xgf2m/"
       }
     ],
     "update_flair": false
