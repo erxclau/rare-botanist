@@ -4609,11 +4609,15 @@
   },
   "OnlyPhilosophy5313": {
     "sales": 0,
-    "trades": 1,
+    "trades": 2,
     "history": [
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/npjoo7/review_thread_june_2021/h2a45d2/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i48yqmm/"
       }
     ],
     "update_flair": false
@@ -6477,6 +6481,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i3npj31/"
+      }
+    ],
+    "update_flair": false
+  },
+  "plantspupsandalilcat": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i48yqmm/"
       }
     ],
     "update_flair": false
