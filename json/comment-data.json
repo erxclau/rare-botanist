@@ -6487,7 +6487,7 @@
   },
   "plantspupsandalilcat": {
     "sales": 0,
-    "trades": 2,
+    "trades": 4,
     "history": [
       {
         "type": "Trade",
@@ -6496,6 +6496,14 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i48ytdu/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i48yfdv/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i48yi6s/"
       }
     ],
     "update_flair": false
@@ -6507,6 +6515,28 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i48ytdu/"
+      }
+    ],
+    "update_flair": false
+  },
+  "__pH7": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i48yfdv/"
+      }
+    ],
+    "update_flair": false
+  },
+  "JiaJia000": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i48yi6s/"
       }
     ],
     "update_flair": false
