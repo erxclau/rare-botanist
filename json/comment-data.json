@@ -3037,7 +3037,7 @@
   },
   "picklesfoley": {
     "sales": 15,
-    "trades": 10,
+    "trades": 11,
     "history": [
       {
         "type": "Trade",
@@ -3138,6 +3138,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i5ji50y/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i3s4zed/"
       }
     ],
     "update_flair": false
@@ -5412,7 +5416,7 @@
   },
   "Arcana_Iris": {
     "sales": 1,
-    "trades": 6,
+    "trades": 7,
     "history": [
       {
         "type": "Trade",
@@ -5441,6 +5445,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hf9ak96/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i341wi0/"
       }
     ],
     "update_flair": false
@@ -6386,7 +6394,7 @@
     "update_flair": false
   },
   "Plantsonfire09": {
-    "sales": 5,
+    "sales": 6,
     "trades": 0,
     "history": [
       {
@@ -6408,6 +6416,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i45matn/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i3ub96g/"
       }
     ],
     "update_flair": false
@@ -6656,6 +6668,28 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i5i0jxz/"
+      }
+    ],
+    "update_flair": false
+  },
+  "saucyplantvixen": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i341wi0/"
+      }
+    ],
+    "update_flair": false
+  },
+  "itssjessicarose": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i3s4zed/"
       }
     ],
     "update_flair": false
