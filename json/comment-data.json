@@ -2374,7 +2374,7 @@
     "update_flair": false
   },
   "kichca": {
-    "sales": 1,
+    "sales": 2,
     "trades": 1,
     "history": [
       {
@@ -2384,6 +2384,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hchkdl9/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i6w9znu/"
       }
     ],
     "update_flair": false
@@ -6101,7 +6105,7 @@
     "update_flair": false
   },
   "fawncake": {
-    "sales": 7,
+    "sales": 8,
     "trades": 0,
     "history": [
       {
@@ -6131,6 +6135,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i6p3q2l/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i6yhze7/"
       }
     ],
     "update_flair": false
