@@ -6113,7 +6113,7 @@
     "update_flair": false
   },
   "fawncake": {
-    "sales": 8,
+    "sales": 9,
     "trades": 0,
     "history": [
       {
@@ -6147,6 +6147,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i6yhze7/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i7lx2vi/"
       }
     ],
     "update_flair": false
