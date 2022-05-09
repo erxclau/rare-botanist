@@ -3044,7 +3044,7 @@
     "update_flair": false
   },
   "picklesfoley": {
-    "sales": 20,
+    "sales": 21,
     "trades": 11,
     "history": [
       {
@@ -3170,6 +3170,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i6sgt6c/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i7x9tmk/"
       }
     ],
     "update_flair": false
