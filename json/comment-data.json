@@ -2796,7 +2796,7 @@
     "update_flair": false
   },
   "EveryVegetable5": {
-    "sales": 0,
+    "sales": 1,
     "trades": 5,
     "history": [
       {
@@ -2818,6 +2818,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/t3ve56/review_thread_march_2022/i0xwvwk/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i8hqga1/"
       }
     ],
     "update_flair": false
