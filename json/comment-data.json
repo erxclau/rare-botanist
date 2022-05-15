@@ -5483,7 +5483,7 @@
     "update_flair": false
   },
   "Arcana_Iris": {
-    "sales": 1,
+    "sales": 2,
     "trades": 8,
     "history": [
       {
@@ -5521,6 +5521,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i32gqup/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i8p7g6f/"
       }
     ],
     "update_flair": false
@@ -6790,6 +6794,17 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i3s4zed/"
+      }
+    ],
+    "update_flair": false
+  },
+  "PayMeInPlants": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i8n0qfa/"
       }
     ],
     "update_flair": false
