@@ -2127,7 +2127,7 @@
     "update_flair": false
   },
   "Plantabook": {
-    "sales": 10,
+    "sales": 11,
     "trades": 3,
     "history": [
       {
@@ -2181,6 +2181,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/t3ve56/review_thread_march_2022/i120pg1/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i8z3xjd/"
       }
     ],
     "update_flair": false
@@ -6805,6 +6809,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i8n0qfa/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Chemical-Ad3985": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i8vubgj/"
       }
     ],
     "update_flair": false
