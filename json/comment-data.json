@@ -3052,7 +3052,7 @@
     "update_flair": false
   },
   "picklesfoley": {
-    "sales": 23,
+    "sales": 24,
     "trades": 11,
     "history": [
       {
@@ -3190,6 +3190,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i8f3w0x/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i952rwn/"
       }
     ],
     "update_flair": false
@@ -6824,6 +6828,28 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i8kdvoh/"
+      }
+    ],
+    "update_flair": false
+  },
+  "anthuriumrecords": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i8ke5re/"
+      }
+    ],
+    "update_flair": false
+  },
+  "lilybellesify": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i8ke5re/"
       }
     ],
     "update_flair": false
