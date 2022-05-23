@@ -2135,7 +2135,7 @@
     "update_flair": false
   },
   "Plantabook": {
-    "sales": 11,
+    "sales": 12,
     "trades": 3,
     "history": [
       {
@@ -2193,6 +2193,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i8z3xjd/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i9qu5tm/"
       }
     ],
     "update_flair": false
@@ -3060,7 +3064,7 @@
     "update_flair": false
   },
   "picklesfoley": {
-    "sales": 24,
+    "sales": 25,
     "trades": 11,
     "history": [
       {
@@ -3202,6 +3206,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i952rwn/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i9n7fn8/"
       }
     ],
     "update_flair": false
@@ -3783,12 +3791,16 @@
     "update_flair": false
   },
   "VioletVixen76": {
-    "sales": 0,
+    "sales": 1,
     "trades": 1,
     "history": [
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/luvdai/review_thread_march_2021/gsto90d/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i9a7fhf/"
       }
     ],
     "update_flair": false
