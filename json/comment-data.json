@@ -6893,5 +6893,35 @@
       }
     ],
     "update_flair": false
+  },
+  "JetsGreatBrettFavre": {
+    "sales": 0,
+    "trades": 2,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/ia7ivau/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/ia7t47g/"
+      }
+    ],
+    "update_flair": false
+  },
+  "_AGirlHasNoName-": {
+    "sales": 0,
+    "trades": 2,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/ia7ivau/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/ia7t47g/"
+      }
+    ],
+    "update_flair": false
   }
 }
