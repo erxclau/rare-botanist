@@ -2097,7 +2097,7 @@
     "update_flair": false
   },
   "k8throneburg": {
-    "sales": 2,
+    "sales": 3,
     "trades": 2,
     "history": [
       {
@@ -2115,6 +2115,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i3t1o10/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/ia99eqd/"
       }
     ],
     "update_flair": false
