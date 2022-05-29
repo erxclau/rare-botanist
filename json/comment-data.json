@@ -3068,7 +3068,7 @@
     "update_flair": false
   },
   "picklesfoley": {
-    "sales": 27,
+    "sales": 28,
     "trades": 11,
     "history": [
       {
@@ -3222,6 +3222,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/ia2h4tm/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/iadwode/"
       }
     ],
     "update_flair": false
@@ -5609,7 +5613,7 @@
     "update_flair": false
   },
   "hmepi": {
-    "sales": 6,
+    "sales": 7,
     "trades": 0,
     "history": [
       {
@@ -5635,6 +5639,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i5u67bj/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/ia9zjvf/"
       }
     ],
     "update_flair": false
@@ -6706,7 +6714,7 @@
     "update_flair": false
   },
   "plantspupsandalilcat": {
-    "sales": 0,
+    "sales": 1,
     "trades": 5,
     "history": [
       {
@@ -6728,6 +6736,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i48ynhv/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/iagnu5o/"
       }
     ],
     "update_flair": false
@@ -6924,6 +6936,17 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/ia7t47g/"
+      }
+    ],
+    "update_flair": false
+  },
+  "qazxs39": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/iadutul/"
       }
     ],
     "update_flair": false
