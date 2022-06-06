@@ -5824,7 +5824,7 @@
     "update_flair": false
   },
   "Acceptable_Banana_13": {
-    "sales": 0,
+    "sales": 1,
     "trades": 2,
     "history": [
       {
@@ -5834,6 +5834,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pyx3yx/review_thread_october_2021/hip7mg2/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ibc6kxi/"
       }
     ],
     "update_flair": false
