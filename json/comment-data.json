@@ -7035,5 +7035,27 @@
       }
     ],
     "update_flair": false
+  },
+  "passportwhore": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ibmnfwe/"
+      }
+    ],
+    "update_flair": false
+  },
+  "aparsons483": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ibmnfwe/"
+      }
+    ],
+    "update_flair": false
   }
 }
