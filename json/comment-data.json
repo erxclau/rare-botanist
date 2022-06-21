@@ -6590,7 +6590,7 @@
     "update_flair": false
   },
   "Plantsonfire09": {
-    "sales": 6,
+    "sales": 7,
     "trades": 0,
     "history": [
       {
@@ -6616,6 +6616,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i3ub96g/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/id273mb/"
       }
     ],
     "update_flair": false
@@ -7066,6 +7070,17 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ibmnfwe/"
+      }
+    ],
+    "update_flair": false
+  },
+  "ninjacurry": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/id8i2ik/"
       }
     ],
     "update_flair": false
