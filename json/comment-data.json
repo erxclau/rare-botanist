@@ -7079,12 +7079,16 @@
     "update_flair": false
   },
   "ninjacurry": {
-    "sales": 1,
+    "sales": 2,
     "trades": 0,
     "history": [
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/id8i2ik/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/idpgygq/"
       }
     ],
     "update_flair": false
