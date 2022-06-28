@@ -5446,7 +5446,7 @@
     "update_flair": false
   },
   "No-Two4794": {
-    "sales": 3,
+    "sales": 4,
     "trades": 4,
     "history": [
       {
@@ -5476,6 +5476,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/t3ve56/review_thread_march_2022/i0f3auh/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ie254tj/"
       }
     ],
     "update_flair": false
@@ -5567,7 +5571,7 @@
     "update_flair": false
   },
   "Arcana_Iris": {
-    "sales": 2,
+    "sales": 3,
     "trades": 8,
     "history": [
       {
@@ -5609,6 +5613,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i8p7g6f/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ibzpeoo/"
       }
     ],
     "update_flair": false
@@ -7079,7 +7087,7 @@
     "update_flair": false
   },
   "ninjacurry": {
-    "sales": 2,
+    "sales": 3,
     "trades": 0,
     "history": [
       {
@@ -7089,6 +7097,36 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/idpgygq/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/idz28ti/"
+      }
+    ],
+    "update_flair": false
+  },
+  "thatplantislit": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ib3udeo/"
+      }
+    ],
+    "update_flair": false
+  },
+  "kvillaloboss": {
+    "sales": 2,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ibnglc5/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ibvljoj/"
       }
     ],
     "update_flair": false
