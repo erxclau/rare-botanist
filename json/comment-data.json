@@ -3080,7 +3080,7 @@
     "update_flair": false
   },
   "picklesfoley": {
-    "sales": 31,
+    "sales": 33,
     "trades": 11,
     "history": [
       {
@@ -3250,6 +3250,14 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/iddhdkm/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ie9b4aw/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ie9fi88/"
       }
     ],
     "update_flair": false
@@ -6106,7 +6114,7 @@
     "update_flair": false
   },
   "Kurameis": {
-    "sales": 3,
+    "sales": 4,
     "trades": 0,
     "history": [
       {
@@ -6120,6 +6128,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ie4gvgv/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ie9b91i/"
       }
     ],
     "update_flair": false
