@@ -6257,7 +6257,7 @@
     "update_flair": false
   },
   "fawncake": {
-    "sales": 10,
+    "sales": 11,
     "trades": 0,
     "history": [
       {
@@ -6299,6 +6299,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/icu5cs5/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/vop3z8/review_thread_july_2022/ifgvhc4/"
       }
     ],
     "update_flair": false
@@ -6790,7 +6794,7 @@
     "update_flair": false
   },
   "plantspupsandalilcat": {
-    "sales": 1,
+    "sales": 2,
     "trades": 6,
     "history": [
       {
@@ -6820,6 +6824,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ibk4oac/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/vop3z8/review_thread_july_2022/ifguolk/"
       }
     ],
     "update_flair": false
