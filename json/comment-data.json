@@ -774,7 +774,7 @@
     "update_flair": false
   },
   "brosephines": {
-    "sales": 40,
+    "sales": 41,
     "trades": 12,
     "history": [
       {
@@ -984,6 +984,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i6h33wv/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/vop3z8/review_thread_july_2022/ig2tn3s/"
       }
     ],
     "update_flair": false
@@ -3080,7 +3084,7 @@
     "update_flair": false
   },
   "picklesfoley": {
-    "sales": 33,
+    "sales": 34,
     "trades": 11,
     "history": [
       {
@@ -3258,6 +3262,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ie9fi88/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/vop3z8/review_thread_july_2022/ig0zjp7/"
       }
     ],
     "update_flair": false
@@ -6795,7 +6803,7 @@
   },
   "plantspupsandalilcat": {
     "sales": 2,
-    "trades": 6,
+    "trades": 7,
     "history": [
       {
         "type": "Trade",
@@ -6828,6 +6836,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/vop3z8/review_thread_july_2022/ifguolk/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/vop3z8/review_thread_july_2022/ig30ebx/"
       }
     ],
     "update_flair": false
@@ -6963,7 +6975,7 @@
   },
   "Chemical-Ad3985": {
     "sales": 3,
-    "trades": 0,
+    "trades": 1,
     "history": [
       {
         "type": "Sale",
@@ -6976,6 +6988,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i9a796s/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/vop3z8/review_thread_july_2022/ig30ebx/"
       }
     ],
     "update_flair": false
