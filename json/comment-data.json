@@ -7216,7 +7216,7 @@
     "update_flair": false
   },
   "nasty_hobo": {
-    "sales": 6,
+    "sales": 7,
     "trades": 2,
     "history": [
       {
@@ -7250,6 +7250,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/vop3z8/review_thread_july_2022/ihdhq5d/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/vop3z8/review_thread_july_2022/ihzqvts/"
       }
     ],
     "update_flair": false
@@ -7280,6 +7284,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/vop3z8/review_thread_july_2022/ihh81w6/"
+      }
+    ],
+    "update_flair": false
+  },
+  "ticorra": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/vop3z8/review_thread_july_2022/ihzqc9l/"
       }
     ],
     "update_flair": false
