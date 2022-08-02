@@ -7167,7 +7167,7 @@
     "update_flair": false
   },
   "ninjacurry": {
-    "sales": 6,
+    "sales": 7,
     "trades": 0,
     "history": [
       {
@@ -7193,6 +7193,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/vop3z8/review_thread_july_2022/ihvm3xr/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/wd5dxu/review_thread_august_2022/iijkhph/"
       }
     ],
     "update_flair": false
@@ -7329,6 +7333,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/vop3z8/review_thread_july_2022/ii76rc8/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Medium-Course-8016": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/wd5dxu/review_thread_august_2022/iil9n4z/"
       }
     ],
     "update_flair": false
