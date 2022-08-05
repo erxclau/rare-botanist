@@ -28,13 +28,18 @@ reasons = {
 
 
 def remove_comment(c: Comment, reason: RemovalReason, type: str, note: str):
-    c.mod.remove(reason_id=reason.id, mod_note=note)
-    reply = c.mod.send_removal_message(
-        reason.message,
-        title=reason.title,
-        type=type
-    )
-    return reply
+    try:
+        c.mod.remove(reason_id=reason.id, mod_note=note)
+        reply = c.mod.send_removal_message(
+            reason.message,
+            title=reason.title,
+            type=type
+        )
+    except e:
+        print(e)
+        return None
+    finally:
+        return reply
 
 
 def bad_user_interact(c: Comment, name: str, reason: RemovalReason, note: str):
@@ -65,7 +70,8 @@ def wrong_num_interact(c: Comment):
         reply: Comment = remove_comment(
             c, num_reason, "public", "User did not trade with exactly one user"
         )
-        reply.mod.lock()
+        if reply is not None:
+            reply.mod.lock()
     return cond
 
 
@@ -94,7 +100,8 @@ def bad_format(c: Comment):
         reply: Comment = remove_comment(
             c, format_reason, "public", "User did not follow format"
         )
-        reply.mod.lock()
+        if reply is not None:
+            reply.mod.lock()
     return cond
 
 
