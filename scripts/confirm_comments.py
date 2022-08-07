@@ -35,7 +35,7 @@ def remove_comment(c: Comment, reason: RemovalReason, type: str, note: str):
             title=reason.title,
             type=type
         )
-    except e:
+    except Exception as e:
         print(e)
         return None
     finally:
