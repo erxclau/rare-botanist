@@ -7409,5 +7409,16 @@
       }
     ],
     "update_flair": false
+  },
+  "Shitty_Antivirus": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/wd5dxu/review_thread_august_2022/ik19ox3/"
+      }
+    ],
+    "update_flair": false
   }
 }
