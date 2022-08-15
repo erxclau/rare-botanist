@@ -35,11 +35,10 @@ def remove_comment(c: Comment, reason: RemovalReason, type: str, note: str):
             title=reason.title,
             type=type
         )
+        return reply
     except Exception as e:
         print(e)
         return None
-    finally:
-        return reply
 
 
 def bad_user_interact(c: Comment, name: str, reason: RemovalReason, note: str):
