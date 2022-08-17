@@ -7394,7 +7394,7 @@
   },
   "Chocolatesinparis": {
     "sales": 0,
-    "trades": 2,
+    "trades": 3,
     "history": [
       {
         "type": "Trade",
@@ -7403,6 +7403,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/wd5dxu/review_thread_august_2022/ij4opo2/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/wd5dxu/review_thread_august_2022/ikpq7va/"
       }
     ],
     "update_flair": false
@@ -7440,6 +7444,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/wd5dxu/review_thread_august_2022/ik7mosf/"
+      }
+    ],
+    "update_flair": false
+  },
+  "YellowSubWinnie": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/wd5dxu/review_thread_august_2022/ikpq7va/"
       }
     ],
     "update_flair": false
