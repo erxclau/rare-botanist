@@ -7589,5 +7589,16 @@
       }
     ],
     "update_flair": false
+  },
+  "OrdinarySeaweed6330": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/x2v70h/review_thread_september_2022/ioglnl0/"
+      }
+    ],
+    "update_flair": false
   }
 }
