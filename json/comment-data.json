@@ -6878,7 +6878,7 @@
     "update_flair": false
   },
   "plantspupsandalilcat": {
-    "sales": 8,
+    "sales": 10,
     "trades": 8,
     "history": [
       {
@@ -6944,6 +6944,14 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/wd5dxu/review_thread_august_2022/im40jan/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/x2v70h/review_thread_september_2022/ip3ya4k/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/x2v70h/review_thread_september_2022/ip4vgi4/"
       }
     ],
     "update_flair": false
