@@ -7612,5 +7612,20 @@
       }
     ],
     "update_flair": false
+  },
+  "blue_moon405": {
+    "sales": 2,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/x2v70h/review_thread_september_2022/ipdv51t/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/x2v70h/review_thread_september_2022/ipdyrin/"
+      }
+    ],
+    "update_flair": false
   }
 }
