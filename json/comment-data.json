@@ -2672,7 +2672,7 @@
     "update_flair": false
   },
   "Terracotta_WarriorMN": {
-    "sales": 0,
+    "sales": 1,
     "trades": 9,
     "history": [
       {
@@ -2710,6 +2710,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/pfj0ud/review_thread_september_2021/hd8otw8/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/x2v70h/review_thread_september_2022/iqbn2ib/"
       }
     ],
     "update_flair": false
@@ -7624,6 +7628,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/x2v70h/review_thread_september_2022/ipdyrin/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Pricklypatchnursery": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/x2v70h/review_thread_september_2022/iqfh4k6/"
       }
     ],
     "update_flair": false
