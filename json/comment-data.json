@@ -7642,5 +7642,16 @@
       }
     ],
     "update_flair": false
+  },
+  "Rushthejob": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/x2v70h/review_thread_september_2022/iqhmjio/"
+      }
+    ],
+    "update_flair": false
   }
 }
