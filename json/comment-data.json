@@ -5195,7 +5195,7 @@
     "update_flair": false
   },
   "Boo_Radleys_Hambone": {
-    "sales": 7,
+    "sales": 8,
     "trades": 2,
     "history": [
       {
@@ -5233,6 +5233,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/icqn4iz/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/xsjn1i/review_thread_october_2022/irege2y/"
       }
     ],
     "update_flair": false
