@@ -7166,7 +7166,7 @@
     "update_flair": false
   },
   "_AGirlHasNoName-": {
-    "sales": 0,
+    "sales": 1,
     "trades": 3,
     "history": [
       {
@@ -7180,6 +7180,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ib5q35m/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/xsjn1i/review_thread_october_2022/iriohc7/"
       }
     ],
     "update_flair": false
