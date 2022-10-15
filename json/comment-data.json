@@ -3907,7 +3907,7 @@
     "update_flair": false
   },
   "VioletVixen76": {
-    "sales": 1,
+    "sales": 2,
     "trades": 1,
     "history": [
       {
@@ -3917,6 +3917,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ufpn3m/review_thread_may_2022/i9a7fhf/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/xsjn1i/review_thread_october_2022/isabsrs/"
       }
     ],
     "update_flair": false
