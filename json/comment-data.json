@@ -4021,7 +4021,7 @@
     "update_flair": false
   },
   "ExtraVirginSnakeOil": {
-    "sales": 0,
+    "sales": 1,
     "trades": 3,
     "history": [
       {
@@ -4035,6 +4035,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/obaci0/review_thread_july_2021/h6znzql/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/xsjn1i/review_thread_october_2022/irn174g/"
       }
     ],
     "update_flair": false
