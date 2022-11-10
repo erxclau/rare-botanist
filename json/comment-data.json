@@ -7787,5 +7787,27 @@
       }
     ],
     "update_flair": false
+  },
+  "Chlorine-Queen": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/yivxz5/review_thread_november_2022/ivrzkyu/"
+      }
+    ],
+    "update_flair": false
+  },
+  "alex2550": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/yivxz5/review_thread_november_2022/ivrzkyu/"
+      }
+    ],
+    "update_flair": false
   }
 }
