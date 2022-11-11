@@ -7707,7 +7707,7 @@
     "update_flair": false
   },
   "Probably-Tardigrades": {
-    "sales": 3,
+    "sales": 4,
     "trades": 0,
     "history": [
       {
@@ -7721,6 +7721,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/yivxz5/review_thread_november_2022/iuxabg9/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/yivxz5/review_thread_november_2022/ivy3y3b/"
       }
     ],
     "update_flair": false
