@@ -5631,7 +5631,7 @@
     "update_flair": false
   },
   "peeapeepeeapee": {
-    "sales": 3,
+    "sales": 4,
     "trades": 3,
     "history": [
       {
@@ -5657,6 +5657,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/rt7u2m/review_thread_january_2022/hrj7w7d/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/z9acs3/review_thread_december_2022/iyt8jrr/"
       }
     ],
     "update_flair": false
