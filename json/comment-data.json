@@ -7372,7 +7372,7 @@
     "update_flair": false
   },
   "nasty_hobo": {
-    "sales": 13,
+    "sales": 14,
     "trades": 2,
     "history": [
       {
@@ -7434,6 +7434,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/z9acs3/review_thread_december_2022/izmd4w4/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/10qgxka/review_thread_february_2023/j6vp34s/"
       }
     ],
     "update_flair": false
