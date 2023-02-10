@@ -6903,7 +6903,7 @@
     "update_flair": false
   },
   "MomsSpecialFriend": {
-    "sales": 2,
+    "sales": 3,
     "trades": 0,
     "history": [
       {
@@ -6913,6 +6913,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ibzp9o7/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/10qgxka/review_thread_february_2023/j7z3hwq/"
       }
     ],
     "update_flair": false
