@@ -7017,7 +7017,7 @@
   },
   "__pH7": {
     "sales": 0,
-    "trades": 2,
+    "trades": 3,
     "history": [
       {
         "type": "Trade",
@@ -7026,6 +7026,10 @@
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/10qgxka/review_thread_february_2023/j9git2e/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/11eqj55/review_thread_march_2023/jdjvpb1/"
       }
     ],
     "update_flair": false
@@ -7879,6 +7883,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/10qgxka/review_thread_february_2023/j9yksng/"
+      }
+    ],
+    "update_flair": false
+  },
+  "Faded_Dehlila": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/11eqj55/review_thread_march_2023/jdjvpb1/"
       }
     ],
     "update_flair": false
