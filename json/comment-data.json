@@ -7897,5 +7897,16 @@
       }
     ],
     "update_flair": false
+  },
+  "Dumblyhopeful": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/1286pkk/review_thread_april_2023/jf63d63/"
+      }
+    ],
+    "update_flair": false
   }
 }
