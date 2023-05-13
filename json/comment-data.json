@@ -7923,5 +7923,16 @@
       }
     ],
     "update_flair": false
+  },
+  "way123h": {
+    "sales": 1,
+    "trades": 0,
+    "history": [
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/1348rbt/review_thread_may_2023/jk1aoxj/"
+      }
+    ],
+    "update_flair": false
   }
 }
