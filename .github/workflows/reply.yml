@@ -28,8 +28,6 @@ jobs:
       run: python scripts/stat_reply.py
     - name: Push updated data JSON
       run: |
-        git config pull.ff only
-        git pull
         git add ./json/reply-data.json
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
