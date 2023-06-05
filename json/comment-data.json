@@ -7307,7 +7307,7 @@
     "update_flair": false
   },
   "ninjacurry": {
-    "sales": 11,
+    "sales": 12,
     "trades": 0,
     "history": [
       {
@@ -7353,6 +7353,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/1348rbt/review_thread_may_2023/jijvpyu/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/13x50l7/review_thread_june_2023/jmj9gnt/"
       }
     ],
     "update_flair": false
