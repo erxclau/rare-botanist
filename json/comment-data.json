@@ -2677,7 +2677,7 @@
   },
   "Terracotta_WarriorMN": {
     "sales": 1,
-    "trades": 9,
+    "trades": 11,
     "history": [
       {
         "type": "Trade",
@@ -2718,6 +2718,14 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/x2v70h/review_thread_september_2022/iqbn2ib/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/15ey6n7/review_thread_august_2023/jvn8sqt/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/15ey6n7/review_thread_august_2023/jw0ozam/"
       }
     ],
     "update_flair": false
@@ -6239,7 +6247,7 @@
   },
   "Kurameis": {
     "sales": 4,
-    "trades": 0,
+    "trades": 1,
     "history": [
       {
         "type": "Sale",
@@ -6256,6 +6264,10 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/v25zj8/review_thread_june_2022/ie9b91i/"
+      },
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/15ey6n7/review_thread_august_2023/jvn8sqt/"
       }
     ],
     "update_flair": false
@@ -7120,12 +7132,16 @@
     "update_flair": false
   },
   "itssjessicarose": {
-    "sales": 0,
+    "sales": 1,
     "trades": 1,
     "history": [
       {
         "type": "Trade",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/ttf7g9/review_thread_april_2022/i3s4zed/"
+      },
+      {
+        "type": "Sale",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/15ey6n7/review_thread_august_2023/juomf84/"
       }
     ],
     "update_flair": false
@@ -7950,6 +7966,17 @@
       {
         "type": "Sale",
         "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/1348rbt/review_thread_may_2023/jkkbbog/"
+      }
+    ],
+    "update_flair": false
+  },
+  "scalpelnstem": {
+    "sales": 0,
+    "trades": 1,
+    "history": [
+      {
+        "type": "Trade",
+        "link": "https://www.reddit.com/r/RareHouseplantsBST/comments/15ey6n7/review_thread_august_2023/jw0ozam/"
       }
     ],
     "update_flair": false
