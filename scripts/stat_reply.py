@@ -86,7 +86,7 @@ try:
         if is_valid_post(post):
             fid = get_flair_id(post)
 
-            if fid is not None and fid in config['POST_FLAIRS']:
+            if fid is not None and fid in config["POST_FLAIRS"]:
                 if not already_replied(post.comments):
                     reply_with_stats(post)
 

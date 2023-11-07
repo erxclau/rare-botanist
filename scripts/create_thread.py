@@ -16,9 +16,7 @@ def create_review_thread():
     thread_title = f"Review Thread – {today.strftime('%B %Y')}"
     thread_text = open(f"{dirname(abspath(__file__))}/../thread.txt").read()
 
-    thread = subreddit.submit(
-        thread_title,
-        selftext=thread_text)
+    thread = subreddit.submit(thread_title, selftext=thread_text)
 
     thread.mod.distinguish(how="yes")
     thread.mod.sticky()
@@ -44,7 +42,7 @@ thread = create_review_thread()
 current = {
     "CURRENT_THREAD": thread.id,
     "CONFIRMED_TRADES": list(),
-    "REMOVED_COMMENTS": list()
+    "REMOVED_COMMENTS": list(),
 }
 
 utility.write_json(thread_path, current)

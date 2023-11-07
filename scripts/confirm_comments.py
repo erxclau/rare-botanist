@@ -1,8 +1,7 @@
 from utl import utility
 from re import findall, match, sub
 
-from praw.models.reddit.removal_reasons import RemovalReason, \
-    SubredditRemovalReasons
+from praw.models.reddit.removal_reasons import RemovalReason, SubredditRemovalReasons
 from praw.reddit import Comment, Submission
 
 config = utility.get_json("config.json")
@@ -22,18 +21,14 @@ TRADE = "Traded"
 reason_ids: dict[str, str] = config["REMOVAL_REASONS"]
 removal_reasons: SubredditRemovalReasons = subreddit.mod.removal_reasons
 
-reasons = {
-    key: removal_reasons[reason_ids[key]] for key in reason_ids.keys()
-}
+reasons = {key: removal_reasons[reason_ids[key]] for key in reason_ids.keys()}
 
 
 def remove_comment(c: Comment, reason: RemovalReason, type: str, note: str):
     try:
         c.mod.remove(reason_id=reason.id, mod_note=note)
         reply = c.mod.send_removal_message(
-            reason.message,
-            title=reason.title,
-            type=type
+            reason.message, title=reason.title, type=type
         )
         return reply
     except Exception as e:
@@ -50,15 +45,13 @@ def bad_user_interact(c: Comment, name: str, reason: RemovalReason, note: str):
 
 def self_interact(c: Comment):
     return bad_user_interact(
-        c, f"u/{c.author.name}", reasons["SELF_TRADE"],
-        "User traded with themselves"
+        c, f"u/{c.author.name}", reasons["SELF_TRADE"], "User traded with themselves"
     )
 
 
 def bot_interact(c: Comment):
     return bad_user_interact(
-        c, f"u/{config['USERNAME']}", reasons["BOT_TRADE"],
-        "User traded with bot"
+        c, f"u/{config['USERNAME']}", reasons["BOT_TRADE"], "User traded with bot"
     )
 
 
@@ -114,8 +107,9 @@ def append_comment_thread(parent: Comment):
 
 def generate_comment_list(thread: Submission):
     comments: list[Comment] = list()
-    comment_filter: list[str] = current_thread["CONFIRMED_TRADES"] + \
-        current_thread["REMOVED_COMMENTS"]
+    comment_filter: list[str] = (
+        current_thread["CONFIRMED_TRADES"] + current_thread["REMOVED_COMMENTS"]
+    )
 
     thread.comments.replace_more(limit=None)
     for c in thread.comments:
@@ -124,9 +118,7 @@ def generate_comment_list(thread: Submission):
                 print(c.id, c.body.lower())
                 current_thread["REMOVED_COMMENTS"].append(c.id)
             else:
-                comments.extend(
-                    append_comment_thread(c)
-                )
+                comments.extend(append_comment_thread(c))
     return comments
 
 
@@ -159,17 +151,19 @@ def update_data_val(key: str, link: str, interaction: str):
             "sales": 1 if interaction == SALE else 0,
             "trades": 1 if interaction == TRADE else 0,
             "history": list(),
-            "update_flair": True
+            "update_flair": True,
         }
     else:
         current = data[key]["sales"] + data[key]["trades"]
         if current == 10 or current == 20 or current == 50:
             data[key]["update_flair"] = True
         data[key][secondary_key] += 1
-    data[key]["history"].append({
-        "type": "Sale" if interaction == SALE else "Trade",
-        "link": f"https://www.reddit.com{link}"
-    })
+    data[key]["history"].append(
+        {
+            "type": "Sale" if interaction == SALE else "Trade",
+            "link": f"https://www.reddit.com{link}",
+        }
+    )
 
 
 def update_flair(name: str):
@@ -182,9 +176,7 @@ def update_flair(name: str):
             tier = 2
         if interactions > 50:
             tier = 3
-        subreddit.flair.set(
-            name, flair_template_id=flair_tiers[tier]
-        )
+        subreddit.flair.set(name, flair_template_id=flair_tiers[tier])
         data[name]["update_flair"] = False
 
 
@@ -207,8 +199,11 @@ def validate_trade(comment: Comment, parent: Comment):
     pname: str = parent.author.name
     cname: str = comment.author.name
 
-    message = "Your review has been added" if text.startswith(SALE.lower()) \
+    message = (
+        "Your review has been added"
+        if text.startswith(SALE.lower())
         else f"A review has been added for u/{pname} and u/{cname}"
+    )
 
     reply = comment.reply(message)
     reply.mod.lock()
@@ -230,9 +225,7 @@ if __name__ == "__main__":
             if f"u/{comment.author.name}".lower() in parent.body.lower():
                 if comment not in locked_comments:
                     validate_trade(comment, parent)
-                    locked_comments.extend(
-                        lock_comment_thread(parent)
-                    )
+                    locked_comments.extend(lock_comment_thread(parent))
 
     utility.write_json(thread_path, current_thread)
     utility.write_json(data_path, data)

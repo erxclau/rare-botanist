@@ -2,7 +2,7 @@ from utl import utility
 from os.path import dirname, abspath
 
 config = utility.get_json("config.json")
-data = utility.get_json('comment-data.json')
+data = utility.get_json("comment-data.json")
 
 reddit, subreddit = utility.get_reddit(config)
 
@@ -21,7 +21,4 @@ for user in keys:
         content += f"|{interaction['type']}|{interaction['link']}|\n"
     content += "\n"
 
-subreddit.wiki["userdirectory"].edit(
-    content,
-    "Update user directory"
-)
+subreddit.wiki["userdirectory"].edit(content, "Update user directory")

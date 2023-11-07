@@ -40,17 +40,19 @@ def update_data_val(key, link, interaction):
             "sales": 1 if interaction == SALE else 0,
             "trades": 1 if interaction == TRADE else 0,
             "history": list(),
-            "update_flair": True
+            "update_flair": True,
         }
     else:
         current = data[key]["sales"] + data[key]["trades"]
         if current == 10 or current == 20 or current == 50:
             data[key]["update_flair"] = True
         data[key][secondary_key] += 1
-    data[key]["history"].append({
-        "type": "Sale" if interaction == SALE else "Trade",
-        "link": f"https://www.reddit.com{link}"
-    })
+    data[key]["history"].append(
+        {
+            "type": "Sale" if interaction == SALE else "Trade",
+            "link": f"https://www.reddit.com{link}",
+        }
+    )
 
 
 def update_flair(name):
@@ -63,9 +65,7 @@ def update_flair(name):
             tier = 2
         if interactions > 50:
             tier = 3
-        subreddit.flair.set(
-            name, flair_template_id=flair_tiers[tier]
-        )
+        subreddit.flair.set(name, flair_template_id=flair_tiers[tier])
         data[name]["update_flair"] = False
 
 
@@ -88,8 +88,11 @@ def validate_trade(comment, parent):
     pname = parent.author.name
     cname = comment.author.name
 
-    message = "Your review has been added" if text.startswith(SALE.lower()) \
+    message = (
+        "Your review has been added"
+        if text.startswith(SALE.lower())
         else f"A review has been added for u/{pname} and u/{cname}"
+    )
 
     reply = comment.reply(message)
     reply.mod.lock()
